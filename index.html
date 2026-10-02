@@ -188,7 +188,9 @@
     }
 
     function renderList() {
-      const ch = document.getElementById("chSel").value;
+      const sel = document.getElementById("chSel");
+      if (!sel || !sel.value) return;
+      const ch = sel.value;
       const list = (DB[book] && DB[book][ch]) ? DB[book][ch] : [];
       document.getElementById("countLabel").innerText = `Practical Questions (${list.length})`;
       const p = document.getElementById("pills");
@@ -235,7 +237,14 @@
       `;
     }
 
-    window.onload = () => setBook("dk_goel");
+    
+  // Immediate safe bootstrap
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", () => setBook("dk_goel"));
+  } else {
+    setBook("dk_goel");
+  }
+
   </script>
 </body>
 </html>
