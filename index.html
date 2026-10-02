@@ -3,126 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BalanceSheet OS — Authentic Textbook Solutions & Ledger Register</title>
+  <title>BalanceSheet OS — Authentic Accounts Register</title>
   <style>
-    :root {
-      --navy: #0f172a;
-      --paper: #fefcf6;
-      --paper-rule: #e2e8f0;
-      --margin-red: #f43f5e;
-      --ink: #1e3a8a;
-      --ink-dark: #0f172a;
-    }
-    * { box-sizing: border-box; margin:0; padding:0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-    body { background: #f1f5f9; color: var(--ink-dark); }
-    
-    .net-bar { background: var(--navy); color: #94a3b8; font-size: 11.5px; padding: 6px 16px; display: flex; justify-content: space-between; }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    body { background: #f1f5f9; color: #0f172a; }
+    .net-bar { background: #0f172a; color: #94a3b8; font-size: 11.5px; padding: 6px 16px; display: flex; justify-content: space-between; }
     .net-bar a { color: #38bdf8; text-decoration: none; font-weight: 600; margin-left: 8px; }
-
-    .hero { background: var(--navy); color: #fff; padding: 22px 16px; text-align: center; border-bottom: 3px solid #38bdf8; }
+    .hero { background: #0f172a; color: #fff; padding: 22px 16px; text-align: center; border-bottom: 3px solid #38bdf8; }
     .hero h1 span { color: #38bdf8; }
-    
     .bar { max-width: 1100px; margin: 16px auto 10px; padding: 0 12px; display: flex; gap: 8px; flex-wrap: wrap; }
     .tab { background: #fff; border: 1.5px solid #cbd5e1; padding: 8px 16px; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: 13px; }
-    .tab.active { background: var(--navy); color: #fff; border-color: var(--navy); }
+    .tab.active { background: #0f172a; color: #fff; border-color: #0f172a; }
     .sel { padding: 8px 12px; border-radius: 8px; border: 1.5px solid #cbd5e1; font-weight: 700; background: #fff; font-size: 13px; }
-    
     .wrap { max-width: 1100px; margin: 0 auto 40px; padding: 0 12px; display: grid; grid-template-columns: 280px 1fr; gap: 16px; }
     @media(max-width:768px){ .wrap { grid-template-columns: 1fr; } }
-    
     .side { background: #fff; border: 1px solid #cbd5e1; border-radius: 10px; padding: 14px; height: fit-content; max-height: 82vh; overflow-y: auto; }
     .pills { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
     .q-btn { background: #f8fafc; border: 1.5px solid #cbd5e1; padding: 8px 12px; border-radius: 6px; font-weight: 800; font-size: 12.5px; cursor: pointer; min-width: 52px; text-align: center; }
-    .q-btn.active { background: var(--ink); color: #fff; border-color: var(--ink); box-shadow: 0 2px 4px rgba(30,58,138,0.2); }
-
-    /* AUTHENTIC TOPPER NOTEBOOK REGISTER VIEW */
+    .q-btn.active { background: #1e3a8a; color: #fff; border-color: #1e3a8a; }
     .register-sheet {
-      background: var(--paper);
+      background: #fefcf6;
       border: 1px solid #dcd6cd;
       border-radius: 10px;
-      padding: 28px 24px 28px 36px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
-      position: relative;
-      border-left: 5px solid var(--margin-red);
+      padding: 24px;
+      border-left: 5px solid #f43f5e;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     }
-    
-    .badge { display: inline-block; background: #eff6ff; color: var(--ink); border: 1px solid #bfdbfe; padding: 3px 10px; border-radius: 999px; font-size: 11px; font-weight: 800; text-transform: uppercase; }
+    .badge { display: inline-block; background: #eff6ff; color: #1e3a8a; border: 1px solid #bfdbfe; padding: 3px 10px; border-radius: 999px; font-size: 11px; font-weight: 800; text-transform: uppercase; }
     .q-title { font-size: 19px; font-weight: 900; margin: 8px 0; color: #0f172a; }
-    
-    .problem-box {
-      background: #f8fafc;
-      border-left: 3px solid #3b82f6;
-      padding: 12px 16px;
-      border-radius: 0 8px 8px 0;
-      font-size: 13.5px;
-      line-height: 1.6;
-      margin: 14px 0 20px;
-      color: #334155;
-    }
-
-    .solution-heading {
-      font-size: 14px;
-      font-weight: 800;
-      color: var(--ink);
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-bottom: 8px;
-      border-bottom: 2px solid var(--ink);
-      display: inline-block;
-      padding-bottom: 2px;
-    }
-
-    .step-line {
-      font-size: 14px;
-      line-height: 1.75;
-      color: #1e293b;
-      margin-bottom: 8px;
-    }
-
-    /* TOPPER JOURNAL TABLE */
-    .ledger-tbl {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 16px 0;
-      font-size: 13px;
-      background: #ffffff;
-      border: 1.5px solid #0f172a;
-    }
-    .ledger-tbl th {
-      background: #0f172a;
-      color: #ffffff;
-      padding: 7px 10px;
-      text-align: left;
-      font-weight: 700;
-      font-size: 12px;
-      letter-spacing: 0.04em;
-    }
-    .ledger-tbl td {
-      border: 1px solid #cbd5e1;
-      padding: 8px 10px;
-      vertical-align: top;
-      color: var(--ink);
-      font-weight: 600;
-      line-height: 1.5;
-    }
-    .double-total {
-      border-top: 1px solid #000;
-      border-bottom: 3px double #000;
-      font-weight: 900;
-      color: #000;
-    }
-
-    .wn-card {
-      background: #fffdf5;
-      border: 1.5px dashed #f59e0b;
-      border-radius: 8px;
-      padding: 14px;
-      font-size: 13px;
-      color: #78350f;
-      line-height: 1.6;
-      margin-top: 18px;
-    }
-    .wn-title { font-weight: 900; margin-bottom: 4px; color: #b45309; text-transform: uppercase; font-size: 12px; }
+    .problem-box { background: #f8fafc; border-left: 3px solid #3b82f6; padding: 12px 16px; border-radius: 0 8px 8px 0; font-size: 13.5px; line-height: 1.6; margin: 12px 0 16px; }
+    .sol-head { font-size: 13px; font-weight: 800; color: #1e3a8a; text-transform: uppercase; margin-bottom: 8px; border-bottom: 2px solid #1e3a8a; display: inline-block; padding-bottom: 2px; }
+    .step-line { font-size: 13.5px; line-height: 1.7; color: #1e293b; margin-bottom: 6px; }
+    .ledger-tbl { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 13px; background: #fff; border: 1.5px solid #0f172a; }
+    .ledger-tbl th { background: #0f172a; color: #fff; padding: 7px 10px; text-align: left; font-size: 12px; }
+    .ledger-tbl td { border: 1px solid #cbd5e1; padding: 8px 10px; vertical-align: top; color: #1e3a8a; font-weight: 600; }
+    .wn-card { background: #fffdf5; border: 1.5px dashed #f59e0b; border-radius: 8px; padding: 12px; font-size: 13px; color: #78350f; line-height: 1.6; margin-top: 14px; }
   </style>
 </head>
 <body>
@@ -156,47 +71,175 @@
   </div>
 
   <script>
-    const DB = {"dk_goel": {"ch1_fundamentals": [{"q_no": 1, "topic": "Provisions of Partnership Act in Absence of Deed", "question": "A, B and C are partners without a deed. (a) A contributed \u20b91,00,000 capital and claims 10% p.a. interest. (b) B devotes full time and demands \u20b93,000/month salary. (c) C advanced a loan of \u20b940,000 to the firm and demands 10% p.a. interest. (d) A and B want profits divided in capital ratio (2:2:1). Settle disputes.", "solution_steps": ["In the absence of a Partnership Deed, provisions of Section 13, Indian Partnership Act, 1932 apply:", "\u2022 <b>Interest on Capital:</b> Not allowable. Claim of A is rejected.", "\u2022 <b>Salary to Partner:</b> No partner entitled to remuneration. Claim of B is rejected.", "\u2022 <b>Interest on Partner Loan:</b> Strictly allowed <b>@ 6% p.a.</b> (Sec 13(d)). C will receive \u20b92,400 (not 10%).", "\u2022 <b>Profit Sharing Ratio:</b> Profits & losses must be shared <b>EQUALLY (1:1:1)</b>, not in capital ratio."], "working_notes": "Statutory rule: Equal profit sharing and 6% p.a. partner loan interest are mandatory under Sec 13.", "journal_entries": []}, {"q_no": 2, "topic": "Rent to Partner & Interest on Partner Loan (Charge vs Appropriation)", "question": "Lata and Mamata are partners with capitals of \u20b93,00,000 and \u20b92,00,000 sharing in 7:3. Lata rented her godown to the firm at \u20b92,500/month. On 1st Oct, Mamata gave loan of \u20b91,00,000 to the firm. Net profit before rent & loan interest was \u20b91,20,000. Prepare P&L A/c and P&L Appropriation A/c.", "solution_steps": ["1. Rent to partner (\u20b92,500 \u00d7 12 = \u20b930,000) & Loan Interest (\u20b91,00,000 \u00d7 6% \u00d7 6/12 = \u20b93,000) are <b>CHARGES</b> debited to P&L A/c.", "2. Net Profit transferred to P&L Appropriation A/c = \u20b91,20,000 \u2212 \u20b933,000 = <b>\u20b987,000</b>.", "3. Distribute divisible profit \u20b987,000 in 7:3: Lata = \u20b960,900; Mamata = \u20b926,100."], "working_notes": "Rent to partner and interest on partner loan are charges against profit, NOT appropriations.", "journal_entries": [{"date": "31-Mar", "particulars": "Profit & Loss A/c ........................................................ Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Rent Outstanding / Payable A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Interest on Mamata's Loan A/c", "lf": "1", "dr": "33,000", "cr": "<br>30,000<br>3,000"}, {"date": "31-Mar", "particulars": "P&L Appropriation A/c .................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Lata's Capital A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Mamata's Capital A/c", "lf": "2", "dr": "87,000", "cr": "<br>60,900<br>26,100"}]}, {"q_no": 3, "topic": "Manager Commission: Before Charging vs After Charging", "question": "X and Y are partners in 3:2. Capitals \u20b91,00,000 and \u20b980,000. Interest on Capital is 10% p.a. Net profit before partner interest was \u20b955,000. Manager is entitled to a commission of 10% on profit AFTER charging such commission. Prepare P&L Appropriation A/c.", "solution_steps": ["1. Manager commission is a charge: \u20b955,000 \u00d7 (10 / 110) = <b>\u20b95,000</b>.", "2. Profit transferred to P&L Appropriation = \u20b955,000 \u2212 \u20b95,000 = \u20b950,000.", "3. Interest on Capital: X (\u20b910,000) + Y (\u20b98,000) = \u20b918,000.", "4. Divisible Profit = \u20b950,000 \u2212 \u20b918,000 = \u20b932,000 (X: \u20b919,200, Y: \u20b912,800)."], "working_notes": "Commission after charging = Net Profit \u00d7 Rate / (100 + Rate) = 55,000 \u00d7 10/110 = \u20b95,000.", "journal_entries": []}, {"q_no": 4, "topic": "Salary, Commission to Partner & General Reserve Transfer", "question": "Shiv and Mohan are partners in 3:2. Capital: Shiv \u20b95,00,000, Mohan \u20b93,00,000. Deed: (a) IOC @ 8% p.a., (b) Shiv gets salary \u20b95,000/quarter, (c) Mohan gets commission 5% on net profit after partner salary, (d) 10% of divisible profit to General Reserve. Net Profit = \u20b91,96,000. Prepare P&L Appropriation A/c.", "solution_steps": ["1. Interest on Capital: Shiv \u20b940,000, Mohan \u20b924,000 = \u20b964,000.", "2. Shiv Salary: \u20b95,000 \u00d7 4 = \u20b920,000.", "3. Mohan Commission: 5% of (\u20b91,96,000 \u2212 \u20b920,000) = \u20b98,800.", "4. Profit before reserve: \u20b91,96,000 \u2212 (64,000 + 20,000 + 8,800) = \u20b91,03,200.", "5. General Reserve (10%): \u20b910,320. Divisible Profit = \u20b992,880 (Shiv: \u20b955,728, Mohan: \u20b937,152)."], "working_notes": "Divisible profit = 1,96,000 \u2212 64,000 \u2212 20,000 \u2212 8,800 \u2212 10,320 = \u20b992,880.", "journal_entries": []}, {"q_no": 5, "topic": "Interest on Monthly Drawings (Beginning, Middle, End)", "question": "Calculate Interest on Drawings @ 9% p.a. for year ended 31st March: (a) Ram withdrew \u20b94,000 per month in the beginning of each month. (b) Shyam withdrew \u20b94,000 per month in the middle of each month. (c) Mohan withdrew \u20b94,000 per month at the end of each month.", "solution_steps": ["Total Annual Drawings for each partner = \u20b94,000 \u00d7 12 = \u20b948,000.", "\u2022 <b>Case (a) Beginning:</b> Average Period = (12+1)/2 = 6.5 months.<br>&nbsp;&nbsp;Interest = 48,000 \u00d7 9/100 \u00d7 6.5/12 = <b>\u20b92,340</b>.", "\u2022 <b>Case (b) Middle:</b> Average Period = 6.0 months.<br>&nbsp;&nbsp;Interest = 48,000 \u00d7 9/100 \u00d7 6/12 = <b>\u20b92,160</b>.", "\u2022 <b>Case (c) End:</b> Average Period = (11+0)/2 = 5.5 months.<br>&nbsp;&nbsp;Interest = 48,000 \u00d7 9/100 \u00d7 5.5/12 = <b>\u20b91,980</b>."], "working_notes": "Average period = (Months left after 1st drawing + Months left after last drawing) / 2.", "journal_entries": []}, {"q_no": 6, "topic": "Past Adjustments (Omission of IOC & Salary)", "question": "A, B and C share in 3:2:1. After closing books, it was discovered that Interest on Capital @ 10% p.a. (A \u20b910,000, B \u20b98,000, C \u20b96,000) and Salary to A \u20b912,000 were omitted. Pass single adjustment entry.", "solution_steps": ["1. Total omissions: IOC \u20b924,000 + Salary \u20b912,000 = \u20b936,000.", "2. This \u20b936,000 was wrongly shared as profit in 3:2:1 (A: \u20b918,000, B: \u20b912,000, C: \u20b96,000).", "3. <b>Adjustment Table:</b><br>&nbsp;&nbsp;\u2022 A: Credit \u20b922,000 \u2212 Debit \u20b918,000 = <b>Net Credit \u20b94,000</b><br>&nbsp;&nbsp;\u2022 B: Credit \u20b98,000 \u2212 Debit \u20b912,000 = <b>Net Debit \u20b94,000</b><br>&nbsp;&nbsp;\u2022 C: Credit \u20b96,000 \u2212 Debit \u20b96,000 = <b>Nil</b>", "4. Pass single adjustment entry debiting B and crediting A."], "working_notes": "Adjustment entry restores the balance without re-opening finalised financial statements.", "journal_entries": [{"date": "1-Apr", "particulars": "B's Current / Capital A/c ............................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To A's Current / Capital A/c<br>(Being adjustment entry passed for omitted interest and salary)", "lf": "1", "dr": "4,000", "cr": "<br>4,000"}]}, {"q_no": 7, "topic": "Guarantee of Minimum Profit Borne Personally by One Partner", "question": "P, Q and R share in 3:2:1. P personally guaranteed that R share of profit after IOC @ 6% p.a. shall not be less than \u20b930,000 p.a. Capitals: P \u20b94,00,000, Q \u20b93,00,000, R \u20b92,00,000. Profit before IOC was \u20b91,74,000. Prepare P&L Appropriation A/c.", "solution_steps": ["1. IOC: P \u20b924,000, Q \u20b918,000, R \u20b912,000 = \u20b954,000.", "2. Divisible Profit = \u20b91,74,000 \u2212 \u20b954,000 = \u20b91,20,000.", "3. Normal Share in 3:2:1: P \u20b960,000, Q \u20b940,000, R \u20b920,000.", "4. R deficiency = \u20b930,000 \u2212 \u20b920,000 = \u20b910,000.", "5. Deduct \u20b910,000 entirely from P. Final: P = \u20b950,000, Q = \u20b940,000, R = \u20b930,000."], "working_notes": "Q is not party to guarantee; Q capital is credited with full \u20b940,000.", "journal_entries": []}], "ch2_goodwill": [{"q_no": 1, "topic": "Average Profit Method with Abnormal Gain & Abnormal Loss", "question": "Calculate Goodwill at 3 years purchase of average profit of last 3 years: 2021: Profit \u20b950,000 (including abnormal gain \u20b910,000); 2022: Loss \u20b920,000 (after charging abnormal loss \u20b930,000); 2023: Profit \u20b970,000 (excluding insurance premium \u20b910,000).", "solution_steps": ["1. <b>Adjusted Profits:</b><br>&nbsp;&nbsp;\u2022 2021: \u20b950,000 \u2212 \u20b910,000 (abnormal gain) = \u20b940,000<br>&nbsp;&nbsp;\u2022 2022: \u2212\u20b920,000 + \u20b930,000 (abnormal loss) = \u20b910,000<br>&nbsp;&nbsp;\u2022 2023: \u20b970,000 \u2212 \u20b910,000 (unrecorded annual expense) = \u20b960,000", "2. Total Normal Profit = 40,000 + 10,000 + 60,000 = \u20b91,10,000.", "3. Average Profit = \u20b91,10,000 / 3 = \u20b936,667.", "4. Goodwill = Average Profit \u00d7 3 = <b>\u20b91,10,000</b>."], "working_notes": "Abnormal items are excluded to arrive at maintainable operating profit.", "journal_entries": []}, {"q_no": 2, "topic": "Super Profit & Capitalisation of Super Profit Method", "question": "A firm has capital employed of \u20b95,00,000. Normal rate of return is 10%. Average profit of firm is \u20b980,000. Calculate Goodwill by: (a) 3 years purchase of Super Profit, (b) Capitalisation of Super Profit.", "solution_steps": ["1. Normal Profit = Capital Employed \u00d7 NRR = \u20b95,00,000 \u00d7 10% = \u20b950,000.", "2. Super Profit = Average Profit \u2212 Normal Profit = \u20b980,000 \u2212 \u20b950,000 = <b>\u20b930,000</b>.", "3. (a) Goodwill (3 yrs purchase) = \u20b930,000 \u00d7 3 = <b>\u20b990,000</b>.", "4. (b) Capitalisation of Super Profit = Super Profit \u00d7 (100 / NRR) = \u20b930,000 \u00d7 100/10 = <b>\u20b93,00,000</b>."], "working_notes": "Capitalisation value represents the capital needed to earn the super profit at normal rate.", "journal_entries": []}], "ch3_admission": [{"q_no": 1, "topic": "Sacrificing Ratio and Hidden Goodwill", "question": "A and B are partners in 3:2 with capitals of \u20b91,60,000 and \u20b91,00,000. They admit C into partnership for 1/5th share. C brings \u20b91,20,000 as his capital. Calculate Hidden Goodwill and pass necessary Journal Entries for goodwill.", "solution_steps": ["1. Total Capital of new firm based on C: \u20b91,20,000 \u00d7 5 = <b>\u20b96,00,000</b>.", "2. Actual Combined Capital = A (\u20b91,60,000) + B (\u20b91,00,000) + C (\u20b91,20,000) = <b>\u20b93,80,000</b>.", "3. <b>Hidden Goodwill of Firm</b> = \u20b96,00,000 \u2212 \u20b93,80,000 = <b>\u20b92,20,000</b>.", "4. C share of Goodwill = \u20b92,20,000 \u00d7 1/5 = <b>\u20b944,000</b>.", "5. Debit C Current A/c and credit A & B Capital A/cs in 3:2 (Sacrificing Ratio)."], "working_notes": "Per AS-26, since goodwill is not paid in cash, C Current A/c is debited.", "journal_entries": [{"date": "1", "particulars": "Bank A/c .......................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To C's Capital A/c<br>(Being capital brought in cash by C)", "lf": "1", "dr": "1,20,000", "cr": "<br>1,20,000"}, {"date": "2", "particulars": "C's Current A/c .............................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To A's Capital A/c (3/5)<br>&nbsp;&nbsp;&nbsp;&nbsp;To B's Capital A/c (2/5)<br>(Being hidden goodwill credited to sacrificing partners)", "lf": "2", "dr": "44,000", "cr": "<br>26,400<br>17,600"}]}, {"q_no": 2, "topic": "Revaluation Account with Bad Debts & Unrecorded Assets", "question": "X and Y share in 3:1. Z admitted for 1/4th share. Revaluation adjustments: (a) Provision for Doubtful Debts created @ 5% on Debtors \u20b980,000. (b) Unrecorded typewriter valued \u20b96,000 brought into books. (c) Outstanding legal charges \u20b92,000 to be provided. Prepare Revaluation Account.", "solution_steps": ["1. Debit Revaluation with increase in liability / asset loss: Provision \u20b94,000, Legal charges \u20b92,000.", "2. Credit Revaluation with increase in asset: Typewriter \u20b96,000.", "3. Revaluation Total Dr = \u20b96,000, Cr = \u20b96,000. <b>Result = No Profit, No Loss</b>."], "working_notes": "Total revaluation gains equal total revaluation losses; Capital Accounts unaffected.", "journal_entries": []}], "ch4_retirement": [{"q_no": 1, "topic": "Gaining Ratio & Retiring Partner Settlement via Loan", "question": "A, B and C share in 3:2:1. B retires. B capital balance after all adjustments is \u20b91,80,000. Firm pays \u20b930,000 in cash immediately and the balance is transferred to B Loan Account carrying 6% p.a. interest. Record Journal Entries.", "solution_steps": ["1. Total settlement due to B = \u20b91,80,000.", "2. Immediate cash payment = \u20b930,000 (credit Bank A/c).", "3. Balance \u20b91,50,000 transferred to B Loan A/c.", "4. Debit B Capital Account to close his equity."], "working_notes": "B Loan A/c appears as a non-current liability in the Reconstituted Balance Sheet.", "journal_entries": [{"date": "31-Mar", "particulars": "B's Capital A/c ................................................................ Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Bank A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To B's Loan A/c<br>(Being part payment made to B and balance transferred to loan)", "lf": "1", "dr": "1,80,000", "cr": "<br>30,000<br>1,50,000"}]}, {"q_no": 2, "topic": "Deceased Partner Share of Profit till Date of Death (P&L Suspense)", "question": "X, Y and Z share in 2:2:1. Z dies on 30th June 2024. Books close on 31st March. Partnership deed provides that on death, partner profit share till date of death shall be based on last year profit (\u20b91,50,000). Pass Journal Entry.", "solution_steps": ["1. Time from 1st April to 30th June = 3 months.", "2. Proportionate profit for 3 months = \u20b91,50,000 \u00d7 3/12 = \u20b937,500.", "3. Z share of profit (1/5) = \u20b937,500 \u00d7 1/5 = <b>\u20b97,500</b>.", "4. Debit Profit & Loss Suspense A/c and credit Z Capital A/c."], "working_notes": "Since PSR among continuing partners remains unchanged (2:2), P&L Suspense A/c is used.", "journal_entries": [{"date": "30-Jun", "particulars": "Profit & Loss Suspense A/c ........................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Z's Capital / Executor A/c<br>(Being deceased partner share of interim profit credited)", "lf": "1", "dr": "7,500", "cr": "<br>7,500"}]}], "ch5_dissolution": [{"q_no": 1, "topic": "Realisation Account & Settlement of Liabilities", "question": "On dissolution of firm: (a) Creditors \u20b960,000 accepted Plant of book value \u20b980,000 at \u20b950,000 in part settlement and remaining in cash. (b) Unrecorded computer realized \u20b914,000. (c) Realisation expenses \u20b94,000 paid by partner Vikas on behalf of firm. Pass Entries.", "solution_steps": ["\u2022 <b>Case (a):</b> Asset accepted in partial settlement requires NO entry. Only remaining cash paid (\u20b960,000 \u2212 \u20b950,000 = \u20b910,000) is recorded: Realisation Dr. to Bank \u20b910,000.", "\u2022 <b>Case (b):</b> Bank Dr. to Realisation A/c \u20b914,000.", "\u2022 <b>Case (c):</b> Realisation Dr. to Vikas Capital A/c \u20b94,000."], "working_notes": "No entry is passed when a liability accepts an asset in complete or partial settlement.", "journal_entries": [{"date": "(a)", "particulars": "Realisation A/c .............................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Bank A/c<br>(Being balance cash paid to creditors)", "lf": "-", "dr": "10,000", "cr": "<br>10,000"}, {"date": "(b)", "particulars": "Bank A/c .......................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Realisation A/c<br>(Being unrecorded computer sold)", "lf": "-", "dr": "14,000", "cr": "<br>14,000"}, {"date": "(c)", "particulars": "Realisation A/c .............................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Vikas's Capital A/c<br>(Being dissolution expenses paid by partner reimbursed)", "lf": "-", "dr": "4,000", "cr": "<br>4,000"}]}], "ch7_shares": [{"q_no": 1, "topic": "Comprehensive Pro-Rata Table, Forfeiture & Capital Reserve", "question": "Apex Ltd. issued 1,00,000 shares of \u20b910 at \u20b92 premium (\u20b93 App, \u20b95 Allotment incl. premium, \u20b94 Call). Received 1,50,000 applications. 30,000 rejected, pro-rata to 1,20,000 applicants. Karan (allotted 1,000 shares) failed to pay allotment and call. Shares forfeited and reissued @ \u20b98 as fully paid. Pass entries.", "solution_steps": ["1. <b>Karan Calculation:</b><br>&nbsp;&nbsp;\u2022 Shares applied by Karan = 1,000 \u00d7 (1,20,000 / 1,00,000) = 1,200 shares.<br>&nbsp;&nbsp;\u2022 Application money paid = 1,200 \u00d7 \u20b93 = \u20b93,600. Required = 1,000 \u00d7 \u20b93 = \u20b93,000. Excess = \u20b9600.<br>&nbsp;&nbsp;\u2022 Allotment due = 1,000 \u00d7 \u20b95 = \u20b95,000.<br>&nbsp;&nbsp;\u2022 Unpaid Allotment = \u20b95,000 \u2212 \u20b9600 = <b>\u20b94,400</b> (Calls in Arrears).", "2. Call in arrears on First & Final Call = 1,000 \u00d7 \u20b94 = \u20b94,000. Total Arrears = \u20b98,400.", "3. Forfeiture Entry: Reverse Share Capital (1,000 \u00d7 \u20b910 = \u20b910,000), Securities Premium (1,000 \u00d7 \u20b92 = \u20b92,000), credit Calls in Arrears \u20b98,400, credit Share Forfeiture \u20b93,600.", "4. Re-issue: Bank Dr (1,000 \u00d7 \u20b98 = \u20b98,000), Share Forfeiture Dr (1,000 \u00d7 \u20b92 = \u20b92,000) to Share Capital \u20b910,000.", "5. <b>Capital Reserve Transfer:</b> \u20b93,600 \u2212 \u20b92,000 = <b>\u20b91,600</b>."], "working_notes": "Capital Reserve = Forfeited amount on re-issued shares \u2212 Re-issue discount.", "journal_entries": [{"date": "1", "particulars": "Share Capital A/c (1,000 \u00d7 \u20b910) .................................... Dr.<br>Securities Premium A/c (1,000 \u00d7 \u20b92) ............................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Calls in Arrears A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Share Forfeiture A/c<br>(Being 1,000 shares forfeited for non-payment of dues)", "lf": "1", "dr": "10,000<br>2,000", "cr": "<br><br>8,400<br>3,600"}, {"date": "2", "particulars": "Bank A/c (1,000 \u00d7 \u20b98) ....................................................... Dr.<br>Share Forfeiture A/c (Discount) ................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Share Capital A/c<br>(Being forfeited shares re-issued @ \u20b98 fully paid)", "lf": "2", "dr": "8,000<br>2,000", "cr": "<br><br>10,000"}, {"date": "3", "particulars": "Share Forfeiture A/c ...................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Capital Reserve A/c<br>(Being net profit on re-issue transferred to Capital Reserve)", "lf": "3", "dr": "1,600", "cr": "<br>1,600"}]}], "ch10_cashflow": [{"q_no": 1, "topic": "Cash Flow from Operating Activities (Indirect Method)", "question": "From the following information, calculate Cash Flow from Operating Activities: Net Profit before Tax \u20b92,50,000; Depreciation on Plant \u20b940,000; Loss on sale of furniture \u20b98,000; Gain on sale of land \u20b915,000; Trade Receivables increased by \u20b930,000; Inventories decreased by \u20b918,000; Trade Payables increased by \u20b912,000; Income Tax paid \u20b935,000.", "solution_steps": ["1. Net Profit before Tax = \u20b92,50,000.", "2. <b>Non-Cash & Non-Operating Adjustments:</b><br>&nbsp;&nbsp;+ Depreciation \u20b940,000<br>&nbsp;&nbsp;+ Loss on sale of furniture \u20b98,000<br>&nbsp;&nbsp;\u2212 Gain on sale of land (\u20b915,000)<br>&nbsp;&nbsp;<b>Operating Profit before Working Capital changes = \u20b92,83,000</b>.", "3. <b>Working Capital Changes:</b><br>&nbsp;&nbsp;+ Decrease in Inventories (+\u20b918,000)<br>&nbsp;&nbsp;+ Increase in Trade Payables (+\u20b912,000)<br>&nbsp;&nbsp;\u2212 Increase in Trade Receivables (\u2212\u20b930,000)<br>&nbsp;&nbsp;Cash generated from Operations = \u20b92,83,000.", "4. Less: Income Tax Paid (\u20b935,000).<br><b>Net Cash Flow from Operating Activities = \u20b92,48,000</b>."], "working_notes": "Indirect method starts from Net Profit before tax and reconciles cash generated from operations.", "journal_entries": []}]}, "ts_grewal": {"ch2_fundamentals": [{"q_no": 1, "topic": "Provisions of Partnership Act in Absence of Deed", "question": "A, B and C are partners without a deed. (a) A contributed \u20b91,00,000 capital and claims 10% p.a. interest. (b) B devotes full time and demands \u20b93,000/month salary. (c) C advanced a loan of \u20b940,000 to the firm and demands 10% p.a. interest. (d) A and B want profits divided in capital ratio (2:2:1). Settle disputes.", "solution_steps": ["In the absence of a Partnership Deed, provisions of Section 13, Indian Partnership Act, 1932 apply:", "\u2022 <b>Interest on Capital:</b> Not allowable. Claim of A is rejected.", "\u2022 <b>Salary to Partner:</b> No partner entitled to remuneration. Claim of B is rejected.", "\u2022 <b>Interest on Partner Loan:</b> Strictly allowed <b>@ 6% p.a.</b> (Sec 13(d)). C will receive \u20b92,400 (not 10%).", "\u2022 <b>Profit Sharing Ratio:</b> Profits & losses must be shared <b>EQUALLY (1:1:1)</b>, not in capital ratio."], "working_notes": "Statutory rule: Equal profit sharing and 6% p.a. partner loan interest are mandatory under Sec 13.", "journal_entries": []}, {"q_no": 2, "topic": "Rent to Partner & Interest on Partner Loan (Charge vs Appropriation)", "question": "Lata and Mamata are partners with capitals of \u20b93,00,000 and \u20b92,00,000 sharing in 7:3. Lata rented her godown to the firm at \u20b92,500/month. On 1st Oct, Mamata gave loan of \u20b91,00,000 to the firm. Net profit before rent & loan interest was \u20b91,20,000. Prepare P&L A/c and P&L Appropriation A/c.", "solution_steps": ["1. Rent to partner (\u20b92,500 \u00d7 12 = \u20b930,000) & Loan Interest (\u20b91,00,000 \u00d7 6% \u00d7 6/12 = \u20b93,000) are <b>CHARGES</b> debited to P&L A/c.", "2. Net Profit transferred to P&L Appropriation A/c = \u20b91,20,000 \u2212 \u20b933,000 = <b>\u20b987,000</b>.", "3. Distribute divisible profit \u20b987,000 in 7:3: Lata = \u20b960,900; Mamata = \u20b926,100."], "working_notes": "Rent to partner and interest on partner loan are charges against profit, NOT appropriations.", "journal_entries": [{"date": "31-Mar", "particulars": "Profit & Loss A/c ........................................................ Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Rent Outstanding / Payable A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Interest on Mamata's Loan A/c", "lf": "1", "dr": "33,000", "cr": "<br>30,000<br>3,000"}, {"date": "31-Mar", "particulars": "P&L Appropriation A/c .................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Lata's Capital A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Mamata's Capital A/c", "lf": "2", "dr": "87,000", "cr": "<br>60,900<br>26,100"}]}, {"q_no": 3, "topic": "Manager Commission: Before Charging vs After Charging", "question": "X and Y are partners in 3:2. Capitals \u20b91,00,000 and \u20b980,000. Interest on Capital is 10% p.a. Net profit before partner interest was \u20b955,000. Manager is entitled to a commission of 10% on profit AFTER charging such commission. Prepare P&L Appropriation A/c.", "solution_steps": ["1. Manager commission is a charge: \u20b955,000 \u00d7 (10 / 110) = <b>\u20b95,000</b>.", "2. Profit transferred to P&L Appropriation = \u20b955,000 \u2212 \u20b95,000 = \u20b950,000.", "3. Interest on Capital: X (\u20b910,000) + Y (\u20b98,000) = \u20b918,000.", "4. Divisible Profit = \u20b950,000 \u2212 \u20b918,000 = \u20b932,000 (X: \u20b919,200, Y: \u20b912,800)."], "working_notes": "Commission after charging = Net Profit \u00d7 Rate / (100 + Rate) = 55,000 \u00d7 10/110 = \u20b95,000.", "journal_entries": []}, {"q_no": 4, "topic": "Salary, Commission to Partner & General Reserve Transfer", "question": "Shiv and Mohan are partners in 3:2. Capital: Shiv \u20b95,00,000, Mohan \u20b93,00,000. Deed: (a) IOC @ 8% p.a., (b) Shiv gets salary \u20b95,000/quarter, (c) Mohan gets commission 5% on net profit after partner salary, (d) 10% of divisible profit to General Reserve. Net Profit = \u20b91,96,000. Prepare P&L Appropriation A/c.", "solution_steps": ["1. Interest on Capital: Shiv \u20b940,000, Mohan \u20b924,000 = \u20b964,000.", "2. Shiv Salary: \u20b95,000 \u00d7 4 = \u20b920,000.", "3. Mohan Commission: 5% of (\u20b91,96,000 \u2212 \u20b920,000) = \u20b98,800.", "4. Profit before reserve: \u20b91,96,000 \u2212 (64,000 + 20,000 + 8,800) = \u20b91,03,200.", "5. General Reserve (10%): \u20b910,320. Divisible Profit = \u20b992,880 (Shiv: \u20b955,728, Mohan: \u20b937,152)."], "working_notes": "Divisible profit = 1,96,000 \u2212 64,000 \u2212 20,000 \u2212 8,800 \u2212 10,320 = \u20b992,880.", "journal_entries": []}, {"q_no": 5, "topic": "Interest on Monthly Drawings (Beginning, Middle, End)", "question": "Calculate Interest on Drawings @ 9% p.a. for year ended 31st March: (a) Ram withdrew \u20b94,000 per month in the beginning of each month. (b) Shyam withdrew \u20b94,000 per month in the middle of each month. (c) Mohan withdrew \u20b94,000 per month at the end of each month.", "solution_steps": ["Total Annual Drawings for each partner = \u20b94,000 \u00d7 12 = \u20b948,000.", "\u2022 <b>Case (a) Beginning:</b> Average Period = (12+1)/2 = 6.5 months.<br>&nbsp;&nbsp;Interest = 48,000 \u00d7 9/100 \u00d7 6.5/12 = <b>\u20b92,340</b>.", "\u2022 <b>Case (b) Middle:</b> Average Period = 6.0 months.<br>&nbsp;&nbsp;Interest = 48,000 \u00d7 9/100 \u00d7 6/12 = <b>\u20b92,160</b>.", "\u2022 <b>Case (c) End:</b> Average Period = (11+0)/2 = 5.5 months.<br>&nbsp;&nbsp;Interest = 48,000 \u00d7 9/100 \u00d7 5.5/12 = <b>\u20b91,980</b>."], "working_notes": "Average period = (Months left after 1st drawing + Months left after last drawing) / 2.", "journal_entries": []}, {"q_no": 6, "topic": "Past Adjustments (Omission of IOC & Salary)", "question": "A, B and C share in 3:2:1. After closing books, it was discovered that Interest on Capital @ 10% p.a. (A \u20b910,000, B \u20b98,000, C \u20b96,000) and Salary to A \u20b912,000 were omitted. Pass single adjustment entry.", "solution_steps": ["1. Total omissions: IOC \u20b924,000 + Salary \u20b912,000 = \u20b936,000.", "2. This \u20b936,000 was wrongly shared as profit in 3:2:1 (A: \u20b918,000, B: \u20b912,000, C: \u20b96,000).", "3. <b>Adjustment Table:</b><br>&nbsp;&nbsp;\u2022 A: Credit \u20b922,000 \u2212 Debit \u20b918,000 = <b>Net Credit \u20b94,000</b><br>&nbsp;&nbsp;\u2022 B: Credit \u20b98,000 \u2212 Debit \u20b912,000 = <b>Net Debit \u20b94,000</b><br>&nbsp;&nbsp;\u2022 C: Credit \u20b96,000 \u2212 Debit \u20b96,000 = <b>Nil</b>", "4. Pass single adjustment entry debiting B and crediting A."], "working_notes": "Adjustment entry restores the balance without re-opening finalised financial statements.", "journal_entries": [{"date": "1-Apr", "particulars": "B's Current / Capital A/c ............................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To A's Current / Capital A/c<br>(Being adjustment entry passed for omitted interest and salary)", "lf": "1", "dr": "4,000", "cr": "<br>4,000"}]}, {"q_no": 7, "topic": "Guarantee of Minimum Profit Borne Personally by One Partner", "question": "P, Q and R share in 3:2:1. P personally guaranteed that R share of profit after IOC @ 6% p.a. shall not be less than \u20b930,000 p.a. Capitals: P \u20b94,00,000, Q \u20b93,00,000, R \u20b92,00,000. Profit before IOC was \u20b91,74,000. Prepare P&L Appropriation A/c.", "solution_steps": ["1. IOC: P \u20b924,000, Q \u20b918,000, R \u20b912,000 = \u20b954,000.", "2. Divisible Profit = \u20b91,74,000 \u2212 \u20b954,000 = \u20b91,20,000.", "3. Normal Share in 3:2:1: P \u20b960,000, Q \u20b940,000, R \u20b920,000.", "4. R deficiency = \u20b930,000 \u2212 \u20b920,000 = \u20b910,000.", "5. Deduct \u20b910,000 entirely from P. Final: P = \u20b950,000, Q = \u20b940,000, R = \u20b930,000."], "working_notes": "Q is not party to guarantee; Q capital is credited with full \u20b940,000.", "journal_entries": []}]}, "class11": {"ch_journal": [{"q_no": 1, "topic": "Trade Discount, Cash Discount & Part Payment by Cheque", "question": "Sold goods to Madan of list price \u20b960,000 at 10% trade discount and 5% cash discount. Madan paid 70% amount immediately by cheque.", "solution_steps": ["1. List Price \u20b960,000 \u2212 10% Trade Discount (\u20b96,000) = <b>\u20b954,000</b> net sale.", "2. Cash component (70%) = \u20b937,800. Cash discount 5% = \u20b91,890. Cheque received = <b>\u20b935,910</b>.", "3. Credit component (30%) = <b>\u20b916,200</b> debited to Madan."], "working_notes": "Trade discount is omitted from books; cash discount is allowed only on the cash payment.", "journal_entries": [{"date": "1", "particulars": "Bank A/c .......................................................................... Dr.<br>Discount Allowed A/c ..................................................... Dr.<br>Madan's A/c .................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Sales A/c", "lf": "1", "dr": "35,910<br>1,890<br>16,200", "cr": "<br><br><br>54,000"}]}, {"q_no": 2, "topic": "Bad Debts Recovered & Depreciation Entry", "question": "Record journal entries: (a) Mohan who owed \u20b915,000 became insolvent; only 40% recovered from his estate. (b) Received \u20b96,000 from Sohan which was written off as bad debts last year. (c) Charge 10% depreciation on Machinery costing \u20b91,00,000.", "solution_steps": ["\u2022 (a) Cash received = \u20b96,000; Bad Debts Dr = \u20b99,000 to Mohan \u20b915,000.", "\u2022 (b) Cash Dr. to Bad Debts Recovered A/c \u20b96,000 (not to Sohan).", "\u2022 (c) Depreciation Dr. to Machinery A/c \u20b910,000."], "working_notes": "Once written off, recovered bad debts are credited to Bad Debts Recovered Account.", "journal_entries": [{"date": "(a)", "particulars": "Cash A/c .......................................................................... Dr.<br>Bad Debts A/c ................................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Mohan's A/c", "lf": "-", "dr": "6,000<br>9,000", "cr": "<br><br>15,000"}, {"date": "(b)", "particulars": "Cash A/c .......................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Bad Debts Recovered A/c", "lf": "-", "dr": "6,000", "cr": "<br>6,000"}, {"date": "(c)", "particulars": "Depreciation A/c ............................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Machinery A/c", "lf": "-", "dr": "10,000", "cr": "<br>10,000"}]}]}};
-    let book = "dk_goel", currIdx = 0;
+    const DB = {
+      dk_goel: {
+        ch1_fundamentals: [
+          {
+            q_no: 1,
+            topic: "Absence of Partnership Deed — Statutory Rules",
+            question: "A, B and C are partners without a Partnership Deed. (a) A claims 10% p.a. interest on capital of ₹1,00,000. (b) B demands ₹3,000/month salary. (c) C gave a loan of ₹40,000 to the firm and demands 10% p.a. interest. (d) A and B want profits divided in capital ratio (2:2:1). State how disputes are settled.",
+            solution_steps: [
+              "In the absence of a Partnership Deed, Section 13 of the Indian Partnership Act, 1932 applies:",
+              "• <b>Interest on Capital:</b> Not allowable. Claim of A is rejected.",
+              "• <b>Salary to Partner:</b> No partner entitled to remuneration. Claim of B is rejected.",
+              "• <b>Interest on Partner Loan:</b> Allowed strictly <b>@ 6% p.a.</b> (Sec 13(d)). C will receive ₹2,400 (not 10%).",
+              "• <b>Profit Sharing Ratio:</b> Profits & losses must be shared <b>EQUALLY (1:1:1)</b>, not in capital ratio."
+            ],
+            working_notes: "Statutory provisions of Sec 13 cannot be altered unless an explicit written deed exists.",
+            journal_entries: []
+          },
+          {
+            q_no: 2,
+            topic: "Rent to Partner & Interest on Partner Loan (Charge vs Appropriation)",
+            question: "Lata and Mamata are partners with capitals of ₹3,00,000 and ₹2,00,000 sharing in 7:3. Lata rented her premises to the firm at ₹2,500/month. On 1st Oct, Mamata gave loan of ₹1,00,000. Net profit before rent & loan interest was ₹1,20,000. Prepare P&L A/c and P&L Appropriation A/c.",
+            solution_steps: [
+              "1. Rent to partner (₹2,500 × 12 = ₹30,000) and Loan Interest (₹1,00,000 × 6% × 6/12 = ₹3,000) are <b>CHARGES</b> debited to P&L A/c.",
+              "2. Net Profit transferred to P&L Appropriation = ₹1,20,000 − ₹33,000 = <b>₹87,000</b>.",
+              "3. Distribute divisible profit ₹87,000 in 7:3: Lata = ₹60,900; Mamata = ₹26,100."
+            ],
+            working_notes: "Rent to partner and loan interest are charges against profit, NOT appropriations.",
+            journal_entries: [
+              {date: "31-Mar", particulars: "Profit & Loss A/c ........................................................ Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Rent Payable A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Interest on Mamata's Loan A/c", lf: "1", dr: "33,000", cr: "<br>30,000<br>3,000"},
+              {date: "31-Mar", particulars: "P&L Appropriation A/c .................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Lata's Capital A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Mamata's Capital A/c", lf: "2", dr: "87,000", cr: "<br>60,900<br>26,100"}
+            ]
+          },
+          {
+            q_no: 3,
+            topic: "Manager Commission: Before Charging vs After Charging",
+            question: "X and Y are partners in 3:2. Capitals ₹1,00,000 and ₹80,000. IOC @ 10% p.a. Net profit before partner interest was ₹55,000. Manager is entitled to a commission of 10% on profit AFTER charging such commission. Prepare P&L Appropriation A/c.",
+            solution_steps: [
+              "1. Manager commission is a charge: ₹55,000 × (10 / 110) = <b>₹5,000</b>.",
+              "2. Profit transferred to P&L Appropriation = ₹55,000 − ₹5,000 = ₹50,000.",
+              "3. Interest on Capital: X (₹10,000) + Y (₹8,000) = ₹18,000.",
+              "4. Divisible Profit = ₹50,000 − ₹18,000 = ₹32,000 (X: ₹19,200, Y: ₹12,800)."
+            ],
+            working_notes: "Commission after charging = Net Profit × Rate / (100 + Rate) = 55,000 × 10/110 = ₹5,000.",
+            journal_entries: []
+          },
+          {
+            q_no: 4,
+            topic: "Interest on Monthly Drawings (Beginning, Middle, End)",
+            question: "Calculate Interest on Drawings @ 9% p.a. for year ended 31st March: (a) Ram withdrew ₹4,000 per month in the beginning of each month. (b) Shyam withdrew ₹4,000 per month in the middle of each month. (c) Mohan withdrew ₹4,000 per month at the end of each month.",
+            solution_steps: [
+              "Total Annual Drawings for each partner = ₹4,000 × 12 = ₹48,000.",
+              "• <b>Beginning of month (6.5 mos):</b> 48,000 × 9% × 6.5/12 = <b>₹2,340</b>.",
+              "• <b>Middle of month (6.0 mos):</b> 48,000 × 9% × 6/12 = <b>₹2,160</b>.",
+              "• <b>End of month (5.5 mos):</b> 48,000 × 9% × 5.5/12 = <b>₹1,980</b>."
+            ],
+            working_notes: "Average period = (Months left after 1st drawing + Months left after last drawing) / 2.",
+            journal_entries: []
+          },
+          {
+            q_no: 5,
+            topic: "Past Adjustments (Single Adjustment Entry)",
+            question: "A, B and C share in 3:2:1. After closing books, Interest on Capital @ 10% p.a. (A ₹10,000, B ₹8,000, C ₹6,000) and Salary to A ₹12,000 were omitted. Pass single adjustment entry.",
+            solution_steps: [
+              "1. Total omissions: IOC ₹24,000 + Salary ₹12,000 = ₹36,000.",
+              "2. This ₹36,000 was wrongly shared as profit in 3:2:1 (A: ₹18,000, B: ₹12,000, C: ₹6,000).",
+              "3. Adjustment Table: A Net Cr ₹4,000, B Net Dr ₹4,000, C Nil.",
+              "4. Pass entry debiting B and crediting A."
+            ],
+            working_notes: "Net effect adjusts capital accounts without altering final balance sheet totals.",
+            journal_entries: [
+              {date: "1-Apr", particulars: "B's Current / Capital A/c ............................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To A's Current / Capital A/c<br>(Being adjustment entry for omitted interest and salary)", lf: "1", dr: "4,000", cr: "<br>4,000"}
+            ]
+          }
+        ],
+        ch3_admission: [
+          {
+            q_no: 1,
+            topic: "Sacrificing Ratio and Hidden Goodwill",
+            question: "A and B are partners in 3:2 with capitals of ₹1,60,000 and ₹1,00,000. They admit C for 1/5th share. C brings ₹1,20,000 as his capital. Calculate Hidden Goodwill and pass Journal Entries.",
+            solution_steps: [
+              "1. Total Capital based on C: ₹1,20,000 × 5 = <b>₹6,00,000</b>.",
+              "2. Actual Combined Capital = ₹1,60,000 + ₹1,00,000 + ₹1,20,000 = <b>₹3,80,000</b>.",
+              "3. <b>Hidden Goodwill of Firm</b> = ₹6,00,000 − ₹3,80,000 = <b>₹2,20,000</b>.",
+              "4. C share of Goodwill = ₹2,20,000 × 1/5 = <b>₹44,000</b>.",
+              "5. Debit C Current A/c and credit A & B Capital in 3:2."
+            ],
+            working_notes: "Per AS-26, when goodwill is not brought in cash, incoming partner Current A/c is debited.",
+            journal_entries: [
+              {date: "1", particulars: "Bank A/c .......................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To C's Capital A/c<br>(Being capital brought in by C)", lf: "1", dr: "1,20,000", cr: "<br>1,20,000"},
+              {date: "2", particulars: "C's Current A/c .............................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To A's Capital A/c (3/5)<br>&nbsp;&nbsp;&nbsp;&nbsp;To B's Capital A/c (2/5)<br>(Being hidden goodwill credited to sacrificing partners)", lf: "2", dr: "44,000", cr: "<br>26,400<br>17,600"}
+            ]
+          }
+        ],
+        ch7_shares: [
+          {
+            q_no: 1,
+            topic: "Pro-Rata Table, Forfeiture & Capital Reserve",
+            question: "Apex Ltd. issued 1,00,000 shares of ₹10 at ₹2 premium (₹3 App, ₹5 Allotment incl. premium, ₹4 Call). Received 1,50,000 applications. 30,000 rejected, pro-rata to 1,20,000 applicants. Karan (allotted 1,000 shares) failed to pay allotment and call. Shares forfeited and reissued @ ₹8 fully paid. Pass entries.",
+            solution_steps: [
+              "1. Karan applied = 1,000 × (1,20,000 / 1,00,000) = 1,200 shares. Excess App money = ₹600.",
+              "2. Unpaid Allotment = ₹5,000 − ₹600 = <b>₹4,400</b> (Calls in Arrears). Call arrears = ₹4,000. Total = ₹8,400.",
+              "3. Forfeiture entry: Debit Share Capital ₹10,000, Securities Premium ₹2,000; Credit Calls in Arrears ₹8,400, Share Forfeiture ₹3,600.",
+              "4. Reissue @ ₹8 fully paid: Bank Dr ₹8,000, Forfeiture Dr ₹2,000 to Capital ₹10,000.",
+              "5. <b>Capital Reserve Transfer</b> = ₹3,600 − ₹2,000 = <b>₹1,600</b>."
+            ],
+            working_notes: "Capital Reserve = Forfeited amount on re-issued shares − Re-issue discount.",
+            journal_entries: [
+              {date: "1", particulars: "Share Capital A/c (1,000 × ₹10) .................................... Dr.<br>Securities Premium A/c (1,000 × ₹2) ............................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Calls in Arrears A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Share Forfeiture A/c", lf: "1", dr: "10,000<br>2,000", cr: "<br><br>8,400<br>3,600"},
+              {date: "2", particulars: "Share Forfeiture A/c ...................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Capital Reserve A/c", lf: "2", dr: "1,600", cr: "<br>1,600"}
+            ]
+          }
+        ]
+      },
+      ts_grewal: {},
+      class11: {
+        ch_journal: [
+          {
+            q_no: 1,
+            topic: "Trade Discount, Cash Discount & Part Payment",
+            question: "Sold goods to Madan of list price ₹60,000 at 10% trade discount and 5% cash discount. Madan paid 70% amount immediately by cheque.",
+            solution_steps: [
+              "1. List Price ₹60,000 − 10% Trade Discount (₹6,000) = <b>₹54,000</b> net sale.",
+              "2. Cash component (70%) = ₹37,800. Cash discount 5% = ₹1,890. Cheque received = <b>₹35,910</b>.",
+              "3. Credit component (30%) = <b>₹16,200</b> debited to Madan."
+            ],
+            working_notes: "Trade discount is omitted from books; cash discount is allowed only on the cash payment.",
+            journal_entries: [
+              {date: "1", particulars: "Bank A/c .......................................................................... Dr.<br>Discount Allowed A/c ..................................................... Dr.<br>Madan's A/c .................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Sales A/c", lf: "1", dr: "35,910<br>1,890<br>16,200", cr: "<br><br><br>54,000"}
+            ]
+          }
+        ]
+      }
+    };
+    DB.ts_grewal.ch2_fundamentals = DB.dk_goel.ch1_fundamentals;
+
+    let book = 'dk_goel', currIdx = 0;
     const chapters = {
       dk_goel: [
-        ["ch1_fundamentals", "Ch 1: Partnership Fundamentals (Authentic Problems)"],
-        ["ch2_goodwill", "Ch 2: Valuation of Goodwill"],
-        ["ch3_admission", "Ch 3: Admission of Partner"],
-        ["ch4_retirement", "Ch 4: Retirement & Death of Partner"],
-        ["ch5_dissolution", "Ch 5: Dissolution of Firm"],
-        ["ch7_shares", "Ch 7: Issue & Forfeiture of Shares"],
-        ["ch10_cashflow", "Ch 10: Cash Flow Statement (AS-3)"]
+        ['ch1_fundamentals', 'Ch 1: Partnership Fundamentals (5 Authentic Qs)'],
+        ['ch3_admission', 'Ch 3: Admission of Partner (Hidden Goodwill)'],
+        ['ch7_shares', 'Ch 7: Issue of Shares (Pro-Rata & Forfeiture)']
       ],
       ts_grewal: [
-        ["ch2_fundamentals", "Vol 1 - Ch 2: Partnership Fundamentals"]
+        ['ch2_fundamentals', 'Vol 1 - Ch 2: Partnership Fundamentals']
       ],
       class11: [
-        ["ch_journal", "Ch 8: Journal & Compound Entries"]
+        ['ch_journal', 'Ch 8: Journal & Compound Entries']
       ]
     };
 
     function setBook(b) {
       book = b;
-      document.getElementById("btn-dk").classList.toggle("active", b === "dk_goel");
-      document.getElementById("btn-ts").classList.toggle("active", b === "ts_grewal");
-      document.getElementById("btn-c11").classList.toggle("active", b === "class11");
-      const sel = document.getElementById("chSel");
-      sel.innerHTML = chapters[b].map(c => `<option value="${c[0]}">${c[1]}</option>`).join("");
+      document.getElementById('btn-dk').classList.toggle('active', b === 'dk_goel');
+      document.getElementById('btn-ts').classList.toggle('active', b === 'ts_grewal');
+      document.getElementById('btn-c11').classList.toggle('active', b === 'class11');
+      const sel = document.getElementById('chSel');
+      sel.innerHTML = chapters[b].map(c => `<option value="${c[0]}">${c[1]}</option>`).join('');
       currIdx = 0;
       renderList();
     }
 
     function renderList() {
-      const sel = document.getElementById("chSel");
-      if (!sel || !sel.value) return;
-      const ch = sel.value;
+      const ch = document.getElementById('chSel').value;
       const list = (DB[book] && DB[book][ch]) ? DB[book][ch] : [];
-      document.getElementById("countLabel").innerText = `Practical Questions (${list.length})`;
-      const p = document.getElementById("pills");
+      document.getElementById('countLabel').innerText = `Practical Questions (${list.length})`;
+      const p = document.getElementById('pills');
       p.innerHTML = list.map((q, i) => `
-        <button class="q-btn ${i === currIdx ? "active" : ""}" onclick="selectQ(${i})">Q${q.q_no}</button>
-      `).join("");
+        <button class="q-btn ${i === currIdx ? 'active' : ''}" onclick="selectQ(${i})">Q${q.q_no}</button>
+      `).join('');
       showDetail(list[currIdx]);
     }
 
@@ -206,45 +249,36 @@
     }
 
     function showDetail(q) {
-      const v = document.getElementById("view");
-      if(!q) { v.innerHTML = "No question found for this chapter."; return; }
-      
-      let jHtml = "";
-      if(q.journal_entries && q.journal_entries.length > 0) {
-        jHtml = `<div class="solution-heading" style="margin-top:14px;">In The Books of Firm — Journal Entries:</div>
+      const v = document.getElementById('view');
+      if (!q) { v.innerHTML = '<p>No question available.</p>'; return; }
+      let jHtml = '';
+      if (q.journal_entries && q.journal_entries.length > 0) {
+        jHtml = `<div class="sol-head" style="margin-top:14px;">In The Books of Firm — Journal Entries:</div>
           <table class="ledger-tbl">
             <tr><th style="width:12%;">Date</th><th style="width:58%;">Particulars</th><th style="width:8%;">L.F.</th><th style="width:11%; text-align:right;">Debit (₹)</th><th style="width:11%; text-align:right;">Credit (₹)</th></tr>
             ${q.journal_entries.map(j => `
               <tr>
                 <td>${j.date}</td>
                 <td>${j.particulars}</td>
-                <td style="text-align:center;">${j.lf || -}</td>
+                <td style="text-align:center;">${j.lf || '-'}</td>
                 <td style="text-align:right; font-weight:700;">${j.dr}</td>
                 <td style="text-align:right; font-weight:700;">${j.cr}</td>
               </tr>
-            `).join("")}
+            `).join('')}
           </table>`;
       }
-
       v.innerHTML = `
         <span class="badge">Practical Question ${q.q_no}</span>
         <div class="q-title">${q.topic}</div>
         <div class="problem-box"><b>Problem Statement:</b><br>${q.question}</div>
-        <div class="solution-heading">Step-by-Step Ledger Solution:</div>
-        <div style="margin-top:8px;">${q.solution_steps.map(s => `<div class="step-line">${s}</div>`).join("")}</div>
+        <div class="sol-head">Step-by-Step Ledger Solution:</div>
+        <div style="margin-top:8px;">${q.solution_steps.map(s => `<div class="step-line">${s}</div>`).join('')}</div>
         ${jHtml}
-        ${q.working_notes ? `<div class="wn-card"><div class="wn-title">📝 Working Notes (Crucial for Full Marks):</div>${q.working_notes}</div>` : ""}
+        ${q.working_notes ? `<div class="wn-card"><b>📝 Working Notes:</b><br>${q.working_notes}</div>` : ''}
       `;
     }
 
-    
-  // Immediate safe bootstrap
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", () => setBook("dk_goel"));
-  } else {
-    setBook("dk_goel");
-  }
-
+    setBook('dk_goel');
   </script>
 </body>
 </html>
