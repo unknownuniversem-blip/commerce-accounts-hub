@@ -292,14 +292,274 @@
       ]
     };
 
+    db = {
+  "dk_goel": {
+    "ch1_fundamentals": [
+      {
+        "q_no": 1,
+        "topic": "Absence of Partnership Deed — Statutory Rules",
+        "question": "A, B and C are partners without a deed. A claims 10% interest on capital; B claims ₹2,000 monthly salary; C claims 10% on loan of ₹50,000. How are disputes resolved?",
+        "solution_steps": [
+          "Apply Section 13 of the Indian Partnership Act, 1932:",
+          "• Interest on Capital: Not allowed to A.",
+          "• Partner Salary: Not allowed to B.",
+          "• Interest on Partner Loan: Allowed strictly @ 6% p.a. to C (₹3,000).",
+          "• Profit Sharing: Equally among A, B, and C (1:1:1)."
+        ],
+        "working_notes": "Statutory rule: In the absence of an agreement, Section 13 mandates equal profit sharing and restricts interest on loan to 6% p.a.",
+        "journal_entries": [],
+        "ledger": null
+      },
+      {
+        "q_no": 15,
+        "topic": "P&L Appropriation Account with Interest on Drawings",
+        "question": "Anubha & Kajal share in 2:1. Capitals: ₹90,000 and ₹60,000. Interest on Capital @ 5% p.a. Interest on Drawings @ 5% p.a. (Drawings: ₹8,500 and ₹6,500). Net Profit ₹45,000.",
+        "solution_steps": [
+          "1. Interest on Capital: Anubha = ₹4,500, Kajal = ₹3,000 (Total ₹7,500).",
+          "2. Interest on Drawings (average 6 months): Anubha = ₹213, Kajal = ₹163 (Total ₹376).",
+          "3. Divisible Profit = ₹45,000 + ₹376 − ₹7,500 = ₹37,876. Distributed in 2:1."
+        ],
+        "working_notes": "Divisible Profit distribution: Anubha = ₹37,876 × 2/3 = ₹25,251; Kajal = ₹37,876 × 1/3 = ₹12,625.",
+        "ledger": {
+          "title": "Profit and Loss Appropriation Account",
+          "debit": [
+            {"particulars": "To Interest on Capital: Anubha (₹4,500), Kajal (₹3,000)", "amount": "7,500"},
+            {"particulars": "To Profit Transferred to Capital: Anubha (₹25,251), Kajal (₹12,625)", "amount": "37,876"}
+          ],
+          "credit": [
+            {"particulars": "By Profit & Loss A/c (Net Profit)", "amount": "45,000"},
+            {"particulars": "By Interest on Drawings: Anubha (₹213), Kajal (₹163)", "amount": "376"}
+          ],
+          "total": "45,376"
+        }
+      },
+      {
+        "q_no": 26,
+        "topic": "Interest on Monthly Drawings (Product & Average Period Method)",
+        "question": "Calculate Interest on Drawings @ 10% p.a. on ₹2,000 drawn monthly: (a) Beginning of every month, (b) Middle of every month, (c) End of every month.",
+        "solution_steps": [
+          "Annual Drawings = ₹2,000 × 12 = ₹24,000.",
+          "Formula: Total Drawings × Rate/100 × Average Period/12."
+        ],
+        "working_notes": "• Case (a) Beginning (6.5 mos): ₹24,000 × 10% × 6.5/12 = <b>₹1,300</b><br>• Case (b) Middle (6.0 mos): ₹24,000 × 10% × 6/12 = <b>₹1,200</b><br>• Case (c) End (5.5 mos): ₹24,000 × 10% × 5.5/12 = <b>₹1,100</b>",
+        "ledger": null
+      },
+      {
+        "q_no": 42,
+        "topic": "Past Adjustments (Omission of Interest on Capital)",
+        "question": "A, B and C share in 3:2:1. After closing books, it was discovered that Interest on Capital @ 10% p.a. was omitted. Capitals were: A ₹1,00,000, B ₹80,000, C ₹60,000. Pass an Adjustment Journal Entry.",
+        "solution_steps": [
+          "1. Calculate total omitted interest: A ₹10,000, B ₹8,000, C ₹6,000 = Total ₹24,000.",
+          "2. Profit wrongly credited in 3:2:1 (A ₹12,000, B ₹8,000, C ₹4,000).",
+          "3. Net adjustment: A Dr ₹2,000, B Nil, C Cr ₹2,000."
+        ],
+        "working_notes": "Adjustment Table: A is excess Dr by ₹2,000; C is short Cr by ₹2,000.",
+        "journal_entries": [
+          {"date": "1", "particulars": "A's Current/Capital A/c .................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To C's Current/Capital A/c<br>(Being adjustment for omitted interest on capital)", "lf": "", "dr": "2,000", "cr": "<br>2,000"}
+        ]
+      }
+    ],
+    "ch2_goodwill": [
+      {
+        "q_no": 5,
+        "topic": "Super Profit Method of Goodwill Valuation",
+        "question": "A firm earned net profits: Yr 1 ₹36,000; Yr 2 ₹40,000; Yr 3 ₹44,000. Capital investment is ₹2,00,000. Normal rate of return is 15%. Calculate Goodwill on 2 years purchase of Super Profit.",
+        "solution_steps": [
+          "1. Average Profit = (36,000 + 40,000 + 44,000) / 3 = ₹40,000.",
+          "2. Normal Profit = Capital Employed × NRR = ₹2,00,000 × 15% = ₹30,000.",
+          "3. Super Profit = Average Profit − Normal Profit = ₹40,000 − ₹30,000 = ₹10,000.",
+          "4. Goodwill = Super Profit × 2 = ₹10,000 × 2 = ₹20,000."
+        ],
+        "working_notes": "Goodwill under Super Profit = (Actual/Average Profit − Normal Profit) × Number of years purchase = ₹20,000.",
+        "ledger": null
+      }
+    ],
+    "ch3_admission": [
+      {
+        "q_no": 14,
+        "topic": "Sacrificing Ratio and Premium for Goodwill",
+        "question": "X and Y are partners in 3:2. Z is admitted for 1/4th share, acquired equally from X and Y (1/8 each). Z brings ₹50,000 capital and ₹20,000 goodwill in cash. Give Journal Entries and calculate New Ratio.",
+        "solution_steps": [
+          "1. Sacrificing ratio of X and Y = 1/8 : 1/8 = 1:1.",
+          "2. New Shares: X = 3/5 − 1/8 = 19/40; Y = 2/5 − 1/8 = 11/40; Z = 1/4 = 10/40. New Ratio = 19:11:10.",
+          "3. Premium for goodwill (₹20,000) is distributed equally (₹10,000 each)."
+        ],
+        "working_notes": "Sacrificing Ratio = Old Share − New Share = 1:1. Z's capital and goodwill recorded via Bank A/c.",
+        "journal_entries": [
+          {"date": "1", "particulars": "Bank A/c .......................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Z's Capital A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Premium for Goodwill A/c<br>(Being capital & goodwill brought in cash)", "lf": "", "dr": "70,000", "cr": "<br>50,000<br>20,000"},
+          {"date": "2", "particulars": "Premium for Goodwill A/c ............................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To X's Capital A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Y's Capital A/c<br>(Being goodwill credited to sacrificing partners in 1:1)", "lf": "", "dr": "20,000", "cr": "<br>10,000<br>10,000"}
+        ]
+      },
+      {
+        "q_no": 28,
+        "topic": "Revaluation Account & Balance Sheet Adjustments",
+        "question": "A & B (3:2) admit C for 1/5th share. Assets revalued: Land appreciates by ₹20,000, Machinery depreciates by ₹5,000, Provision for Doubtful Debts created @ 5% on Debtors of ₹40,000 (₹2,000). Prepare Revaluation A/c.",
+        "solution_steps": [
+          "1. Credit Revaluation with increase in Assets: Land ₹20,000.",
+          "2. Debit Revaluation with decrease in Assets / increase in Liabilities: Machinery ₹5,000, PBDD ₹2,000.",
+          "3. Profit on Revaluation = ₹20,000 − ₹7,000 = ₹13,000 transferred in 3:2."
+        ],
+        "working_notes": "Revaluation Profit distribution: A = ₹13,000 × 3/5 = ₹7,800; B = ₹13,000 × 2/5 = ₹5,200.",
+        "ledger": {
+          "title": "Revaluation Account",
+          "debit": [
+            {"particulars": "To Machinery A/c (Depreciation)", "amount": "5,000"},
+            {"particulars": "To Provision for Doubtful Debts A/c", "amount": "2,000"},
+            {"particulars": "To Profit Transferred to Capital: A (₹7,800), B (₹5,200)", "amount": "13,000"}
+          ],
+          "credit": [
+            {"particulars": "By Land A/c (Appreciation)", "amount": "20,000"}
+          ],
+          "total": "20,000"
+        }
+      }
+    ],
+    "ch4_retirement": [
+      {
+        "q_no": 12,
+        "topic": "Retirement: Gaining Ratio & Treatment of Goodwill",
+        "question": "A, B and C are partners sharing in 4:3:2. B retires. B's share is taken over by A and C in the ratio 2:1. Firm's goodwill is valued at ₹72,000. Record Journal Entry for Goodwill.",
+        "solution_steps": [
+          "1. B's share of Goodwill = ₹72,000 × 3/9 = ₹24,000.",
+          "2. Gaining Ratio of A and C = 2:1.",
+          "3. Debit Continuing Partners (A and C) in Gaining Ratio and Credit Retiring Partner (B)."
+        ],
+        "working_notes": "A's contribution = ₹24,000 × 2/3 = ₹16,000; C's contribution = ₹24,000 × 1/3 = ₹8,000.<br>Rule: Gaining Partners' Capital A/c Dr. to Retiring Partner's Capital A/c.",
+        "journal_entries": [
+          {"date": "1", "particulars": "A's Capital A/c ................................................................ Dr.<br>C's Capital A/c ................................................................ Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To B's Capital A/c<br>(Being B's share of goodwill adjusted through continuing partners in gaining ratio 2:1)", "lf": "", "dr": "16,000<br>8,000", "cr": "<br><br>24,000"}
+        ]
+      }
+    ],
+    "ch5_dissolution": [
+      {
+        "q_no": 8,
+        "topic": "Dissolution: Realisation Account Journal Entries",
+        "question": "Pass Journal Entries on dissolution: (a) Realisation expenses ₹3,000 paid by firm, (b) Unrecorded asset of ₹12,000 sold for ₹10,000, (c) Creditors of ₹25,000 accepted stock valued ₹20,000 in full settlement.",
+        "solution_steps": [
+          "Apply rules of dissolution under Section 48 of Partnership Act:",
+          "• Realisation expenses: Realisation Dr. to Bank.",
+          "• Sale of unrecorded asset: Bank Dr. to Realisation for realized amount ₹10,000.",
+          "• Asset taken by creditor in settlement: No entry required in accounts."
+        ],
+        "working_notes": "When a creditor accepts an asset in full or partial satisfaction of their claim, no entry is passed for the settlement of that asset and liability value.",
+        "journal_entries": [
+          {"date": "(a)", "particulars": "Realisation A/c .............................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Bank A/c<br>(Being realisation expenses paid by firm)", "lf": "", "dr": "3,000", "cr": "<br>3,000"},
+          {"date": "(b)", "particulars": "Bank A/c .......................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Realisation A/c<br>(Being unrecorded asset realized in cash)", "lf": "", "dr": "10,000", "cr": "<br>10,000"},
+          {"date": "(c)", "particulars": "<b>No Journal Entry Required</b> (Creditor accepted asset in settlement)", "lf": "-", "dr": "-", "cr": "-"}
+        ]
+      }
+    ],
+    "ch7_shares": [
+      {
+        "q_no": 32,
+        "topic": "Pro-Rata Allotment and Call in Arrears Calculation",
+        "question": "Sun Pharma Ltd. issued 50,000 shares of ₹10 at ₹2 premium (₹3 App, ₹5 Allotment incl. premium, ₹4 Call). Received 70,000 applications. 10,000 rejected, pro-rata to 60,000. Ramesh (1,000 shares allotted) failed to pay allotment and call. Forfeit his shares.",
+        "solution_steps": [
+          "1. Ramesh applied = 1,000 × (60,000/50,000) = 1,200 shares.",
+          "2. App money paid = 1,200 × ₹3 = ₹3,600. Required = 1,000 × ₹3 = ₹3,000. Excess = ₹600.",
+          "3. Allotment due = 1,000 × ₹5 = ₹5,000. Unpaid = ₹5,000 − ₹600 = ₹4,400.",
+          "4. Forfeiture entry: Debit Share Capital ₹10,000, Debit Securities Premium ₹2,000."
+        ],
+        "working_notes": "Share Capital Dr. (1,000 × ₹10) = ₹10,000; Securities Premium Dr. (unpaid) = ₹2,000; Calls in Arrears = ₹4,400 + ₹4,000 = ₹8,400; Share Forfeiture (paid towards capital) = ₹3,600.",
+        "journal_entries": [
+          {"date": "1", "particulars": "Bank A/c (70,000 × ₹3) ....................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Equity Share Application A/c", "lf": "", "dr": "2,10,000", "cr": "2,10,000"},
+          {"date": "2", "particulars": "Equity Share Application A/c ........................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Equity Share Capital A/c (50,000 × ₹3)<br>&nbsp;&nbsp;&nbsp;&nbsp;To Equity Share Allotment A/c (Advance)<br>&nbsp;&nbsp;&nbsp;&nbsp;To Bank A/c (10,000 rejected × ₹3)", "lf": "", "dr": "2,10,000", "cr": "<br>1,50,000<br>30,000<br>30,000"},
+          {"date": "3", "particulars": "Equity Share Capital A/c (1,000 × ₹10) ............................ Dr.<br>Securities Premium A/c (1,000 × ₹2) ............................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Calls in Arrears A/c (₹4,400 + ₹4,000)<br>&nbsp;&nbsp;&nbsp;&nbsp;To Share Forfeiture A/c (1,000 × ₹3 + ₹600)", "lf": "", "dr": "10,000<br>2,000", "cr": "<br><br>8,400<br>3,600"}
+        ]
+      }
+    ],
+    "ch10_cashflow": [
+      {
+        "q_no": 18,
+        "topic": "Cash Flow from Operating Activities (Indirect Method)",
+        "question": "Calculate Cash Flow from Operating Activities: Net Profit before Tax ₹1,20,000; Depreciation on Machinery ₹25,000; Goodwill amortized ₹10,000; Increase in Debtors ₹15,000; Decrease in Stock ₹8,000; Decrease in Creditors ₹6,000.",
+        "solution_steps": [
+          "1. Net Profit before Tax = ₹1,20,000.",
+          "2. Add Non-Cash / Non-Operating Expenses: Depreciation (+₹25,000), Goodwill (+₹10,000). Operating Profit before Working Capital changes = ₹1,55,000.",
+          "3. Adjust Working Capital: Decrease in Stock (+₹8,000), Increase in Debtors (−₹15,000), Decrease in Creditors (−₹6,000).",
+          "4. Net Cash Flow from Operating Activities = ₹1,55,000 + ₹8,000 − ₹21,000 = ₹1,42,000."
+        ],
+        "working_notes": "Formula: Operating Profit before Working Capital changes + Decrease in Current Assets + Increase in Current Liabilities − Increase in Current Assets − Decrease in Current Liabilities.",
+        "ledger": null
+      }
+    ]
+  },
+  "ts_grewal": {
+    "ch2_fundamentals": [
+      {
+        "q_no": 1,
+        "topic": "Statutory Rules in Absence of Partnership Deed",
+        "question": "State the provisions of the Indian Partnership Act, 1932 regarding: (a) Salaries, (b) Interest on capital, (c) Interest on loan, (d) Sharing of profits.",
+        "solution_steps": [
+          "• (a) No salary or commission is payable to any partner.",
+          "• (b) No interest is allowed on capital.",
+          "• (c) Interest on loan is paid @ 6% p.a.",
+          "• (d) Profits and losses are shared equally (1:1)."
+        ],
+        "working_notes": "Governed under Section 13 of the Indian Partnership Act, 1932.",
+        "ledger": null
+      },
+      {
+        "q_no": 19,
+        "topic": "Guarantee of Minimum Profit to a Partner",
+        "question": "A, B and C share in 5:4:1. C is guaranteed a minimum profit of ₹30,000 p.a. Any deficiency is to be met by A and B equally. Firm earns profit of ₹2,00,000. Prepare P&L Appropriation A/c.",
+        "solution_steps": [
+          "1. Normal profit shares: A = ₹1,00,000, B = ₹80,000, C = ₹20,000.",
+          "2. C's deficiency = ₹30,000 guaranteed − ₹20,000 actual = ₹10,000.",
+          "3. Deficiency met equally by A and B (₹5,000 each). Final: A ₹95,000, B ₹75,000, C ₹30,000."
+        ],
+        "working_notes": "Deficiency sharing: A deducts ₹5,000; B deducts ₹5,000; C receives ₹10,000 addition.",
+        "ledger": {
+          "title": "Profit and Loss Appropriation Account",
+          "debit": [
+            {"particulars": "To Profit Transferred to Capital: A (₹95,000), B (₹75,000), C (₹30,000)", "amount": "2,00,000"}
+          ],
+          "credit": [
+            {"particulars": "By Profit & Loss A/c (Net Profit)", "amount": "2,00,000"}
+          ],
+          "total": "2,00,000"
+        }
+      }
+    ],
+    "ch9_ratios": [
+      {
+        "q_no": 10,
+        "topic": "Current Ratio & Quick Ratio (Acid Test)",
+        "question": "Current Liabilities of a firm are ₹1,50,000. Its Current Ratio is 3:1 and Liquid Ratio is 1.2:1. Calculate value of Inventory (Stock).",
+        "solution_steps": [
+          "1. Current Assets = Current Ratio × Current Liabilities = 3 × ₹1,50,000 = ₹4,50,000.",
+          "2. Liquid Assets = Liquid Ratio × Current Liabilities = 1.2 × ₹1,50,000 = ₹1,80,000.",
+          "3. Inventory = Current Assets − Liquid Assets = ₹4,50,000 − ₹1,80,000 = ₹2,70,000."
+        ],
+        "working_notes": "Formula: Quick Assets = Current Assets − (Inventory + Prepaid Expenses). Assuming Prepaid Expenses = Nil, Inventory = ₹2,70,000.",
+        "ledger": null
+      }
+    ]
+  },
+  "class11": {
+    "ch_journal": [
+      {
+        "q_no": 4,
+        "topic": "Trade Discount vs Cash Discount Journal Entries",
+        "question": "Sold goods to Mohan of list price ₹20,000 at 10% trade discount and 2% cash discount. Mohan paid 50% immediately by cheque. Pass journal entry.",
+        "solution_steps": [
+          "1. List Price = ₹20,000. Less: 10% Trade Discount (₹2,000). Net Sale Price = ₹18,000.",
+          "2. Cash component (50%) = ₹9,000. Cash discount @ 2% on ₹9,000 = ₹180. Cheque received = ₹8,820.",
+          "3. Credit component (50%) = ₹9,000 recorded in Mohan's account."
+        ],
+        "working_notes": "Trade discount is never recorded in the books of accounts; cash discount is allowed only on the amount paid immediately.",
+        "journal_entries": [
+          {"date": "1", "particulars": "Bank A/c .......................................................................... Dr.<br>Discount Allowed A/c ..................................................... Dr.<br>Mohan's A/c .................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Sales A/c<br>(Being goods sold at 10% TD and 2% CD on 50% payment received)", "lf": "", "dr": "8,820<br>180<br>9,000", "cr": "<br><br><br>18,000"}
+        ]
+      }
+    ]
+  }
+}
+;
+
     window.addEventListener('DOMContentLoaded', () => {
-      fetch('solutions_data.json')
-        .then(res => res.json())
-        .then(data => {
-          db = data;
-          switchBook('dk_goel');
-          solveIOD();
-        });
+      switchBook('dk_goel');
+      solveIOD();
     });
 
     function switchBook(bookKey) {
