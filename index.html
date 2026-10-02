@@ -2,217 +2,46 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <title>BalanceSheet OS — DK Goel & TS Grewal Class 11 & 12 Solutions</title>
-  <meta name="description" content="Complete practical solutions for DK Goel & TS Grewal Class 11 & 12 Accountancy with working notes and deterministic math solvers.">
-
-  <!-- Privacy Analytics -->
-  <script data-goatcounter="https://quicktools.goatcounter.com/count"
-          data-goatcounter-settings='{"allow_local": true}'
-          async src="//gc.zgo.at/count.js"></script>
-
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230f172a'/%3E%3Cpath d='M8 24 L8 8 L24 8 L24 12 L12 12 L12 16 L22 16 L22 20 L12 20 L12 24 Z' fill='%2338bdf8'/%3E%3C/svg%3E">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BalanceSheet OS — DK Goel & TS Grewal Solutions</title>
   <style>
     :root {
-      --bg-canvas: #f8fafc;
-      --surface: #ffffff;
-      --brand-navy: #0f172a;
-      --brand-blue: #2563eb;
-      --text-main: #0f172a;
-      --border-subtle: #e2e8f0;
-      --radius-md: 8px;
-      --radius-lg: 12px;
-      --shadow-card: 0 4px 6px -1px rgba(15, 23, 42, 0.05);
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --navy: #0f172a;
+      --blue: #2563eb;
+      --border: #e2e8f0;
     }
-
-    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Inter", sans-serif; }
-    body { background-color: var(--bg-canvas); color: var(--text-main); line-height: 1.5; }
-
-    .net-bar {
-      background: var(--brand-navy);
-      color: #94a3b8;
-      font-size: 11.5px;
-      padding: 6px 16px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 6px;
-    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    body { background: var(--bg); color: var(--navy); line-height: 1.5; }
+    .net-bar { background: var(--navy); color: #94a3b8; font-size: 11.5px; padding: 6px 16px; display: flex; justify-content: space-between; }
     .net-bar a { color: #38bdf8; text-decoration: none; font-weight: 600; margin-left: 8px; }
-    .net-bar a:hover { color: #ffffff; }
-
-    .hero {
-      background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0369a1 100%);
-      color: #ffffff;
-      padding: 28px 16px 24px;
-      text-align: center;
-      border-bottom: 3px solid #38bdf8;
-    }
-    .hero h1 { font-size: clamp(1.8rem, 4.5vw, 2.6rem); font-weight: 900; }
+    .hero { background: linear-gradient(135deg, #0f172a, #1e1b4b, #0369a1); color: #fff; padding: 24px 16px; text-align: center; border-bottom: 3px solid #38bdf8; }
     .hero h1 span { color: #38bdf8; }
-    .hero p { font-size: clamp(0.85rem, 2vw, 1rem); color: #cbd5e1; max-width: 650px; margin: 4px auto 0; }
-
-    .controls-strip {
-      max-width: 1040px;
-      margin: 16px auto 12px;
-      padding: 0 14px;
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-      align-items: center;
-    }
-    .btn-tab {
-      background: #ffffff;
-      border: 1.5px solid var(--border-subtle);
-      padding: 8px 16px;
-      border-radius: var(--radius-md);
-      font-size: 13px;
-      font-weight: 700;
-      cursor: pointer;
-      color: var(--text-main);
-    }
-    .btn-tab.active { background: var(--brand-navy); color: #ffffff; border-color: var(--brand-navy); }
-    .select-box {
-      padding: 8px 14px;
-      border-radius: var(--radius-md);
-      border: 1.5px solid var(--border-subtle);
-      font-size: 13px;
-      font-weight: 700;
-      color: var(--text-main);
-      background: #ffffff;
-      outline: none;
-    }
-
-    .main-grid {
-      max-width: 1040px;
-      margin: 0 auto 30px;
-      padding: 0 14px;
-      display: grid;
-      grid-template-columns: 320px 1fr;
-      gap: 16px;
-    }
-    @media (max-width: 780px) { .main-grid { grid-template-columns: 1fr; } }
-
-    .sidebar {
-      background: var(--surface);
-      border: 1px solid var(--border-subtle);
-      border-radius: var(--radius-lg);
-      padding: 16px;
-      box-shadow: var(--shadow-card);
-      height: fit-content;
-      max-height: 80vh;
-      overflow-y: auto;
-    }
-    .side-title { font-size: 12px; font-weight: 800; color: #475569; text-transform: uppercase; margin-bottom: 12px; letter-spacing: 0.05em; }
-    .q-pills { display: flex; flex-wrap: wrap; gap: 6px; }
-    .q-pill {
-      background: #f1f5f9;
-      border: 1px solid var(--border-subtle);
-      padding: 6px 11px;
-      border-radius: 6px;
-      font-size: 12px;
-      font-weight: 700;
-      cursor: pointer;
-      min-width: 48px;
-      text-align: center;
-    }
-    .q-pill.active { background: var(--brand-blue); color: #ffffff; border-color: var(--brand-blue); }
-
-    .solution-card {
-      background: var(--surface);
-      border: 1px solid var(--border-subtle);
-      border-radius: var(--radius-lg);
-      padding: 24px;
-      box-shadow: var(--shadow-card);
-    }
-    .q-badge {
-      display: inline-block;
-      background: #eff6ff;
-      color: var(--brand-blue);
-      border: 1px solid #bfdbfe;
-      padding: 3px 10px;
-      border-radius: 9999px;
-      font-size: 11px;
-      font-weight: 800;
-      text-transform: uppercase;
-      margin-bottom: 8px;
-    }
-    .q-title { font-size: 18px; font-weight: 800; color: var(--brand-navy); margin-bottom: 12px; }
-    .q-desc-box {
-      background: #f8fafc;
-      border-left: 4px solid var(--brand-blue);
-      padding: 12px 14px;
-      border-radius: 0 var(--radius-md) var(--radius-md) 0;
-      font-size: 13.5px;
-      color: #334155;
-      margin-bottom: 18px;
-    }
-
-    .step-box { margin-bottom: 16px; font-size: 13.5px; line-height: 1.6; }
-
-    .journal-table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 13px; }
-    .journal-table th { background: #0f172a; color: #fff; padding: 8px 10px; text-align: left; font-weight: 700; }
-    .journal-table td { border: 1px solid var(--border-subtle); padding: 8px 10px; vertical-align: top; }
-
-    .ledger-table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 12.5px; }
-    .ledger-table th { background: #f1f5f9; padding: 6px 8px; font-weight: 700; border: 1px solid var(--border-subtle); }
-    .ledger-table td { border: 1px solid var(--border-subtle); padding: 6px 8px; }
-
-    .wn-box {
-      background: #fdf4ff;
-      border: 1.5px dashed #f0abfc;
-      border-radius: var(--radius-md);
-      padding: 12px 14px;
-      font-size: 13px;
-      color: #4a044e;
-      margin-top: 14px;
-    }
-    .wn-title { font-weight: 800; margin-bottom: 4px; color: #701a75; }
-
-    .calc-hub {
-      max-width: 1040px;
-      margin: 20px auto 40px;
-      padding: 0 14px;
-    }
-    .calc-box {
-      background: var(--surface);
-      border: 1px solid var(--border-subtle);
-      border-radius: var(--radius-lg);
-      padding: 20px;
-      box-shadow: var(--shadow-card);
-      margin-bottom: 16px;
-    }
-    .calc-title { font-size: 15px; font-weight: 800; color: #0f172a; margin-bottom: 12px; }
-    .calc-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
-    @media (max-width: 600px) { .calc-grid { grid-template-columns: 1fr; } }
-    .input-calc {
-      width: 100%;
-      padding: 8px 12px;
-      border: 1.5px solid var(--border-subtle);
-      border-radius: 6px;
-      font-size: 13px;
-      outline: none;
-    }
-    .res-calc-box {
-      margin-top: 10px;
-      background: #f0fdf4;
-      border: 1px solid #bbf7d0;
-      padding: 10px 14px;
-      border-radius: 6px;
-      font-size: 13px;
-      font-weight: 700;
-      color: #166534;
-    }
-
-    footer { background: var(--brand-navy); color: #94a3b8; text-align: center; padding: 24px; font-size: 12px; }
+    .controls { max-width: 1040px; margin: 16px auto 10px; padding: 0 14px; display: flex; gap: 8px; flex-wrap: wrap; }
+    .btn-tab { background: #fff; border: 1.5px solid var(--border); padding: 8px 16px; border-radius: 8px; font-weight: 700; cursor: pointer; }
+    .btn-tab.active { background: var(--navy); color: #fff; border-color: var(--navy); }
+    .select-box { padding: 8px 14px; border-radius: 8px; border: 1.5px solid var(--border); font-weight: 700; background: #fff; outline: none; }
+    .layout { max-width: 1040px; margin: 0 auto 30px; padding: 0 14px; display: grid; grid-template-columns: 320px 1fr; gap: 16px; }
+    @media (max-width: 780px) { .layout { grid-template-columns: 1fr; } }
+    .sidebar { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px; height: fit-content; max-height: 75vh; overflow-y: auto; }
+    .side-title { font-size: 12px; font-weight: 800; color: #475569; text-transform: uppercase; margin-bottom: 12px; }
+    .pills { display: flex; flex-wrap: wrap; gap: 6px; }
+    .q-pill { background: #f1f5f9; border: 1px solid var(--border); padding: 6px 12px; border-radius: 6px; font-size: 12px; font-weight: 700; cursor: pointer; min-width: 50px; text-align: center; }
+    .q-pill.active { background: var(--blue); color: #fff; border-color: var(--blue); }
+    .content { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 24px; }
+    .q-badge { display: inline-block; background: #eff6ff; color: var(--blue); border: 1px solid #bfdbfe; padding: 3px 10px; border-radius: 9999px; font-size: 11px; font-weight: 800; text-transform: uppercase; margin-bottom: 8px; }
+    .q-title { font-size: 18px; font-weight: 800; margin-bottom: 12px; }
+    .q-box { background: #f8fafc; border-left: 4px solid var(--blue); padding: 12px 14px; font-size: 13.5px; margin-bottom: 16px; border-radius: 0 8px 8px 0; }
+    .table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 13px; }
+    .table th { background: #0f172a; color: #fff; padding: 8px; text-align: left; }
+    .table td { border: 1px solid var(--border); padding: 8px; vertical-align: top; }
+    .wn-box { background: #fdf4ff; border: 1.5px dashed #f0abfc; border-radius: 8px; padding: 12px; font-size: 13px; color: #4a044e; margin-top: 14px; }
   </style>
 </head>
 <body>
-
   <div class="net-bar">
-    <div>⚡ BalanceSheet OS • Zero-Hallucination Commerce Suite</div>
+    <div>⚡ BalanceSheet OS • Complete Solutions</div>
     <div>
       <a href="https://unknownuniversem-blip.github.io/cgpa-to-percentage/">📊 CGPA to %</a>
       <a href="https://unknownuniversem-blip.github.io/sarkari-alert-ai/">📢 Sarkari Alert AI</a>
@@ -222,54 +51,23 @@
 
   <header class="hero">
     <h1>BalanceSheet <span>OS</span></h1>
-    <p>Step-by-step practical solutions for DK Goel & TS Grewal Class 11 & 12 Accountancy with working notes.</p>
+    <p>180+ verified textbook practical questions with working notes and journal entries.</p>
   </header>
 
-  <div class="controls-strip">
+  <div class="controls">
     <button class="btn-tab active" id="tabDk" onclick="switchBook('dk_goel')">DK Goel (Class 12)</button>
     <button class="btn-tab" id="tabTs" onclick="switchBook('ts_grewal')">TS Grewal (Class 12)</button>
     <button class="btn-tab" id="tabC11" onclick="switchBook('class11')">Class 11 Accounting</button>
-    
-    <select id="chapterSelect" class="select-box" onchange="renderQuestionsList()"></select>
+    <select id="chapterSelect" class="select-box" onchange="renderQuestions()"></select>
   </div>
 
-  <div class="main-grid">
+  <div class="layout">
     <div class="sidebar">
       <div class="side-title" id="sideTitle">Practical Questions</div>
-      <div class="q-pills" id="qPillsContainer"></div>
+      <div class="pills" id="pillsContainer"></div>
     </div>
-
-    <div class="solution-card" id="detailContainer"></div>
+    <div class="content" id="detailContainer"></div>
   </div>
-
-  <div class="calc-hub">
-    <div class="calc-box">
-      <div class="calc-title">🧮 Interactive Solver: Interest on Monthly Drawings</div>
-      <div class="calc-grid">
-        <div>
-          <label style="font-size:12px; font-weight:700;">Monthly Drawing (₹):</label>
-          <input type="number" id="iodAmount" class="input-calc" value="2000" oninput="solveIOD()">
-        </div>
-        <div>
-          <label style="font-size:12px; font-weight:700;">Interest Rate (% p.a.):</label>
-          <input type="number" id="iodRate" class="input-calc" value="10" oninput="solveIOD()">
-        </div>
-        <div>
-          <label style="font-size:12px; font-weight:700;">Withdrawal Time:</label>
-          <select id="iodTime" class="input-calc" onchange="solveIOD()">
-            <option value="6.5">Beginning of each month (6.5 mos)</option>
-            <option value="6.0">Middle of each month (6.0 mos)</option>
-            <option value="5.5">End of each month (5.5 mos)</option>
-          </select>
-        </div>
-      </div>
-      <div class="res-calc-box" id="iodResult">Interest on Drawings = ₹ 1,300</div>
-    </div>
-  </div>
-
-  <footer>
-    <p><b>BalanceSheet OS</b> — Deterministic Commerce Calculations & Practice Engine</p>
-  </footer>
 
   <script>
     const db = {
@@ -537,20 +335,20 @@
 }
 ;
     let currentBook = "dk_goel";
-    let activeQuestionIdx = 0;
+    let activeIdx = 0;
 
-    const chapterMaps = {
+    const chapters = {
       dk_goel: [
         { key: "ch1_fundamentals", name: "Ch 1: Partnership Fundamentals (25 Qs)" },
         { key: "ch2_goodwill", name: "Ch 2: Valuation of Goodwill (15 Qs)" },
-        { key: "ch3_admission", name: "Ch 3: Admission of a Partner (25 Qs)" },
-        { key: "ch4_retirement", name: "Ch 4: Retirement of a Partner (20 Qs)" },
+        { key: "ch3_admission", name: "Ch 3: Admission of Partner (25 Qs)" },
+        { key: "ch4_retirement", name: "Ch 4: Retirement of Partner (20 Qs)" },
         { key: "ch5_dissolution", name: "Ch 5: Dissolution of Firm (20 Qs)" },
         { key: "ch7_shares", name: "Ch 7: Issue & Forfeiture of Shares (25 Qs)" },
         { key: "ch10_cashflow", name: "Ch 10: Cash Flow Statement (15 Qs)" }
       ],
       ts_grewal: [
-        { key: "ch2_fundamentals", name: "Vol 1 - Ch 2: Fundamentals of Partnership (20 Qs)" },
+        { key: "ch2_fundamentals", name: "Vol 1 - Ch 2: Partnership Fundamentals (20 Qs)" },
         { key: "ch9_ratios", name: "Vol 3 - Ch 4: Accounting Ratios (15 Qs)" }
       ],
       class11: [
@@ -558,111 +356,79 @@
       ]
     };
 
-    function switchBook(bookKey) {
-      currentBook = bookKey;
-      document.getElementById('tabDk').classList.toggle('active', bookKey === 'dk_goel');
-      document.getElementById('tabTs').classList.toggle('active', bookKey === 'ts_grewal');
-      document.getElementById('tabC11').classList.toggle('active', bookKey === 'class11');
+    function switchBook(book) {
+      currentBook = book;
+      document.getElementById("tabDk").classList.toggle("active", book === "dk_goel");
+      document.getElementById("tabTs").classList.toggle("active", book === "ts_grewal");
+      document.getElementById("tabC11").classList.toggle("active", book === "class11");
       
-      const select = document.getElementById('chapterSelect');
-      const chapters = chapterMaps[bookKey] || [];
-      select.innerHTML = chapters.map(c => `<option value="${c.key}">${c.name}</option>`).join('');
-
-      activeQuestionIdx = 0;
-      renderQuestionsList();
+      const sel = document.getElementById("chapterSelect");
+      sel.innerHTML = chapters[book].map(c => `<option value="${c.key}">${c.name}</option>`).join("");
+      activeIdx = 0;
+      renderQuestions();
     }
 
-    function renderQuestionsList() {
-      const chKey = document.getElementById('chapterSelect').value;
-      const questions = (db[currentBook] && db[currentBook][chKey]) ? db[currentBook][chKey] : [];
-      const pillsContainer = document.getElementById('qPillsContainer');
-      document.getElementById('sideTitle').innerText = `Practical Questions (${questions.length} Total)`;
+    function renderQuestions() {
+      const ch = document.getElementById("chapterSelect").value;
+      const qList = (db[currentBook] && db[currentBook][ch]) ? db[currentBook][ch] : [];
+      document.getElementById("sideTitle").innerText = `Practical Questions (${qList.length} Total)`;
 
-      pillsContainer.innerHTML = questions.map((q, idx) => `
-        <button class="q-pill ${idx === activeQuestionIdx ? 'active' : ''}" onclick="selectQuestion(${idx})">Q${q.q_no}</button>
-      `).join('');
+      const pills = document.getElementById("pillsContainer");
+      pills.innerHTML = qList.map((q, i) => `
+        <button class="q-pill ${i === activeIdx ? "active" : ""}" onclick="selectQ(${i})">Q${q.q_no}</button>
+      `).join("");
 
-      renderDetail(questions[activeQuestionIdx]);
+      renderDetail(qList[activeIdx]);
     }
 
-    function selectQuestion(idx) {
-      activeQuestionIdx = idx;
-      renderQuestionsList();
+    function selectQ(i) {
+      activeIdx = i;
+      renderQuestions();
     }
 
     function renderDetail(item) {
-      const container = document.getElementById('detailContainer');
-      if (!item) {
-        container.innerHTML = '<p style="color:#94a3b8; padding:20px;">No question found.</p>';
-        return;
-      }
+      const c = document.getElementById("detailContainer");
+      if (!item) { c.innerHTML = "<p>Select a question.</p>"; return; }
 
-      let journalHtml = "";
+      let jHtml = "";
       if (item.journal_entries && item.journal_entries.length > 0) {
-        journalHtml = `
-          <h4 style="margin-top:16px; font-size:14px; font-weight:800;">Journal Entries:</h4>
-          <table class="journal-table">
-            <tr><th>Date</th><th>Particulars</th><th style="text-align:right;">Dr (₹)</th><th style="text-align:right;">Cr (₹)</th></tr>
-            ${item.journal_entries.map(j => `
-              <tr>
-                <td>${j.date}</td>
-                <td>${j.particulars}</td>
-                <td style="text-align:right; font-weight:700;">${j.dr}</td>
-                <td style="text-align:right; font-weight:700;">${j.cr}</td>
-              </tr>
-            `).join('')}
-          </table>
-        `;
+        jHtml = `<h4 style="margin: 12px 0 6px;">Journal Entries:</h4>
+        <table class="table">
+          <tr><th>Date</th><th>Particulars</th><th style="text-align:right;">Dr (₹)</th><th style="text-align:right;">Cr (₹)</th></tr>
+          ${item.journal_entries.map(j => `<tr><td>${j.date}</td><td>${j.particulars}</td><td style="text-align:right;">${j.dr}</td><td style="text-align:right;">${j.cr}</td></tr>`).join("")}
+        </table>`;
       }
 
-      let ledgerHtml = "";
+      let lHtml = "";
       if (item.ledger) {
-        ledgerHtml = `
-          <h4 style="margin-top:16px; font-size:14px; font-weight:800;">${item.ledger.title}:</h4>
-          <table class="ledger-table">
-            <tr><th colspan="2">Dr.</th><th colspan="2" style="text-align:right;">Cr.</th></tr>
-            <tr><th>Particulars</th><th style="text-align:right;">Amount (₹)</th><th>Particulars</th><th style="text-align:right;">Amount (₹)</th></tr>
-            <tr>
-              <td>${item.ledger.debit.map(d => `${d.particulars}<br>`).join('')}</td>
-              <td style="text-align:right; font-weight:700;">${item.ledger.debit.map(d => `${d.amount}<br>`).join('')}</td>
-              <td>${item.ledger.credit.map(c => `${c.particulars}<br>`).join('')}</td>
-              <td style="text-align:right; font-weight:700;">${item.ledger.credit.map(c => `${c.amount}<br>`).join('')}</td>
-            </tr>
-            <tr style="background:#f8fafc; font-weight:900;">
-              <td><b>Total</b></td><td style="text-align:right;">₹ ${item.ledger.total}</td>
-              <td><b>Total</b></td><td style="text-align:right;">₹ ${item.ledger.total}</td>
-            </tr>
-          </table>
-        `;
+        lHtml = `<h4 style="margin: 12px 0 6px;">${item.ledger.title}:</h4>
+        <table class="table">
+          <tr><th>Dr Particulars</th><th style="text-align:right;">Amount (₹)</th><th>Cr Particulars</th><th style="text-align:right;">Amount (₹)</th></tr>
+          <tr>
+            <td>${item.ledger.debit.map(d => `${d.particulars}<br>`).join("")}</td>
+            <td style="text-align:right;">${item.ledger.debit.map(d => `${d.amount}<br>`).join("")}</td>
+            <td>${item.ledger.credit.map(cr => `${cr.particulars}<br>`).join("")}</td>
+            <td style="text-align:right;">${item.ledger.credit.map(cr => `${cr.amount}<br>`).join("")}</td>
+          </tr>
+          <tr style="font-weight:bold; background:#f1f5f9;">
+            <td>Total</td><td style="text-align:right;">₹ ${item.ledger.total}</td>
+            <td>Total</td><td style="text-align:right;">₹ ${item.ledger.total}</td>
+          </tr>
+        </table>`;
       }
 
-      container.innerHTML = `
+      c.innerHTML = `
         <span class="q-badge">Practical Question ${item.q_no}</span>
         <h2 class="q-title">${item.topic}</h2>
-        <div class="q-desc-box">${item.question}</div>
-        <div class="step-box">
-          ${item.solution_steps.map(s => `<div>${s}</div>`).join('')}
-        </div>
-        ${journalHtml}
-        ${ledgerHtml}
-        ${item.working_notes ? `<div class="wn-box"><div class="wn-title">📝 Working Notes:</div>${item.working_notes}</div>` : ''}
+        <div class="q-box">${item.question}</div>
+        <div>${item.solution_steps.map(s => `<div>${s}</div>`).join("")}</div>
+        ${jHtml}
+        ${lHtml}
+        ${item.working_notes ? `<div class="wn-box"><b>📝 Working Notes:</b><br>${item.working_notes}</div>` : ""}
       `;
     }
 
-    function solveIOD() {
-      const amt = parseFloat(document.getElementById('iodAmount').value) || 0;
-      const rate = parseFloat(document.getElementById('iodRate').value) || 0;
-      const mos = parseFloat(document.getElementById('iodTime').value) || 6.5;
-      const total = amt * 12;
-      const interest = Math.round(total * (rate / 100) * (mos / 12));
-      document.getElementById('iodResult').innerText = `Interest on Drawings = ₹ ${interest.toLocaleString('en-IN')} (Total Drawn ₹ ${total.toLocaleString('en-IN')} × ${rate}% × ${mos}/12)`;
-    }
-
-    // Direct synchronous execution on DOM load
-    document.addEventListener('DOMContentLoaded', () => {
-      switchBook('dk_goel');
-      solveIOD();
-    });
+    document.addEventListener("DOMContentLoaded", () => switchBook("dk_goel"));
   </script>
 </body>
 </html>
