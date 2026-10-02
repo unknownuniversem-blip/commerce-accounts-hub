@@ -1,0 +1,94 @@
+[
+  {
+    "q_no": 1,
+    "topic": "Closing of Books & Transfer of Assets to Realisation",
+    "question": "Pass Journal Entries on dissolution: (a) Sundry Debtors ₹80,000 and Provision for Doubtful Debts ₹6,000 transferred to Realisation. (b) Machinery of book value ₹60,000 sold for ₹52,000 in cash. (c) Unrecorded investment of ₹10,000 taken by partner A at ₹8,500.",
+    "solution_steps": [
+      "1. Gross debtors are transferred to Realisation Dr. and provision to Realisation Cr.",
+      "2. Cash received from sale of machinery credited to Realisation A/c.",
+      "3. Asset taken over by partner debited to Partner Capital A/c at agreed value (₹8,500)."
+    ],
+    "working_notes": "Provision for Doubtful Debts is never netted off against Debtors when transferring to Realisation A/c.",
+    "journal_entries": [
+      {
+        "date": "(a)",
+        "particulars": "Realisation A/c .............................................................. Dr.<br>Provision for Doubtful Debts A/c ................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Sundry Debtors A/c",
+        "lf": "1",
+        "dr": "80,000<br>6,000",
+        "cr": "<br><br>86,000"
+      },
+      {
+        "date": "(b)",
+        "particulars": "Bank A/c .......................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Realisation A/c<br>(Being machinery realized in cash)",
+        "lf": "2",
+        "dr": "52,000",
+        "cr": "<br>52,000"
+      },
+      {
+        "date": "(c)",
+        "particulars": "A's Capital A/c ................................................................ Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Realisation A/c<br>(Being unrecorded investment taken by A)",
+        "lf": "3",
+        "dr": "8,500",
+        "cr": "<br>8,500"
+      }
+    ]
+  },
+  {
+    "q_no": 9,
+    "topic": "Settlement of Creditors, Partner Loan & Expenses (Board Standard)",
+    "question": "Pass necessary Journal Entries on dissolution of P & Q: (i) Unrecorded asset of ₹25,000 realized ₹20,000. (ii) Stock of book value ₹30,000 taken by P at ₹26,000. (iii) Creditors of ₹50,000 accepted machinery of book value ₹60,000 at ₹45,000 in partial satisfaction; balance paid by cheque. (iv) Q loan of ₹40,000 settled for ₹38,000. (v) Dissolution expenses ₹5,000 paid by P, for which he gets fixed remuneration of ₹7,000. (vi) Realisation loss ₹18,000 divided in 2:1.",
+    "solution_steps": [
+      "1. Cash from unrecorded asset debited to Bank and credited to Realisation.",
+      "2. Stock taken over by P debited to P Capital A/c at agreed value ₹26,000.",
+      "3. Creditors accepting asset requires entry only for the balance cash payment (₹50,000 − ₹45,000 = ₹5,000).",
+      "4. Q Loan settled: Q Loan Dr ₹40,000, Bank Cr ₹38,000, Realisation Cr ₹2,000 (discount gain).",
+      "5. Firm bears only agreed remuneration of ₹7,000 to P. P personal expense payment (₹5,000) is ignored.",
+      "6. Realisation loss apportioned in 2:1: P = ₹12,000, Q = ₹6,000."
+    ],
+    "working_notes": "CBSE Rule: No entry is passed when a creditor accepts an asset in partial or full settlement.",
+    "journal_entries": [
+      {
+        "date": "(i)",
+        "particulars": "Bank A/c .......................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Realisation A/c<br>(Being unrecorded asset realized in cash)",
+        "lf": "-",
+        "dr": "20,000",
+        "cr": "<br>20,000"
+      },
+      {
+        "date": "(ii)",
+        "particulars": "P's Capital A/c ................................................................ Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Realisation A/c<br>(Being stock taken over by partner P)",
+        "lf": "-",
+        "dr": "26,000",
+        "cr": "<br>26,000"
+      },
+      {
+        "date": "(iii)",
+        "particulars": "Realisation A/c .............................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Bank A/c<br>(Being balance cash paid to creditors)",
+        "lf": "-",
+        "dr": "5,000",
+        "cr": "<br>5,000"
+      },
+      {
+        "date": "(iv)",
+        "particulars": "Q's Loan A/c .................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Bank A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Realisation A/c<br>(Being loan settled and discount transferred)",
+        "lf": "-",
+        "dr": "40,000",
+        "cr": "<br>38,000<br>2,000"
+      },
+      {
+        "date": "(v)",
+        "particulars": "Realisation A/c .............................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To P's Capital A/c<br>(Being dissolution remuneration allowed to P)",
+        "lf": "-",
+        "dr": "7,000",
+        "cr": "<br>7,000"
+      },
+      {
+        "date": "(vi)",
+        "particulars": "P's Capital A/c ................................................................ Dr.<br>Q's Capital A/c ................................................................ Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Realisation A/c<br>(Being loss on realisation transferred in 2:1)",
+        "lf": "-",
+        "dr": "12,000<br>6,000",
+        "cr": "<br><br>18,000"
+      }
+    ]
+  }
+]
