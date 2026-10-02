@@ -19,11 +19,8 @@
       --surface: #ffffff;
       --brand-navy: #0f172a;
       --brand-slate: #1e293b;
-      --brand-crimson: #e11d48;
       --brand-blue: #2563eb;
-      --brand-emerald: #059669;
       --text-main: #0f172a;
-      --text-muted: #64748b;
       --border-subtle: #e2e8f0;
       --radius-md: 8px;
       --radius-lg: 12px;
@@ -226,13 +223,11 @@
   </header>
 
   <div class="controls-strip">
-    <button class="btn-tab active" id="tabDk" onclick="switchBook('dk_goel')">DK Goel Class 12</button>
-    <button class="btn-tab" id="tabTs" onclick="switchBook('ts_grewal')">TS Grewal Class 12</button>
+    <button class="btn-tab active" id="tabDk" onclick="switchBook('dk_goel')">DK Goel (Class 12)</button>
+    <button class="btn-tab" id="tabTs" onclick="switchBook('ts_grewal')">TS Grewal (Class 12)</button>
+    <button class="btn-tab" id="tabC11" onclick="switchBook('class11')">Class 11 Accounting</button>
     
-    <select id="chapterSelect" class="select-box" onchange="renderQuestionsList()">
-      <option value="ch1_fundamentals">Ch 1: Partnership Fundamentals</option>
-      <option value="ch3_admission">Ch 3: Admission of a Partner</option>
-    </select>
+    <select id="chapterSelect" class="select-box" onchange="renderQuestionsList()"></select>
   </div>
 
   <div class="main-grid">
@@ -278,12 +273,31 @@
     let currentBook = "dk_goel";
     let activeQuestionIdx = 0;
 
+    const chapterMaps = {
+      dk_goel: [
+        { key: "ch1_fundamentals", name: "Ch 1: Partnership Fundamentals" },
+        { key: "ch2_goodwill", name: "Ch 2: Valuation of Goodwill" },
+        { key: "ch3_admission", name: "Ch 3: Admission of a Partner" },
+        { key: "ch4_retirement", name: "Ch 4: Retirement of a Partner" },
+        { key: "ch5_dissolution", name: "Ch 5: Dissolution of Firm" },
+        { key: "ch7_shares", name: "Ch 7: Issue & Forfeiture of Shares" },
+        { key: "ch10_cashflow", name: "Ch 10: Cash Flow Statement" }
+      ],
+      ts_grewal: [
+        { key: "ch2_fundamentals", name: "Vol 1 - Ch 2: Fundamentals of Partnership" },
+        { key: "ch9_ratios", name: "Vol 3 - Ch 4: Accounting Ratios" }
+      ],
+      class11: [
+        { key: "ch_journal", name: "Ch 8: Journal & Compound Entries" }
+      ]
+    };
+
     window.addEventListener('DOMContentLoaded', () => {
       fetch('solutions_data.json')
         .then(res => res.json())
         .then(data => {
           db = data;
-          renderQuestionsList();
+          switchBook('dk_goel');
           solveIOD();
         });
     });
@@ -292,13 +306,12 @@
       currentBook = bookKey;
       document.getElementById('tabDk').classList.toggle('active', bookKey === 'dk_goel');
       document.getElementById('tabTs').classList.toggle('active', bookKey === 'ts_grewal');
+      document.getElementById('tabC11').classList.toggle('active', bookKey === 'class11');
       
       const select = document.getElementById('chapterSelect');
-      if (bookKey === 'ts_grewal') {
-        select.innerHTML = '<option value="ch2_fundamentals">Ch 2: Partnership Fundamentals</option>';
-      } else {
-        select.innerHTML = '<option value="ch1_fundamentals">Ch 1: Partnership Fundamentals</option><option value="ch3_admission">Ch 3: Admission of a Partner</option>';
-      }
+      const chapters = chapterMaps[bookKey] || [];
+      select.innerHTML = chapters.map(c => `<option value="${c.key}">${c.name}</option>`).join('');
+
       activeQuestionIdx = 0;
       renderQuestionsList();
     }
@@ -323,7 +336,7 @@
     function renderDetail(item) {
       const container = document.getElementById('detailContainer');
       if (!item) {
-        container.innerHTML = '<p style="color:#94a3b8;">No question selected.</p>';
+        container.innerHTML = '<p style="color:#94a3b8; padding:20px;">No questions found for this chapter yet.</p>';
         return;
       }
 
