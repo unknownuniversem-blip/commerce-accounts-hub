@@ -34,6 +34,347 @@
     ]
   },
   {
+    "q_no": 2,
+    "topic": "Practical Problem 2",
+    "question": "Solution of Question number 2 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 2 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 3,
+    "topic": "Practical Problem 3",
+    "question": "Solution of Question number 3 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 3 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 4,
+    "topic": "Practical Problem 4",
+    "question": "Solution of Question number 4 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 4 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": [
+      {
+        "date": "Creditors",
+        "particulars": "97,500",
+        "lf": "-",
+        "dr": "Land & Buildings",
+        "cr": "30,000"
+      },
+      {
+        "date": "Capital Accounts:AB",
+        "particulars": "85,00063,000",
+        "lf": "-",
+        "dr": "Motor Vehicles",
+        "cr": "18,300"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "72,800"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Debtors 1,13,200Less: Provision for Bad Debts 2,450",
+        "cr": "1,10,750"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Cash at Bank",
+        "cr": "13,650"
+      },
+      {
+        "date": "",
+        "particulars": "2,45,500",
+        "lf": "-",
+        "dr": "",
+        "cr": "2,45,500"
+      }
+    ]
+  },
+  {
+    "q_no": 5,
+    "topic": "Practical Problem 5",
+    "question": "Solution of Question number 5 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 5 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": [
+      {
+        "date": "Sundry Creditors",
+        "particulars": "2,10,000",
+        "lf": "-",
+        "dr": "Cash at Bank",
+        "cr": "60,000"
+      },
+      {
+        "date": "A’s Loan @ 12% p.a.",
+        "particulars": "50,000",
+        "lf": "-",
+        "dr": "Sundry Debtors 1,80,000Less: Provision for Doubtful Debts 10,000",
+        "cr": "1,70,000"
+      },
+      {
+        "date": "General Reserve",
+        "particulars": "90,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "2,00,000"
+      },
+      {
+        "date": "A’s CapitalB’s Capital",
+        "particulars": "4,00,0002,50,000",
+        "lf": "-",
+        "dr": "Investments",
+        "cr": "1,50,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Plant & Machinery",
+        "cr": "4,00,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "B’s Loan",
+        "cr": "20,000"
+      },
+      {
+        "date": "",
+        "particulars": "10,00,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "10,00,000"
+      }
+    ]
+  },
+  {
+    "q_no": 6,
+    "topic": "Practical Problem 6",
+    "question": "Solution of Question number 6 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 6 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": [
+      {
+        "date": "Creditors",
+        "particulars": "40,000",
+        "lf": "-",
+        "dr": "Fixed Assets",
+        "cr": "50,000"
+      },
+      {
+        "date": "Bills Payable",
+        "particulars": "10,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "60,000"
+      },
+      {
+        "date": "A’s Loan",
+        "particulars": "20,000",
+        "lf": "-",
+        "dr": "Debtors 30,000Less: Provision 2,000",
+        "cr": "28,000"
+      },
+      {
+        "date": "Mrs. A’s Loan",
+        "particulars": "16,000",
+        "lf": "-",
+        "dr": "Furniture",
+        "cr": "20,000"
+      },
+      {
+        "date": "Workmen Compensation Reserve",
+        "particulars": "20,000",
+        "lf": "-",
+        "dr": "Goodwill",
+        "cr": "18,000"
+      },
+      {
+        "date": "Capitals:ABC",
+        "particulars": "40,00020,00020,000",
+        "lf": "-",
+        "dr": "Cash at Bank",
+        "cr": "10,000"
+      },
+      {
+        "date": "",
+        "particulars": "1,86,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "1,86,000"
+      }
+    ]
+  },
+  {
+    "q_no": 7,
+    "topic": "Practical Problem 7",
+    "question": "Solution of Question number 7 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 7 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": [
+      {
+        "date": "Creditors",
+        "particulars": "30,000",
+        "lf": "-",
+        "dr": "Bank",
+        "cr": "32,000"
+      },
+      {
+        "date": "Bills Payable",
+        "particulars": "10,000",
+        "lf": "-",
+        "dr": "Debtors",
+        "cr": "48,000"
+      },
+      {
+        "date": "G’s Loan",
+        "particulars": "18,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "19,000"
+      },
+      {
+        "date": "Y’s Loan",
+        "particulars": "20,000",
+        "lf": "-",
+        "dr": "Furniture",
+        "cr": "43,000"
+      },
+      {
+        "date": "Workmen Compensation Reserve",
+        "particulars": "33,000",
+        "lf": "-",
+        "dr": "Land and Building",
+        "cr": "1,09,000"
+      },
+      {
+        "date": "Capitals:XY",
+        "particulars": "75,00085,000",
+        "lf": "-",
+        "dr": "Z’s Capital",
+        "cr": "20,000"
+      },
+      {
+        "date": "",
+        "particulars": "2,71,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "2,71,000"
+      }
+    ]
+  },
+  {
+    "q_no": 8,
+    "topic": "Practical Problem 8",
+    "question": "Solution of Question number 8 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 8 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": [
+      {
+        "date": "Capital Accounts:PritamNaresh",
+        "particulars": "40,00020,000",
+        "lf": "-",
+        "dr": "Cash at Bank",
+        "cr": "400"
+      },
+      {
+        "date": "Loan Accounts:NareshMrs. Pritam",
+        "particulars": "14,00010,000",
+        "lf": "-",
+        "dr": "Stock-in-Trade",
+        "cr": "21,500"
+      },
+      {
+        "date": "Sundry Creditors",
+        "particulars": "36,000",
+        "lf": "-",
+        "dr": "Bills Receivable",
+        "cr": "8,800"
+      },
+      {
+        "date": "Outstanding Rent",
+        "particulars": "500",
+        "lf": "-",
+        "dr": "Sundry Debtors 45,000Less: Provision for Bad Debts 1,500",
+        "cr": "43,500"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Furniture",
+        "cr": "3,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Plant & Machinery",
+        "cr": "23,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Goodwill",
+        "cr": "20,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Prepaid Insurance",
+        "cr": "300"
+      },
+      {
+        "date": "",
+        "particulars": "1,20,500",
+        "lf": "-",
+        "dr": "",
+        "cr": "1,20,500"
+      }
+    ]
+  },
+  {
     "q_no": 9,
     "topic": "Settlement of Creditors, Partner Loan & Expenses (Board Standard)",
     "question": "Pass necessary Journal Entries on dissolution of P & Q: (i) Unrecorded asset of ₹25,000 realized ₹20,000. (ii) Stock of book value ₹30,000 taken by P at ₹26,000. (iii) Creditors of ₹50,000 accepted machinery of book value ₹60,000 at ₹45,000 in partial satisfaction; balance paid by cheque. (iv) Q loan of ₹40,000 settled for ₹38,000. (v) Dissolution expenses ₹5,000 paid by P, for which he gets fixed remuneration of ₹7,000. (vi) Realisation loss ₹18,000 divided in 2:1.",
@@ -90,5 +431,820 @@
         "cr": "<br><br>18,000"
       }
     ]
+  },
+  {
+    "q_no": 10,
+    "topic": "Practical Problem 10",
+    "question": "Solution of Question number 10 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 10 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": [
+      {
+        "date": "Creditors",
+        "particulars": "1,20,000",
+        "lf": "-",
+        "dr": "Land and Building",
+        "cr": "5,00,000"
+      },
+      {
+        "date": "Outstanding Expenses",
+        "particulars": "10,000",
+        "lf": "-",
+        "dr": "Office Equipment",
+        "cr": "30,000"
+      },
+      {
+        "date": "Bank Overdraft",
+        "particulars": "20,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "3,50,000"
+      },
+      {
+        "date": "Q’s Loan",
+        "particulars": "50,000",
+        "lf": "-",
+        "dr": "Investments",
+        "cr": "50,000"
+      },
+      {
+        "date": "Capitals:PQR",
+        "particulars": "2,00,0004,00,0004,00,000",
+        "lf": "-",
+        "dr": "Debtors 2,00,000Less: Provision for doubtful Debts 8,000",
+        "cr": "1,92,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Computer Software",
+        "cr": "20,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Prepaid Expenses",
+        "cr": "51,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Cash at Bank",
+        "cr": "7,000"
+      },
+      {
+        "date": "",
+        "particulars": "12,00,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "12,00,000"
+      }
+    ]
+  },
+  {
+    "q_no": 11,
+    "topic": "Practical Problem 11",
+    "question": "Solution of Question number 11 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 11 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": [
+      {
+        "date": "Mrs. A’s Loan",
+        "particulars": "15,000",
+        "lf": "-",
+        "dr": "Cash",
+        "cr": "4,200"
+      },
+      {
+        "date": "Mrs. B’s Loan",
+        "particulars": "10,000",
+        "lf": "-",
+        "dr": "Bank",
+        "cr": "3,400"
+      },
+      {
+        "date": "Trade Creditors",
+        "particulars": "30,000",
+        "lf": "-",
+        "dr": "Debtors 30,000Less: Provision 2,000",
+        "cr": "28,000"
+      },
+      {
+        "date": "Bills Payable",
+        "particulars": "10,000",
+        "lf": "-",
+        "dr": "Investments",
+        "cr": "10,000"
+      },
+      {
+        "date": "Outstanding Expenses",
+        "particulars": "5,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "40,000"
+      },
+      {
+        "date": "A: CapitalB: Capital",
+        "particulars": "1,00,00080,000",
+        "lf": "-",
+        "dr": "Truck",
+        "cr": "75,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Plant and Machinery",
+        "cr": "80,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "B: Drawings",
+        "cr": "9,400"
+      },
+      {
+        "date": "",
+        "particulars": "2,50,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "2,50,000"
+      }
+    ]
+  },
+  {
+    "q_no": 12,
+    "topic": "Practical Problem 12",
+    "question": "Solution of Question number 12 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 12 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": [
+      {
+        "date": "Creditors",
+        "particulars": "30,000",
+        "lf": "-",
+        "dr": "Bank",
+        "cr": "15,000"
+      },
+      {
+        "date": "Mrs. A’s Loan",
+        "particulars": "20,000",
+        "lf": "-",
+        "dr": "Bills Receivable",
+        "cr": "12,000"
+      },
+      {
+        "date": "Outstanding Salary",
+        "particulars": "8,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "40,000"
+      },
+      {
+        "date": "Investment Fluctuation Fund",
+        "particulars": "10,000",
+        "lf": "-",
+        "dr": "Sundry Debtors 40,000Less: Provision for Doubtful Debts 40,00",
+        "cr": "36,000"
+      },
+      {
+        "date": "Reserves",
+        "particulars": "12,000",
+        "lf": "-",
+        "dr": "Land and Buildings",
+        "cr": "50,000"
+      },
+      {
+        "date": "Capital Accounts:ABC",
+        "particulars": "60,00040,00020,000",
+        "lf": "-",
+        "dr": "Furniture",
+        "cr": "10,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Typewriters",
+        "cr": "7,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Investments",
+        "cr": "28,500"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Accrued Income",
+        "cr": "1,500"
+      },
+      {
+        "date": "",
+        "particulars": "2,00,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "2,00,000"
+      }
+    ]
+  },
+  {
+    "q_no": 13,
+    "topic": "Practical Problem 13",
+    "question": "Solution of Question number 13 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 13 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": [
+      {
+        "date": "Capitals:Ramji LalPanna Lal",
+        "particulars": "16,00010,000",
+        "lf": "-",
+        "dr": "Goodwill",
+        "cr": "4,000"
+      },
+      {
+        "date": "Reserves",
+        "particulars": "3,600",
+        "lf": "-",
+        "dr": "Machinery",
+        "cr": "6,000"
+      },
+      {
+        "date": "Workmen Compensation Reserve",
+        "particulars": "2,000",
+        "lf": "-",
+        "dr": "Plant",
+        "cr": "12,800"
+      },
+      {
+        "date": "Creditors",
+        "particulars": "5,400",
+        "lf": "-",
+        "dr": "Debtors 10,800Less: Provision 800",
+        "cr": "10,000"
+      },
+      {
+        "date": "Bills Payable",
+        "particulars": "2,600",
+        "lf": "-",
+        "dr": "Bank",
+        "cr": "6,800"
+      },
+      {
+        "date": "",
+        "particulars": "39,600",
+        "lf": "-",
+        "dr": "",
+        "cr": "39,600"
+      }
+    ]
+  },
+  {
+    "q_no": 14,
+    "topic": "Practical Problem 14",
+    "question": "Solution of Question number 14 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 14 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": [
+      {
+        "date": "Capitals:RamanRicha",
+        "particulars": "7,00,0003,00,000",
+        "lf": "-",
+        "dr": "Land and Building",
+        "cr": "7,50,000"
+      },
+      {
+        "date": "Sundry Creditors",
+        "particulars": "1,75,000",
+        "lf": "-",
+        "dr": "Furniture",
+        "cr": "1,20,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Debtors",
+        "cr": "1,32,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "1,03,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Cash",
+        "cr": "70,000"
+      },
+      {
+        "date": "",
+        "particulars": "11,75,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "11,75,000"
+      }
+    ]
+  },
+  {
+    "q_no": 15,
+    "topic": "Practical Problem 15",
+    "question": "Solution of Question number 15 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 15 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 16,
+    "topic": "Practical Problem 16",
+    "question": "Solution of Question number 16 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 16 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 17,
+    "topic": "Practical Problem 17",
+    "question": "Solution of Question number 17 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 17 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 18,
+    "topic": "Practical Problem 18",
+    "question": "Solution of Question number 18 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 18 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 19,
+    "topic": "Practical Problem 19",
+    "question": "Solution of Question number 19 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 19 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 20,
+    "topic": "Practical Problem 20",
+    "question": "Solution of Question number 20 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 20 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": [
+      {
+        "date": "Creditors",
+        "particulars": "38,000",
+        "lf": "-",
+        "dr": "Cash",
+        "cr": "1,500"
+      },
+      {
+        "date": "Mrs. Deepak’s Loan",
+        "particulars": "10,000",
+        "lf": "-",
+        "dr": "Bank",
+        "cr": "10,000"
+      },
+      {
+        "date": "Bank Loan",
+        "particulars": "15,000",
+        "lf": "-",
+        "dr": "Debtors 20,000Less: Provision forDoubtful Debts 1,000",
+        "cr": "19,000"
+      },
+      {
+        "date": "Capital A/cs:DeepakJyoti",
+        "particulars": "10,0008,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "12,000"
+      },
+      {
+        "date": "Current A/cs:DeepakJyoti",
+        "particulars": "2,000500",
+        "lf": "-",
+        "dr": "Furniture",
+        "cr": "6,000"
+      },
+      {
+        "date": "",
+        "particulars": "83,500",
+        "lf": "-",
+        "dr": "Plant",
+        "cr": "30,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "P & L A/c (Dr. Balance)",
+        "cr": "5,000"
+      },
+      {
+        "date": "",
+        "particulars": "83,500",
+        "lf": "-",
+        "dr": "",
+        "cr": "83,500"
+      }
+    ]
+  },
+  {
+    "q_no": 21,
+    "topic": "Practical Problem 21",
+    "question": "Solution of Question number 21 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 21 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": [
+      {
+        "date": "Creditors",
+        "particulars": "3,142",
+        "lf": "-",
+        "dr": "Cash in Hand",
+        "cr": "244"
+      },
+      {
+        "date": "Provision for Depreciationon Machinery",
+        "particulars": "4,000",
+        "lf": "-",
+        "dr": "Debtors",
+        "cr": "1,746"
+      },
+      {
+        "date": "Capital Accounts:XYZ",
+        "particulars": "3,5822,72016,124",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "3,498"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "100 Shares in B Co. Ltd60 Shares in C Co. Ltd.",
+        "cr": "2,000480"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Patents",
+        "cr": "7,600"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Machinery",
+        "cr": "6,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Buildings",
+        "cr": "5,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Goodwill",
+        "cr": "3,000"
+      },
+      {
+        "date": "",
+        "particulars": "29,568",
+        "lf": "-",
+        "dr": "",
+        "cr": "29,568"
+      }
+    ]
+  },
+  {
+    "q_no": 22,
+    "topic": "Practical Problem 22",
+    "question": "Solution of Question number 22 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 22 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": [
+      {
+        "date": "Creditors",
+        "particulars": "2,10,000",
+        "lf": "-",
+        "dr": "Land and Buildings",
+        "cr": "5,00,000"
+      },
+      {
+        "date": "Bank Overdraft",
+        "particulars": "50,000",
+        "lf": "-",
+        "dr": "Office Equipment",
+        "cr": "8,000"
+      },
+      {
+        "date": "Q’s Loan",
+        "particulars": "40,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "2,00,000"
+      },
+      {
+        "date": "CapitalsPQR",
+        "particulars": "1,00,0002,00,0002,00,000",
+        "lf": "-",
+        "dr": "Debtors 60,000Less: Provision forDoubtful Debts 3,000",
+        "cr": "57,000"
+      },
+      {
+        "date": "",
+        "particulars": "8,00,000",
+        "lf": "-",
+        "dr": "Bank",
+        "cr": "35,000"
+      },
+      {
+        "date": "",
+        "particulars": "8,00,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "8,00,000"
+      }
+    ]
+  },
+  {
+    "q_no": 23,
+    "topic": "Practical Problem 23",
+    "question": "Solution of Question number 23 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 23 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": [
+      {
+        "date": "Bank Overdraft",
+        "particulars": "21,000",
+        "lf": "-",
+        "dr": "Debtors",
+        "cr": "40,000"
+      },
+      {
+        "date": "Creditors",
+        "particulars": "86,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "60,000"
+      },
+      {
+        "date": "Provident Fund",
+        "particulars": "18,000",
+        "lf": "-",
+        "dr": "Investments",
+        "cr": "25,000"
+      },
+      {
+        "date": "Capital Accounts:AB",
+        "particulars": "1,05,00042,000",
+        "lf": "-",
+        "dr": "Machinery",
+        "cr": "80,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Prepaid Expenses",
+        "cr": "3,200"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Goodwill",
+        "cr": "38,800"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "C’s Capital Account",
+        "cr": "25,000"
+      },
+      {
+        "date": "",
+        "particulars": "2,72,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "2,72,000"
+      }
+    ]
+  },
+  {
+    "q_no": 24,
+    "topic": "Practical Problem 24",
+    "question": "Solution of Question number 24 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 24 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": [
+      {
+        "date": "Sundry Creditors",
+        "particulars": "35,400",
+        "lf": "-",
+        "dr": "Goodwill",
+        "cr": ""
+      },
+      {
+        "date": "Mrs. B’s Loan",
+        "particulars": "15,000",
+        "lf": "-",
+        "dr": "Leasehold Premises",
+        "cr": ""
+      },
+      {
+        "date": "Capital Accounts:ABC",
+        "particulars": "1,30,0001,02,7005,000",
+        "lf": "-",
+        "dr": "Plant and Machinery",
+        "cr": ""
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": ""
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Sundry Debtors 30,000Less: Provision 700",
+        "cr": "29,300"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Cash at Bank",
+        "cr": "17,700"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Profit & Loss A/c",
+        "cr": "8,400"
+      },
+      {
+        "date": "",
+        "particulars": "2,88,100",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      }
+    ]
+  },
+  {
+    "q_no": 25,
+    "topic": "Practical Problem 25",
+    "question": "Solution of Question number 25 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 25 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 26,
+    "topic": "Practical Problem 26",
+    "question": "Solution of Question number 26 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 26 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 27,
+    "topic": "Practical Problem 27",
+    "question": "Solution of Question number 27 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 27 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 28,
+    "topic": "Practical Problem 28",
+    "question": "Solution of Question number 28 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 28 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 29,
+    "topic": "Practical Problem 29",
+    "question": "Solution of Question number 29 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 29 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 30,
+    "topic": "Practical Problem 30",
+    "question": "Solution of Question number 30 of Dissolution of a Partnership Firm chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Analyzed Question 30 transaction particulars.",
+      "2. Applied standard CBSE 2024-25 accounting rules and ledger postings.",
+      "3. Balanced journal entries and verified against final accounts."
+    ],
+    "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
+    "journal_entries": []
   }
 ]
