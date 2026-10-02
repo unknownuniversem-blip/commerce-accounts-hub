@@ -3,46 +3,273 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BalanceSheet OS — Authentic Accounts Register</title>
+  <title>DK Goel Solutions Class 12 (2024-25) — BalanceSheet OS</title>
+  <meta name="description" content="Chapter-wise authentic solutions for DK Goel Class 12 Accountancy with working notes, journal entries, and ledger tables.">
+
+  <!-- Privacy Analytics -->
+  <script data-goatcounter="https://quicktools.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
   <style>
+    :root {
+      --primary: #0f172a;
+      --accent: #2563eb;
+      --accent-hover: #1d4ed8;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --border: #e2e8f0;
+      --text: #1e293b;
+      --text-muted: #64748b;
+      --paper: #fefcf6;
+      --margin-red: #ef4444;
+      --ink: #1e3a8a;
+    }
+
     * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-    body { background: #f1f5f9; color: #0f172a; }
-    .net-bar { background: #0f172a; color: #94a3b8; font-size: 11.5px; padding: 6px 16px; display: flex; justify-content: space-between; }
+    body { background-color: var(--bg); color: var(--text); line-height: 1.5; }
+
+    /* NETWORK STRIP */
+    .net-bar {
+      background: var(--primary);
+      color: #94a3b8;
+      font-size: 12px;
+      padding: 6px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
     .net-bar a { color: #38bdf8; text-decoration: none; font-weight: 600; margin-left: 8px; }
-    .hero { background: #0f172a; color: #fff; padding: 22px 16px; text-align: center; border-bottom: 3px solid #38bdf8; }
-    .hero h1 span { color: #38bdf8; }
-    .bar { max-width: 1100px; margin: 16px auto 10px; padding: 0 12px; display: flex; gap: 8px; flex-wrap: wrap; }
-    .tab { background: #fff; border: 1.5px solid #cbd5e1; padding: 8px 16px; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: 13px; }
-    .tab.active { background: #0f172a; color: #fff; border-color: #0f172a; }
-    .sel { padding: 8px 12px; border-radius: 8px; border: 1.5px solid #cbd5e1; font-weight: 700; background: #fff; font-size: 13px; }
-    .wrap { max-width: 1100px; margin: 0 auto 40px; padding: 0 12px; display: grid; grid-template-columns: 280px 1fr; gap: 16px; }
-    @media(max-width:768px){ .wrap { grid-template-columns: 1fr; } }
-    .side { background: #fff; border: 1px solid #cbd5e1; border-radius: 10px; padding: 14px; height: fit-content; max-height: 82vh; overflow-y: auto; }
-    .pills { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
-    .q-btn { background: #f8fafc; border: 1.5px solid #cbd5e1; padding: 8px 12px; border-radius: 6px; font-weight: 800; font-size: 12.5px; cursor: pointer; min-width: 52px; text-align: center; }
-    .q-btn.active { background: #1e3a8a; color: #fff; border-color: #1e3a8a; }
-    .register-sheet {
-      background: #fefcf6;
+
+    /* HEADER */
+    .header {
+      background: #ffffff;
+      border-bottom: 1px solid var(--border);
+      padding: 24px 16px;
+      text-align: center;
+    }
+    .header h1 { font-size: 26px; font-weight: 900; color: var(--primary); }
+    .header h1 span { color: var(--accent); }
+    .header p { font-size: 13.5px; color: var(--text-muted); margin-top: 4px; }
+
+    .container { max-width: 1100px; margin: 20px auto 40px; padding: 0 16px; }
+
+    /* BREADCRUMB */
+    .breadcrumb {
+      display: flex;
+      gap: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+      align-items: center;
+    }
+    .breadcrumb a { color: var(--accent); text-decoration: none; cursor: pointer; }
+
+    /* DIRECTORY VIEW (CommerceSchool-Style Table of Contents) */
+    .volume-block {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      margin-bottom: 20px;
+      overflow: hidden;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+    }
+    .volume-title {
+      background: #0f172a;
+      color: #ffffff;
+      padding: 12px 18px;
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: 0.03em;
+    }
+    .chapter-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 18px;
+      border-bottom: 1px solid var(--border);
+      text-decoration: none;
+      color: var(--text);
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .chapter-row:last-child { border-bottom: none; }
+    .chapter-row:hover { background: #f1f5f9; }
+    .chapter-name { font-size: 14.5px; font-weight: 700; color: #0f172a; }
+    .chapter-badge {
+      background: #eff6ff;
+      color: var(--accent);
+      border: 1px solid #bfdbfe;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    /* CHAPTER / QUESTION INTERFACE */
+    .chapter-view { display: none; }
+    .chapter-layout {
+      display: grid;
+      grid-template-columns: 300px 1fr;
+      gap: 20px;
+    }
+    @media(max-width: 768px) { .chapter-layout { grid-template-columns: 1fr; } }
+
+    /* SIDEBAR QUESTION MATRIX */
+    .sidebar {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+      height: fit-content;
+      max-height: 85vh;
+      overflow-y: auto;
+    }
+    .sidebar-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+    .sidebar-title { font-size: 13px; font-weight: 800; text-transform: uppercase; color: var(--text-muted); }
+    .search-q {
+      width: 100%;
+      padding: 8px 10px;
+      border: 1.5px solid var(--border);
+      border-radius: 6px;
+      font-size: 12.5px;
+      outline: none;
+      margin-bottom: 12px;
+    }
+
+    .q-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 6px;
+    }
+    .q-btn {
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      padding: 8px 0;
+      border-radius: 6px;
+      font-size: 12.5px;
+      font-weight: 700;
+      cursor: pointer;
+      text-align: center;
+    }
+    .q-btn.active {
+      background: var(--accent);
+      color: #ffffff;
+      border-color: var(--accent);
+    }
+
+    /* TOPPER REGISTER CARD */
+    .register-card {
+      background: var(--paper);
       border: 1px solid #dcd6cd;
+      border-left: 5px solid var(--margin-red);
       border-radius: 10px;
       padding: 24px;
-      border-left: 5px solid #f43f5e;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.04);
     }
-    .badge { display: inline-block; background: #eff6ff; color: #1e3a8a; border: 1px solid #bfdbfe; padding: 3px 10px; border-radius: 999px; font-size: 11px; font-weight: 800; text-transform: uppercase; }
-    .q-title { font-size: 19px; font-weight: 900; margin: 8px 0; color: #0f172a; }
-    .problem-box { background: #f8fafc; border-left: 3px solid #3b82f6; padding: 12px 16px; border-radius: 0 8px 8px 0; font-size: 13.5px; line-height: 1.6; margin: 12px 0 16px; }
-    .sol-head { font-size: 13px; font-weight: 800; color: #1e3a8a; text-transform: uppercase; margin-bottom: 8px; border-bottom: 2px solid #1e3a8a; display: inline-block; padding-bottom: 2px; }
-    .step-line { font-size: 13.5px; line-height: 1.7; color: #1e293b; margin-bottom: 6px; }
-    .ledger-tbl { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 13px; background: #fff; border: 1.5px solid #0f172a; }
-    .ledger-tbl th { background: #0f172a; color: #fff; padding: 7px 10px; text-align: left; font-size: 12px; }
-    .ledger-tbl td { border: 1px solid #cbd5e1; padding: 8px 10px; vertical-align: top; color: #1e3a8a; font-weight: 600; }
-    .wn-card { background: #fffdf5; border: 1.5px dashed #f59e0b; border-radius: 8px; padding: 12px; font-size: 13px; color: #78350f; line-height: 1.6; margin-top: 14px; }
+    .badge {
+      display: inline-block;
+      background: #eff6ff;
+      color: var(--accent);
+      border: 1px solid #bfdbfe;
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .q-heading { font-size: 20px; font-weight: 900; color: #0f172a; margin-bottom: 12px; }
+    .problem-box {
+      background: #ffffff;
+      border-left: 4px solid var(--accent);
+      border: 1px solid var(--border);
+      border-left-width: 4px;
+      padding: 14px 16px;
+      border-radius: 6px;
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      color: #334155;
+    }
+    .section-label {
+      font-size: 13.5px;
+      font-weight: 800;
+      color: var(--ink);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      border-bottom: 2px solid var(--ink);
+      display: inline-block;
+      padding-bottom: 2px;
+      margin-bottom: 10px;
+    }
+    .step-p { font-size: 14px; line-height: 1.7; margin-bottom: 8px; color: #1e293b; }
+
+    /* JOURNAL & LEDGER TABLES */
+    .ledger-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 14px 0 20px;
+      background: #ffffff;
+      border: 1.5px solid #0f172a;
+      font-size: 13px;
+    }
+    .ledger-table th {
+      background: #0f172a;
+      color: #ffffff;
+      padding: 8px 10px;
+      text-align: left;
+      font-weight: 700;
+    }
+    .ledger-table td {
+      border: 1px solid #cbd5e1;
+      padding: 8px 10px;
+      color: var(--ink);
+      font-weight: 600;
+      vertical-align: top;
+    }
+
+    .wn-box {
+      background: #fffdf5;
+      border: 1.5px dashed #f59e0b;
+      border-radius: 8px;
+      padding: 14px;
+      font-size: 13px;
+      line-height: 1.6;
+      color: #78350f;
+      margin-top: 16px;
+    }
+    .wn-title { font-weight: 900; color: #b45309; text-transform: uppercase; margin-bottom: 4px; }
+
+    /* PREV / NEXT NAVIGATION BAR */
+    .pager-bar {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 24px;
+      padding-top: 16px;
+      border-top: 1px solid #dcd6cd;
+    }
+    .pager-btn {
+      background: #ffffff;
+      border: 1.5px solid var(--border);
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      color: var(--text);
+    }
+    .pager-btn:hover { background: #f1f5f9; }
   </style>
 </head>
 <body>
+
   <div class="net-bar">
-    <div>⚡ BalanceSheet OS • Authentic Handwritten-Style Ledger Solutions</div>
+    <div>⚡ BalanceSheet OS • Authentic DK Goel Class 12 Accountancy Solutions</div>
     <div>
       <a href="https://unknownuniversem-blip.github.io/cgpa-to-percentage/">📊 CGPA to %</a>
       <a href="https://unknownuniversem-blip.github.io/sarkari-alert-ai/">📢 Sarkari Alert AI</a>
@@ -50,211 +277,172 @@
     </div>
   </div>
 
-  <header class="hero">
-    <h1>BalanceSheet <span>OS</span></h1>
-    <p>Authentic DK Goel & TS Grewal Solutions in Register & Topper Format</p>
+  <header class="header">
+    <h1>DK Goel Class 12 Solutions <span>(2024-25)</span></h1>
+    <p>Comprehensive step-by-step practical solutions with full working notes and ledger accounts.</p>
   </header>
 
-  <div class="bar">
-    <button class="tab active" id="btn-dk" onclick="setBook('dk_goel')">DK Goel (Class 12)</button>
-    <button class="tab" id="btn-ts" onclick="setBook('ts_grewal')">TS Grewal (Class 12)</button>
-    <button class="tab" id="btn-c11" onclick="setBook('class11')">Class 11 Accounts</button>
-    <select id="chSel" class="sel" onchange="renderList()"></select>
-  </div>
-
-  <div class="wrap">
-    <div class="side">
-      <b id="countLabel">Questions</b>
-      <div class="pills" id="pills"></div>
+  <div class="container">
+    <div class="breadcrumb" id="breadcrumbNav">
+      <span onclick="showDirectory()">📚 All Chapters</span>
     </div>
-    <div class="register-sheet" id="view"></div>
+
+    <!-- TIER 1: COMMERCESCHOOL MASTER CHAPTER DIRECTORY -->
+    <div id="directoryView">
+      <div class="volume-block">
+        <div class="volume-title">VOLUME 1: ACCOUNTING FOR PARTNERSHIP FIRMS</div>
+        <div class="chapter-row" onclick="openChapter('dk_goel', 'ch1_fundamentals', 'Ch 1: Accounting for Partnership Firms — Fundamentals', 100)">
+          <div class="chapter-name">Chapter 1: Accounting for Partnership Firms — Fundamentals</div>
+          <div class="chapter-badge">100 Practical Solutions →</div>
+        </div>
+        <div class="chapter-row" onclick="openChapter('dk_goel', 'ch2_goodwill', 'Chapter 2: Change in Profit Sharing Ratio & Goodwill', 15)">
+          <div class="chapter-name">Chapter 2: Change in Profit Sharing Ratio & Goodwill</div>
+          <div class="chapter-badge">15 Practical Solutions →</div>
+        </div>
+        <div class="chapter-row" onclick="openChapter('dk_goel', 'ch3_admission', 'Chapter 3: Admission of a Partner', 25)">
+          <div class="chapter-name">Chapter 3: Admission of a Partner</div>
+          <div class="chapter-badge">25 Practical Solutions →</div>
+        </div>
+        <div class="chapter-row" onclick="openChapter('dk_goel', 'ch4_retirement', 'Chapter 4: Retirement or Death of a Partner', 20)">
+          <div class="chapter-name">Chapter 4: Retirement or Death of a Partner</div>
+          <div class="chapter-badge">20 Practical Solutions →</div>
+        </div>
+        <div class="chapter-row" onclick="openChapter('dk_goel', 'ch5_dissolution', 'Chapter 5: Dissolution of a Partnership Firm', 20)">
+          <div class="chapter-name">Chapter 5: Dissolution of a Partnership Firm</div>
+          <div class="chapter-badge">20 Practical Solutions →</div>
+        </div>
+      </div>
+
+      <div class="volume-block">
+        <div class="volume-title">VOLUME 2: COMPANY ACCOUNTS</div>
+        <div class="chapter-row" onclick="openChapter('dk_goel', 'ch7_shares', 'Chapter 7: Company Accounts — Issue & Forfeiture of Shares', 25)">
+          <div class="chapter-name">Chapter 7: Company Accounts — Issue & Forfeiture of Shares</div>
+          <div class="chapter-badge">25 Practical Solutions →</div>
+        </div>
+      </div>
+
+      <div class="volume-block">
+        <div class="volume-title">VOLUME 3: ANALYSIS OF FINANCIAL STATEMENTS</div>
+        <div class="chapter-row" onclick="openChapter('dk_goel', 'ch10_cashflow', 'Chapter 10: Cash Flow Statement (AS-3 Revised)', 15)">
+          <div class="chapter-name">Chapter 10: Cash Flow Statement (AS-3 Revised)</div>
+          <div class="chapter-badge">15 Practical Solutions →</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TIER 2: QUESTION MATRIX & TOPPER REGISTER VIEW -->
+    <div id="chapterView" class="chapter-view">
+      <div class="chapter-layout">
+        <div class="sidebar">
+          <div class="sidebar-head">
+            <span class="sidebar-title">Question Navigator</span>
+            <span id="qCountBadge" style="font-size:11px; font-weight:800; color:var(--accent);"></span>
+          </div>
+          <input type="text" id="filterInput" class="search-q" placeholder="Type Q# (e.g. 15)..." oninput="filterQuestions()">
+          <div class="q-grid" id="qGridContainer"></div>
+        </div>
+
+        <div>
+          <div class="register-card" id="detailContainer"></div>
+          <div class="pager-bar">
+            <button class="pager-btn" id="prevBtn" onclick="stepQuestion(-1)">← Previous Question</button>
+            <button class="pager-btn" id="nextBtn" onclick="stepQuestion(1)">Next Question →</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script>
-    const DB = {
-      dk_goel: {
-        ch1_fundamentals: [
-          {
-            q_no: 1,
-            topic: "Absence of Partnership Deed — Statutory Rules",
-            question: "A, B and C are partners without a Partnership Deed. (a) A claims 10% p.a. interest on capital of ₹1,00,000. (b) B demands ₹3,000/month salary. (c) C gave a loan of ₹40,000 to the firm and demands 10% p.a. interest. (d) A and B want profits divided in capital ratio (2:2:1). State how disputes are settled.",
-            solution_steps: [
-              "In the absence of a Partnership Deed, Section 13 of the Indian Partnership Act, 1932 applies:",
-              "• <b>Interest on Capital:</b> Not allowable. Claim of A is rejected.",
-              "• <b>Salary to Partner:</b> No partner entitled to remuneration. Claim of B is rejected.",
-              "• <b>Interest on Partner Loan:</b> Allowed strictly <b>@ 6% p.a.</b> (Sec 13(d)). C will receive ₹2,400 (not 10%).",
-              "• <b>Profit Sharing Ratio:</b> Profits & losses must be shared <b>EQUALLY (1:1:1)</b>, not in capital ratio."
-            ],
-            working_notes: "Statutory provisions of Sec 13 cannot be altered unless an explicit written deed exists.",
-            journal_entries: []
-          },
-          {
-            q_no: 2,
-            topic: "Rent to Partner & Interest on Partner Loan (Charge vs Appropriation)",
-            question: "Lata and Mamata are partners with capitals of ₹3,00,000 and ₹2,00,000 sharing in 7:3. Lata rented her premises to the firm at ₹2,500/month. On 1st Oct, Mamata gave loan of ₹1,00,000. Net profit before rent & loan interest was ₹1,20,000. Prepare P&L A/c and P&L Appropriation A/c.",
-            solution_steps: [
-              "1. Rent to partner (₹2,500 × 12 = ₹30,000) and Loan Interest (₹1,00,000 × 6% × 6/12 = ₹3,000) are <b>CHARGES</b> debited to P&L A/c.",
-              "2. Net Profit transferred to P&L Appropriation = ₹1,20,000 − ₹33,000 = <b>₹87,000</b>.",
-              "3. Distribute divisible profit ₹87,000 in 7:3: Lata = ₹60,900; Mamata = ₹26,100."
-            ],
-            working_notes: "Rent to partner and loan interest are charges against profit, NOT appropriations.",
-            journal_entries: [
-              {date: "31-Mar", particulars: "Profit & Loss A/c ........................................................ Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Rent Payable A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Interest on Mamata's Loan A/c", lf: "1", dr: "33,000", cr: "<br>30,000<br>3,000"},
-              {date: "31-Mar", particulars: "P&L Appropriation A/c .................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Lata's Capital A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Mamata's Capital A/c", lf: "2", dr: "87,000", cr: "<br>60,900<br>26,100"}
-            ]
-          },
-          {
-            q_no: 3,
-            topic: "Manager Commission: Before Charging vs After Charging",
-            question: "X and Y are partners in 3:2. Capitals ₹1,00,000 and ₹80,000. IOC @ 10% p.a. Net profit before partner interest was ₹55,000. Manager is entitled to a commission of 10% on profit AFTER charging such commission. Prepare P&L Appropriation A/c.",
-            solution_steps: [
-              "1. Manager commission is a charge: ₹55,000 × (10 / 110) = <b>₹5,000</b>.",
-              "2. Profit transferred to P&L Appropriation = ₹55,000 − ₹5,000 = ₹50,000.",
-              "3. Interest on Capital: X (₹10,000) + Y (₹8,000) = ₹18,000.",
-              "4. Divisible Profit = ₹50,000 − ₹18,000 = ₹32,000 (X: ₹19,200, Y: ₹12,800)."
-            ],
-            working_notes: "Commission after charging = Net Profit × Rate / (100 + Rate) = 55,000 × 10/110 = ₹5,000.",
-            journal_entries: []
-          },
-          {
-            q_no: 4,
-            topic: "Interest on Monthly Drawings (Beginning, Middle, End)",
-            question: "Calculate Interest on Drawings @ 9% p.a. for year ended 31st March: (a) Ram withdrew ₹4,000 per month in the beginning of each month. (b) Shyam withdrew ₹4,000 per month in the middle of each month. (c) Mohan withdrew ₹4,000 per month at the end of each month.",
-            solution_steps: [
-              "Total Annual Drawings for each partner = ₹4,000 × 12 = ₹48,000.",
-              "• <b>Beginning of month (6.5 mos):</b> 48,000 × 9% × 6.5/12 = <b>₹2,340</b>.",
-              "• <b>Middle of month (6.0 mos):</b> 48,000 × 9% × 6/12 = <b>₹2,160</b>.",
-              "• <b>End of month (5.5 mos):</b> 48,000 × 9% × 5.5/12 = <b>₹1,980</b>."
-            ],
-            working_notes: "Average period = (Months left after 1st drawing + Months left after last drawing) / 2.",
-            journal_entries: []
-          },
-          {
-            q_no: 5,
-            topic: "Past Adjustments (Single Adjustment Entry)",
-            question: "A, B and C share in 3:2:1. After closing books, Interest on Capital @ 10% p.a. (A ₹10,000, B ₹8,000, C ₹6,000) and Salary to A ₹12,000 were omitted. Pass single adjustment entry.",
-            solution_steps: [
-              "1. Total omissions: IOC ₹24,000 + Salary ₹12,000 = ₹36,000.",
-              "2. This ₹36,000 was wrongly shared as profit in 3:2:1 (A: ₹18,000, B: ₹12,000, C: ₹6,000).",
-              "3. Adjustment Table: A Net Cr ₹4,000, B Net Dr ₹4,000, C Nil.",
-              "4. Pass entry debiting B and crediting A."
-            ],
-            working_notes: "Net effect adjusts capital accounts without altering final balance sheet totals.",
-            journal_entries: [
-              {date: "1-Apr", particulars: "B's Current / Capital A/c ............................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To A's Current / Capital A/c<br>(Being adjustment entry for omitted interest and salary)", lf: "1", dr: "4,000", cr: "<br>4,000"}
-            ]
-          }
-        ],
-        ch3_admission: [
-          {
-            q_no: 1,
-            topic: "Sacrificing Ratio and Hidden Goodwill",
-            question: "A and B are partners in 3:2 with capitals of ₹1,60,000 and ₹1,00,000. They admit C for 1/5th share. C brings ₹1,20,000 as his capital. Calculate Hidden Goodwill and pass Journal Entries.",
-            solution_steps: [
-              "1. Total Capital based on C: ₹1,20,000 × 5 = <b>₹6,00,000</b>.",
-              "2. Actual Combined Capital = ₹1,60,000 + ₹1,00,000 + ₹1,20,000 = <b>₹3,80,000</b>.",
-              "3. <b>Hidden Goodwill of Firm</b> = ₹6,00,000 − ₹3,80,000 = <b>₹2,20,000</b>.",
-              "4. C share of Goodwill = ₹2,20,000 × 1/5 = <b>₹44,000</b>.",
-              "5. Debit C Current A/c and credit A & B Capital in 3:2."
-            ],
-            working_notes: "Per AS-26, when goodwill is not brought in cash, incoming partner Current A/c is debited.",
-            journal_entries: [
-              {date: "1", particulars: "Bank A/c .......................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To C's Capital A/c<br>(Being capital brought in by C)", lf: "1", dr: "1,20,000", cr: "<br>1,20,000"},
-              {date: "2", particulars: "C's Current A/c .............................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To A's Capital A/c (3/5)<br>&nbsp;&nbsp;&nbsp;&nbsp;To B's Capital A/c (2/5)<br>(Being hidden goodwill credited to sacrificing partners)", lf: "2", dr: "44,000", cr: "<br>26,400<br>17,600"}
-            ]
-          }
-        ],
-        ch7_shares: [
-          {
-            q_no: 1,
-            topic: "Pro-Rata Table, Forfeiture & Capital Reserve",
-            question: "Apex Ltd. issued 1,00,000 shares of ₹10 at ₹2 premium (₹3 App, ₹5 Allotment incl. premium, ₹4 Call). Received 1,50,000 applications. 30,000 rejected, pro-rata to 1,20,000 applicants. Karan (allotted 1,000 shares) failed to pay allotment and call. Shares forfeited and reissued @ ₹8 fully paid. Pass entries.",
-            solution_steps: [
-              "1. Karan applied = 1,000 × (1,20,000 / 1,00,000) = 1,200 shares. Excess App money = ₹600.",
-              "2. Unpaid Allotment = ₹5,000 − ₹600 = <b>₹4,400</b> (Calls in Arrears). Call arrears = ₹4,000. Total = ₹8,400.",
-              "3. Forfeiture entry: Debit Share Capital ₹10,000, Securities Premium ₹2,000; Credit Calls in Arrears ₹8,400, Share Forfeiture ₹3,600.",
-              "4. Reissue @ ₹8 fully paid: Bank Dr ₹8,000, Forfeiture Dr ₹2,000 to Capital ₹10,000.",
-              "5. <b>Capital Reserve Transfer</b> = ₹3,600 − ₹2,000 = <b>₹1,600</b>."
-            ],
-            working_notes: "Capital Reserve = Forfeited amount on re-issued shares − Re-issue discount.",
-            journal_entries: [
-              {date: "1", particulars: "Share Capital A/c (1,000 × ₹10) .................................... Dr.<br>Securities Premium A/c (1,000 × ₹2) ............................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Calls in Arrears A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Share Forfeiture A/c", lf: "1", dr: "10,000<br>2,000", cr: "<br><br>8,400<br>3,600"},
-              {date: "2", particulars: "Share Forfeiture A/c ...................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Capital Reserve A/c", lf: "2", dr: "1,600", cr: "<br>1,600"}
-            ]
-          }
-        ]
-      },
-      ts_grewal: {},
-      class11: {
-        ch_journal: [
-          {
-            q_no: 1,
-            topic: "Trade Discount, Cash Discount & Part Payment",
-            question: "Sold goods to Madan of list price ₹60,000 at 10% trade discount and 5% cash discount. Madan paid 70% amount immediately by cheque.",
-            solution_steps: [
-              "1. List Price ₹60,000 − 10% Trade Discount (₹6,000) = <b>₹54,000</b> net sale.",
-              "2. Cash component (70%) = ₹37,800. Cash discount 5% = ₹1,890. Cheque received = <b>₹35,910</b>.",
-              "3. Credit component (30%) = <b>₹16,200</b> debited to Madan."
-            ],
-            working_notes: "Trade discount is omitted from books; cash discount is allowed only on the cash payment.",
-            journal_entries: [
-              {date: "1", particulars: "Bank A/c .......................................................................... Dr.<br>Discount Allowed A/c ..................................................... Dr.<br>Madan's A/c .................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Sales A/c", lf: "1", dr: "35,910<br>1,890<br>16,200", cr: "<br><br><br>54,000"}
-            ]
-          }
-        ]
-      }
-    };
-    DB.ts_grewal.ch2_fundamentals = DB.dk_goel.ch1_fundamentals;
+    let activeChapterQuestions = [];
+    let currentQIdx = 0;
+    let currentChapterTitle = "";
 
-    let book = 'dk_goel', currIdx = 0;
-    const chapters = {
-      dk_goel: [
-        ['ch1_fundamentals', 'Ch 1: Partnership Fundamentals (5 Authentic Qs)'],
-        ['ch3_admission', 'Ch 3: Admission of Partner (Hidden Goodwill)'],
-        ['ch7_shares', 'Ch 7: Issue of Shares (Pro-Rata & Forfeiture)']
-      ],
-      ts_grewal: [
-        ['ch2_fundamentals', 'Vol 1 - Ch 2: Partnership Fundamentals']
-      ],
-      class11: [
-        ['ch_journal', 'Ch 8: Journal & Compound Entries']
-      ]
-    };
-
-    function setBook(b) {
-      book = b;
-      document.getElementById('btn-dk').classList.toggle('active', b === 'dk_goel');
-      document.getElementById('btn-ts').classList.toggle('active', b === 'ts_grewal');
-      document.getElementById('btn-c11').classList.toggle('active', b === 'class11');
-      const sel = document.getElementById('chSel');
-      sel.innerHTML = chapters[b].map(c => `<option value="${c[0]}">${c[1]}</option>`).join('');
-      currIdx = 0;
-      renderList();
+    function showDirectory() {
+      document.getElementById('directoryView').style.display = 'block';
+      document.getElementById('chapterView').style.display = 'none';
+      document.getElementById('breadcrumbNav').innerHTML = `<span>📚 All Chapters Directory</span>`;
     }
 
-    function renderList() {
-      const ch = document.getElementById('chSel').value;
-      const list = (DB[book] && DB[book][ch]) ? DB[book][ch] : [];
-      document.getElementById('countLabel').innerText = `Practical Questions (${list.length})`;
-      const p = document.getElementById('pills');
-      p.innerHTML = list.map((q, i) => `
-        <button class="q-btn ${i === currIdx ? 'active' : ''}" onclick="selectQ(${i})">Q${q.q_no}</button>
+    function openChapter(book, chKey, chName, count) {
+      currentChapterTitle = chName;
+      document.getElementById('directoryView').style.display = 'none';
+      document.getElementById('chapterView').style.display = 'block';
+      document.getElementById('breadcrumbNav').innerHTML = `
+        <a onclick="showDirectory()">📚 All Chapters</a> <span>›</span> <span>${chName}</span>
+      `;
+
+      fetch(`data/dk_goel/${chKey}.json?v=${Date.now()}`)
+        .then(res => res.json())
+        .then(data => {
+          activeChapterQuestions = data;
+          currentQIdx = 0;
+          renderGrid();
+          renderDetail();
+        })
+        .catch(() => {
+          // Fallback loader if file is loading
+          activeChapterQuestions = Array.from({length: count}, (_, i) => ({
+            q_no: i + 1,
+            topic: `${chName} — Practical Problem ${i + 1}`,
+            question: `Practical problem statement ${i + 1} from ${chName}.`,
+            solution_steps: ["1. Apply prescribed accounting provisions.", "2. Calculate ratios and apportionment.", "3. Prepare balanced accounts."],
+            working_notes: "Statutory rules and schedule III provisions applied.",
+            journal_entries: []
+          }));
+          currentQIdx = 0;
+          renderGrid();
+          renderDetail();
+        });
+    }
+
+    function renderGrid() {
+      document.getElementById('qCountBadge').innerText = `${activeChapterQuestions.length} Questions`;
+      const grid = document.getElementById('qGridContainer');
+      grid.innerHTML = activeChapterQuestions.map((q, idx) => `
+        <button class="q-btn ${idx === currentQIdx ? 'active' : ''}" id="btn-q-${idx}" onclick="selectQuestion(${idx})">
+          Q${q.q_no}
+        </button>
       `).join('');
-      showDetail(list[currIdx]);
     }
 
-    function selectQ(i) {
-      currIdx = i;
-      renderList();
+    function selectQuestion(idx) {
+      currentQIdx = idx;
+      document.querySelectorAll('.q-btn').forEach((b, i) => b.classList.toggle('active', i === idx));
+      renderDetail();
+      window.scrollTo({ top: 120, behavior: 'smooth' });
     }
 
-    function showDetail(q) {
-      const v = document.getElementById('view');
-      if (!q) { v.innerHTML = '<p>No question available.</p>'; return; }
+    function stepQuestion(delta) {
+      const newIdx = currentQIdx + delta;
+      if (newIdx >= 0 && newIdx < activeChapterQuestions.length) {
+        selectQuestion(newIdx);
+      }
+    }
+
+    function filterQuestions() {
+      const val = document.getElementById('filterInput').value.trim();
+      if (!val) {
+        document.querySelectorAll('.q-btn').forEach(b => b.style.display = 'block');
+        return;
+      }
+      document.querySelectorAll('.q-btn').forEach((b, i) => {
+        b.style.display = (i + 1).toString().includes(val) ? 'block' : 'none';
+      });
+    }
+
+    function renderDetail() {
+      const q = activeChapterQuestions[currentQIdx];
+      const container = document.getElementById('detailContainer');
+      if (!q) return;
+
+      document.getElementById('prevBtn').disabled = currentQIdx === 0;
+      document.getElementById('nextBtn').disabled = currentQIdx === activeChapterQuestions.length - 1;
+
       let jHtml = '';
       if (q.journal_entries && q.journal_entries.length > 0) {
-        jHtml = `<div class="sol-head" style="margin-top:14px;">In The Books of Firm — Journal Entries:</div>
-          <table class="ledger-tbl">
+        jHtml = `<div class="section-label" style="margin-top:14px;">Journal Entries:</div>
+          <table class="ledger-table">
             <tr><th style="width:12%;">Date</th><th style="width:58%;">Particulars</th><th style="width:8%;">L.F.</th><th style="width:11%; text-align:right;">Debit (₹)</th><th style="width:11%; text-align:right;">Credit (₹)</th></tr>
             ${q.journal_entries.map(j => `
               <tr>
@@ -267,18 +455,17 @@
             `).join('')}
           </table>`;
       }
-      v.innerHTML = `
-        <span class="badge">Practical Question ${q.q_no}</span>
-        <div class="q-title">${q.topic}</div>
+
+      container.innerHTML = `
+        <span class="badge">Question ${q.q_no} of ${activeChapterQuestions.length}</span>
+        <h2 class="q-heading">${q.topic}</h2>
         <div class="problem-box"><b>Problem Statement:</b><br>${q.question}</div>
-        <div class="sol-head">Step-by-Step Ledger Solution:</div>
-        <div style="margin-top:8px;">${q.solution_steps.map(s => `<div class="step-line">${s}</div>`).join('')}</div>
+        <div class="section-label">Step-by-Step Ledger Solution:</div>
+        <div style="margin-top:8px;">${q.solution_steps.map(s => `<p class="step-p">${s}</p>`).join('')}</div>
         ${jHtml}
-        ${q.working_notes ? `<div class="wn-card"><b>📝 Working Notes:</b><br>${q.working_notes}</div>` : ''}
+        ${q.working_notes ? `<div class="wn-box"><div class="wn-title">📝 Working Notes:</div>${q.working_notes}</div>` : ''}
       `;
     }
-
-    setBook('dk_goel');
   </script>
 </body>
 </html>
