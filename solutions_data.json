@@ -1,0 +1,90 @@
+{
+  "dk_goel": {
+    "ch1_fundamentals": [
+      {
+        "q_no": 1,
+        "topic": "Provisions of Partnership Act in Absence of Deed",
+        "question": "A, B and C are partners in a firm. They do not have a Partnership Deed. At the end of the first year of the commencement of the firm, they face the following problems: (a) A wants that interest on capital should be allowed @ 10% p.a., (b) B wants that partners should be allowed salary @ ₹ 2,000 per month, (c) C wants that interest on partner loan of ₹ 50,000 given by him should be allowed @ 10% p.a. How will you settle these disputes?",
+        "solution_steps": [
+          "<b>Applicable Law:</b> In the absence of a Partnership Deed, the provisions of the <b>Indian Partnership Act, 1932</b> apply:",
+          "<b>(a) Interest on Capital:</b> Not allowed. A's claim is rejected.",
+          "<b>(b) Partners' Salary:</b> No partner is entitled to any salary or commission. B's claim is rejected.",
+          "<b>(c) Interest on Partner's Loan:</b> Allowed strictly <b>@ 6% p.a.</b> (Section 13(d)). C's claim for 10% is rejected; he will receive 6% p.a. (₹ 3,000).",
+          "<b>(d) Sharing of Profit/Loss:</b> Must be shared <b>equally</b> irrespective of capital contributed."
+        ],
+        "journal_entries": [],
+        "ledger": null,
+        "working_notes": "Section 13 of the Indian Partnership Act, 1932 governs all matters when no deed exists or deed is silent."
+      },
+      {
+        "q_no": 15,
+        "topic": "Profit & Loss Appropriation Account & Capital Distribution",
+        "question": "Anubha and Kajal are partners sharing profits in 2:1. Their capitals were ₹ 90,000 and ₹ 60,000. Interest on capital is allowed @ 5% p.a. Interest on drawings is charged @ 5% p.a. (Drawings: Anubha ₹ 8,500, Kajal ₹ 6,500). Net profit for the year before adjustments was ₹ 45,000. Prepare Profit & Loss Appropriation Account.",
+        "solution_steps": [
+          "1. Calculate Interest on Capital @ 5% p.a.",
+          "2. Calculate Interest on Drawings @ 5% for average 6 months (no date of withdrawal given).",
+          "3. Determine Divisible Profit and distribute in 2:1 ratio."
+        ],
+        "working_notes": "• Interest on Capital: Anubha = ₹ 90,000 × 5% = ₹ 4,500 | Kajal = ₹ 60,000 × 5% = ₹ 3,000 (Total = ₹ 7,500)<br>• Interest on Drawings (Average 6 months): Anubha = 8,500 × 5% × 6/12 = ₹ 213 | Kajal = 6,500 × 5% × 6/12 = ₹ 163 (Total = ₹ 376)<br>• Divisible Profit = ₹ 45,000 + ₹ 376 − ₹ 7,500 = ₹ 37,876<br>• Anubha's Share = 37,876 × 2/3 = ₹ 25,251 | Kajal's Share = 37,876 × 1/3 = ₹ 12,625",
+        "ledger": {
+          "title": "Profit and Loss Appropriation Account for the year ended",
+          "debit": [
+            {"particulars": "To Interest on Capital: Anubha (₹4,500), Kajal (₹3,000)", "amount": "7,500"},
+            {"particulars": "To Profit Transferred to Capital A/cs: Anubha (₹25,251), Kajal (₹12,625)", "amount": "37,876"}
+          ],
+          "credit": [
+            {"particulars": "By Profit & Loss A/c (Net Profit)", "amount": "45,000"},
+            {"particulars": "By Interest on Drawings: Anubha (₹213), Kajal (₹163)", "amount": "376"}
+          ],
+          "total": "45,376"
+        }
+      },
+      {
+        "q_no": 26,
+        "topic": "Interest on Monthly Drawings (Beginning, Middle, End)",
+        "question": "A, B and C are partners. Calculate Interest on Drawings @ 10% p.a. for the year ended 31st March: (a) If A withdrew ₹ 2,000 per month in the beginning of every month, (b) If B withdrew ₹ 2,000 per month in the middle of every month, (c) If C withdrew ₹ 2,000 per month at the end of every month.",
+        "solution_steps": [
+          "<b>Total Drawings for each partner</b> = ₹ 2,000 × 12 = ₹ 24,000 per year.",
+          "<b>Formula:</b> Total Drawings × (Rate / 100) × (Average Period / 12)"
+        ],
+        "working_notes": "<b>Case (a) Beginning of every month:</b><br>Average Period = (12 + 1) / 2 = 6.5 months.<br>Interest = 24,000 × 10/100 × 6.5/12 = <b>₹ 1,300</b><br><br><b>Case (b) Middle of every month:</b><br>Average Period = 6.0 months.<br>Interest = 24,000 × 10/100 × 6/12 = <b>₹ 1,200</b><br><br><b>Case (c) End of every month:</b><br>Average Period = (11 + 0) / 2 = 5.5 months.<br>Interest = 24,000 × 10/100 × 5.5/12 = <b>₹ 1,100</b>",
+        "ledger": null
+      }
+    ],
+    "ch3_admission": [
+      {
+        "q_no": 14,
+        "topic": "Sacrificing Ratio and Goodwill Treatment",
+        "question": "X and Y are partners sharing profits and losses in 3:2. They admit Z into partnership for 1/4th share in profits, which he acquires equally from X and Y. Z brings ₹ 50,000 for capital and ₹ 20,000 for his share of goodwill in cash. Give Journal Entries and calculate New Profit Sharing Ratio.",
+        "solution_steps": [
+          "1. Calculate share sacrificed by X and Y.",
+          "2. Calculate New Profit Sharing Ratio = Old Share − Sacrificed Share.",
+          "3. Pass Journal Entries for Cash brought in and distribution of Premium for Goodwill to sacrificing partners in sacrificing ratio (1:1)."
+        ],
+        "working_notes": "• Share acquired from X = 1/4 × 1/2 = 1/8<br>• Share acquired from Y = 1/4 × 1/2 = 1/8<br>• Sacrificing Ratio of X and Y = 1/8 : 1/8 = <b>1 : 1</b><br>• X's New Share = 3/5 − 1/8 = (24 − 5)/40 = <b>19/40</b><br>• Y's New Share = 2/5 − 1/8 = (16 − 5)/40 = <b>11/40</b><br>• Z's Share = 1/4 = <b>10/40</b><br>• <b>New Profit Sharing Ratio = 19 : 11 : 10</b>",
+        "journal_entries": [
+          {"date": "1", "particulars": "Bank A/c .......................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Z's Capital A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Premium for Goodwill A/c<br>(Being capital and goodwill premium brought in cash by Z)", "lf": "", "dr": "70,000", "cr": "<br>50,000<br>20,000"},
+          {"date": "2", "particulars": "Premium for Goodwill A/c ............................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To X's Capital A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Y's Capital A/c<br>(Being goodwill premium credited to sacrificing partners in 1:1)", "lf": "", "dr": "20,000", "cr": "<br>10,000<br>10,000"}
+        ]
+      }
+    ]
+  },
+  "ts_grewal": {
+    "ch2_fundamentals": [
+      {
+        "q_no": 1,
+        "topic": "Absence of Partnership Deed Rules",
+        "question": "In the absence of a Partnership Deed, state the rules regarding: (a) Salaries of partners, (b) Interest on partner's capital, (c) Interest on partner's loan, (d) Division of profits.",
+        "solution_steps": [
+          "As per the Indian Partnership Act, 1932 provisions:",
+          "• (a) No salary is payable to any partner.",
+          "• (b) No interest is allowed on capitals.",
+          "• (c) Interest on loan is paid @ 6% p.a.",
+          "• (d) Profits and losses are shared equally (1:1)."
+        ],
+        "working_notes": "Statutory rule: Section 13 of Indian Partnership Act 1932.",
+        "ledger": null
+      }
+    ]
+  }
+}
