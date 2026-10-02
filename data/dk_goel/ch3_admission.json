@@ -1,0 +1,615 @@
+[
+  {
+    "q_no": 1,
+    "topic": "Admission Q1: Calculation of Sacrificing Ratio & New PSR",
+    "question": "Practical Problem 1: A and B are partners sharing in 4:2. They admit C into partnership for 1/5th share in future profits. Calculate the New Profit Sharing Ratio and Sacrificing Ratio of the partners.",
+    "solution_steps": [
+      "1. Let total profit of the firm = 1.",
+      "2. Remaining share available for old partners = 1 − 1/5.",
+      "3. Multiply remaining share by old profit sharing ratios.",
+      "4. Sacrificing Ratio in this standard case equals the Old Profit Sharing Ratio (4:2)."
+    ],
+    "working_notes": "When no specific surrender ratio is stated, old partners sacrifice in their old ratio.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 2,
+    "topic": "Admission Q2: Calculation of Sacrificing Ratio & New PSR",
+    "question": "Practical Problem 2: A and B are partners sharing in 3:2. They admit C into partnership for 1/6th share in future profits. Calculate the New Profit Sharing Ratio and Sacrificing Ratio of the partners.",
+    "solution_steps": [
+      "1. Let total profit of the firm = 1.",
+      "2. Remaining share available for old partners = 1 − 1/6.",
+      "3. Multiply remaining share by old profit sharing ratios.",
+      "4. Sacrificing Ratio in this standard case equals the Old Profit Sharing Ratio (3:2)."
+    ],
+    "working_notes": "When no specific surrender ratio is stated, old partners sacrifice in their old ratio.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 3,
+    "topic": "Admission Q3: Calculation of Sacrificing Ratio & New PSR",
+    "question": "Practical Problem 3: A and B are partners sharing in 4:2. They admit C into partnership for 1/4th share in future profits. Calculate the New Profit Sharing Ratio and Sacrificing Ratio of the partners.",
+    "solution_steps": [
+      "1. Let total profit of the firm = 1.",
+      "2. Remaining share available for old partners = 1 − 1/4.",
+      "3. Multiply remaining share by old profit sharing ratios.",
+      "4. Sacrificing Ratio in this standard case equals the Old Profit Sharing Ratio (4:2)."
+    ],
+    "working_notes": "When no specific surrender ratio is stated, old partners sacrifice in their old ratio.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 4,
+    "topic": "Admission Q4: Calculation of Sacrificing Ratio & New PSR",
+    "question": "Practical Problem 4: A and B are partners sharing in 3:2. They admit C into partnership for 1/5th share in future profits. Calculate the New Profit Sharing Ratio and Sacrificing Ratio of the partners.",
+    "solution_steps": [
+      "1. Let total profit of the firm = 1.",
+      "2. Remaining share available for old partners = 1 − 1/5.",
+      "3. Multiply remaining share by old profit sharing ratios.",
+      "4. Sacrificing Ratio in this standard case equals the Old Profit Sharing Ratio (3:2)."
+    ],
+    "working_notes": "When no specific surrender ratio is stated, old partners sacrifice in their old ratio.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 5,
+    "topic": "Admission Q5: Calculation of Sacrificing Ratio & New PSR",
+    "question": "Practical Problem 5: A and B are partners sharing in 4:2. They admit C into partnership for 1/6th share in future profits. Calculate the New Profit Sharing Ratio and Sacrificing Ratio of the partners.",
+    "solution_steps": [
+      "1. Let total profit of the firm = 1.",
+      "2. Remaining share available for old partners = 1 − 1/6.",
+      "3. Multiply remaining share by old profit sharing ratios.",
+      "4. Sacrificing Ratio in this standard case equals the Old Profit Sharing Ratio (4:2)."
+    ],
+    "working_notes": "When no specific surrender ratio is stated, old partners sacrifice in their old ratio.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 6,
+    "topic": "Admission Q6: Treatment of Premium for Goodwill in Cash & Retained in Firm",
+    "question": "Practical Problem 6: X and Y share in 3:2. They admit Z for 1/5th share. Z brings ₹150,000 as his capital and ₹48,000 for his share of premium for goodwill in cash. Half of the goodwill is withdrawn by old partners. Pass Journal Entries.",
+    "solution_steps": [
+      "1. Total cash received via Bank = Capital (₹150,000) + Goodwill (₹48,000) = ₹198,000.",
+      "2. Goodwill premium credited to X and Y in sacrificing ratio 3:2 (X: ₹28,800, Y: ₹19,200).",
+      "3. Half goodwill withdrawn: X withdraws ₹14,400, Y withdraws ₹9,600."
+    ],
+    "working_notes": "Premium for Goodwill is credited strictly in Sacrificing Ratio (3:2).",
+    "journal_entries": [
+      {
+        "date": "1",
+        "particulars": "Bank A/c .......................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Z's Capital A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Premium for Goodwill A/c",
+        "lf": "1",
+        "dr": "198,000",
+        "cr": "<br>150,000<br>48,000"
+      },
+      {
+        "date": "2",
+        "particulars": "Premium for Goodwill A/c ............................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To X's Capital A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Y's Capital A/c",
+        "lf": "2",
+        "dr": "48,000",
+        "cr": "<br>28,800<br>19,200"
+      },
+      {
+        "date": "3",
+        "particulars": "X's Capital A/c ................................................................ Dr.<br>Y's Capital A/c ................................................................ Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Bank A/c<br>(Being 50% goodwill withdrawn by old partners)",
+        "lf": "3",
+        "dr": "14,400<br>9,600",
+        "cr": "<br><br>24,000"
+      }
+    ]
+  },
+  {
+    "q_no": 7,
+    "topic": "Admission Q7: Treatment of Premium for Goodwill in Cash & Retained in Firm",
+    "question": "Practical Problem 7: X and Y share in 3:2. They admit Z for 1/5th share. Z brings ₹175,000 as his capital and ₹56,000 for his share of premium for goodwill in cash. Half of the goodwill is withdrawn by old partners. Pass Journal Entries.",
+    "solution_steps": [
+      "1. Total cash received via Bank = Capital (₹175,000) + Goodwill (₹56,000) = ₹231,000.",
+      "2. Goodwill premium credited to X and Y in sacrificing ratio 3:2 (X: ₹33,600, Y: ₹22,400).",
+      "3. Half goodwill withdrawn: X withdraws ₹16,800, Y withdraws ₹11,200."
+    ],
+    "working_notes": "Premium for Goodwill is credited strictly in Sacrificing Ratio (3:2).",
+    "journal_entries": [
+      {
+        "date": "1",
+        "particulars": "Bank A/c .......................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Z's Capital A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Premium for Goodwill A/c",
+        "lf": "1",
+        "dr": "231,000",
+        "cr": "<br>175,000<br>56,000"
+      },
+      {
+        "date": "2",
+        "particulars": "Premium for Goodwill A/c ............................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To X's Capital A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Y's Capital A/c",
+        "lf": "2",
+        "dr": "56,000",
+        "cr": "<br>33,600<br>22,400"
+      },
+      {
+        "date": "3",
+        "particulars": "X's Capital A/c ................................................................ Dr.<br>Y's Capital A/c ................................................................ Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Bank A/c<br>(Being 50% goodwill withdrawn by old partners)",
+        "lf": "3",
+        "dr": "16,800<br>11,200",
+        "cr": "<br><br>28,000"
+      }
+    ]
+  },
+  {
+    "q_no": 8,
+    "topic": "Admission Q8: Treatment of Premium for Goodwill in Cash & Retained in Firm",
+    "question": "Practical Problem 8: X and Y share in 3:2. They admit Z for 1/5th share. Z brings ₹200,000 as his capital and ₹64,000 for his share of premium for goodwill in cash. Half of the goodwill is withdrawn by old partners. Pass Journal Entries.",
+    "solution_steps": [
+      "1. Total cash received via Bank = Capital (₹200,000) + Goodwill (₹64,000) = ₹264,000.",
+      "2. Goodwill premium credited to X and Y in sacrificing ratio 3:2 (X: ₹38,400, Y: ₹25,600).",
+      "3. Half goodwill withdrawn: X withdraws ₹19,200, Y withdraws ₹12,800."
+    ],
+    "working_notes": "Premium for Goodwill is credited strictly in Sacrificing Ratio (3:2).",
+    "journal_entries": [
+      {
+        "date": "1",
+        "particulars": "Bank A/c .......................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Z's Capital A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Premium for Goodwill A/c",
+        "lf": "1",
+        "dr": "264,000",
+        "cr": "<br>200,000<br>64,000"
+      },
+      {
+        "date": "2",
+        "particulars": "Premium for Goodwill A/c ............................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To X's Capital A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Y's Capital A/c",
+        "lf": "2",
+        "dr": "64,000",
+        "cr": "<br>38,400<br>25,600"
+      },
+      {
+        "date": "3",
+        "particulars": "X's Capital A/c ................................................................ Dr.<br>Y's Capital A/c ................................................................ Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Bank A/c<br>(Being 50% goodwill withdrawn by old partners)",
+        "lf": "3",
+        "dr": "19,200<br>12,800",
+        "cr": "<br><br>32,000"
+      }
+    ]
+  },
+  {
+    "q_no": 9,
+    "topic": "Admission Q9: Treatment of Premium for Goodwill in Cash & Retained in Firm",
+    "question": "Practical Problem 9: X and Y share in 3:2. They admit Z for 1/5th share. Z brings ₹225,000 as his capital and ₹72,000 for his share of premium for goodwill in cash. Half of the goodwill is withdrawn by old partners. Pass Journal Entries.",
+    "solution_steps": [
+      "1. Total cash received via Bank = Capital (₹225,000) + Goodwill (₹72,000) = ₹297,000.",
+      "2. Goodwill premium credited to X and Y in sacrificing ratio 3:2 (X: ₹43,200, Y: ₹28,800).",
+      "3. Half goodwill withdrawn: X withdraws ₹21,600, Y withdraws ₹14,400."
+    ],
+    "working_notes": "Premium for Goodwill is credited strictly in Sacrificing Ratio (3:2).",
+    "journal_entries": [
+      {
+        "date": "1",
+        "particulars": "Bank A/c .......................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Z's Capital A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Premium for Goodwill A/c",
+        "lf": "1",
+        "dr": "297,000",
+        "cr": "<br>225,000<br>72,000"
+      },
+      {
+        "date": "2",
+        "particulars": "Premium for Goodwill A/c ............................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To X's Capital A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Y's Capital A/c",
+        "lf": "2",
+        "dr": "72,000",
+        "cr": "<br>43,200<br>28,800"
+      },
+      {
+        "date": "3",
+        "particulars": "X's Capital A/c ................................................................ Dr.<br>Y's Capital A/c ................................................................ Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Bank A/c<br>(Being 50% goodwill withdrawn by old partners)",
+        "lf": "3",
+        "dr": "21,600<br>14,400",
+        "cr": "<br><br>36,000"
+      }
+    ]
+  },
+  {
+    "q_no": 10,
+    "topic": "Admission Q10: Treatment of Premium for Goodwill in Cash & Retained in Firm",
+    "question": "Practical Problem 10: X and Y share in 3:2. They admit Z for 1/5th share. Z brings ₹250,000 as his capital and ₹80,000 for his share of premium for goodwill in cash. Half of the goodwill is withdrawn by old partners. Pass Journal Entries.",
+    "solution_steps": [
+      "1. Total cash received via Bank = Capital (₹250,000) + Goodwill (₹80,000) = ₹330,000.",
+      "2. Goodwill premium credited to X and Y in sacrificing ratio 3:2 (X: ₹48,000, Y: ₹32,000).",
+      "3. Half goodwill withdrawn: X withdraws ₹24,000, Y withdraws ₹16,000."
+    ],
+    "working_notes": "Premium for Goodwill is credited strictly in Sacrificing Ratio (3:2).",
+    "journal_entries": [
+      {
+        "date": "1",
+        "particulars": "Bank A/c .......................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Z's Capital A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Premium for Goodwill A/c",
+        "lf": "1",
+        "dr": "330,000",
+        "cr": "<br>250,000<br>80,000"
+      },
+      {
+        "date": "2",
+        "particulars": "Premium for Goodwill A/c ............................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To X's Capital A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Y's Capital A/c",
+        "lf": "2",
+        "dr": "80,000",
+        "cr": "<br>48,000<br>32,000"
+      },
+      {
+        "date": "3",
+        "particulars": "X's Capital A/c ................................................................ Dr.<br>Y's Capital A/c ................................................................ Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Bank A/c<br>(Being 50% goodwill withdrawn by old partners)",
+        "lf": "3",
+        "dr": "24,000<br>16,000",
+        "cr": "<br><br>40,000"
+      }
+    ]
+  },
+  {
+    "q_no": 11,
+    "topic": "Admission Q11: Revaluation of Assets & Liabilities (Unrecorded Items)",
+    "question": "Practical Problem 11: P and Q share in 2:1. R is admitted for 1/4th share. On admission, assets are revalued: Land appreciates by ₹132,000, Machinery depreciates by ₹44,000, Provision for Doubtful Debts created ₹16,500. Pass journal entries and compute Revaluation Profit.",
+    "solution_steps": [
+      "1. Debit Revaluation with losses/provisions: Machinery ₹44,000 + PBD ₹16,500 = ₹60,500.",
+      "2. Credit Revaluation with asset appreciation: Land ₹132,000.",
+      "3. Revaluation Profit = ₹132,000 − ₹60,500 = ₹71,500.",
+      "4. Distribute profit to P and Q in 2:1: P = ₹47,666, Q = ₹23,833."
+    ],
+    "working_notes": "Revaluation profit belongs strictly to OLD partners in their OLD ratio.",
+    "journal_entries": [
+      {
+        "date": "1",
+        "particulars": "Land A/c .......................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Revaluation A/c",
+        "lf": "1",
+        "dr": "132,000",
+        "cr": "132,000"
+      },
+      {
+        "date": "2",
+        "particulars": "Revaluation A/c .............................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Machinery A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Provision for Doubtful Debts A/c",
+        "lf": "2",
+        "dr": "60,500",
+        "cr": "<br>44,000<br>16,500"
+      },
+      {
+        "date": "3",
+        "particulars": "Revaluation A/c .............................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To P's Capital A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Q's Capital A/c<br>(Being profit on revaluation transferred in 2:1)",
+        "lf": "3",
+        "dr": "71,500",
+        "cr": "<br>47,666<br>23,833"
+      }
+    ]
+  },
+  {
+    "q_no": 12,
+    "topic": "Admission Q12: Revaluation of Assets & Liabilities (Unrecorded Items)",
+    "question": "Practical Problem 12: P and Q share in 2:1. R is admitted for 1/4th share. On admission, assets are revalued: Land appreciates by ₹144,000, Machinery depreciates by ₹48,000, Provision for Doubtful Debts created ₹18,000. Pass journal entries and compute Revaluation Profit.",
+    "solution_steps": [
+      "1. Debit Revaluation with losses/provisions: Machinery ₹48,000 + PBD ₹18,000 = ₹66,000.",
+      "2. Credit Revaluation with asset appreciation: Land ₹144,000.",
+      "3. Revaluation Profit = ₹144,000 − ₹66,000 = ₹78,000.",
+      "4. Distribute profit to P and Q in 2:1: P = ₹52,000, Q = ₹26,000."
+    ],
+    "working_notes": "Revaluation profit belongs strictly to OLD partners in their OLD ratio.",
+    "journal_entries": [
+      {
+        "date": "1",
+        "particulars": "Land A/c .......................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Revaluation A/c",
+        "lf": "1",
+        "dr": "144,000",
+        "cr": "144,000"
+      },
+      {
+        "date": "2",
+        "particulars": "Revaluation A/c .............................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Machinery A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Provision for Doubtful Debts A/c",
+        "lf": "2",
+        "dr": "66,000",
+        "cr": "<br>48,000<br>18,000"
+      },
+      {
+        "date": "3",
+        "particulars": "Revaluation A/c .............................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To P's Capital A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Q's Capital A/c<br>(Being profit on revaluation transferred in 2:1)",
+        "lf": "3",
+        "dr": "78,000",
+        "cr": "<br>52,000<br>26,000"
+      }
+    ]
+  },
+  {
+    "q_no": 13,
+    "topic": "Admission Q13: Revaluation of Assets & Liabilities (Unrecorded Items)",
+    "question": "Practical Problem 13: P and Q share in 2:1. R is admitted for 1/4th share. On admission, assets are revalued: Land appreciates by ₹156,000, Machinery depreciates by ₹52,000, Provision for Doubtful Debts created ₹19,500. Pass journal entries and compute Revaluation Profit.",
+    "solution_steps": [
+      "1. Debit Revaluation with losses/provisions: Machinery ₹52,000 + PBD ₹19,500 = ₹71,500.",
+      "2. Credit Revaluation with asset appreciation: Land ₹156,000.",
+      "3. Revaluation Profit = ₹156,000 − ₹71,500 = ₹84,500.",
+      "4. Distribute profit to P and Q in 2:1: P = ₹56,333, Q = ₹28,166."
+    ],
+    "working_notes": "Revaluation profit belongs strictly to OLD partners in their OLD ratio.",
+    "journal_entries": [
+      {
+        "date": "1",
+        "particulars": "Land A/c .......................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Revaluation A/c",
+        "lf": "1",
+        "dr": "156,000",
+        "cr": "156,000"
+      },
+      {
+        "date": "2",
+        "particulars": "Revaluation A/c .............................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Machinery A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Provision for Doubtful Debts A/c",
+        "lf": "2",
+        "dr": "71,500",
+        "cr": "<br>52,000<br>19,500"
+      },
+      {
+        "date": "3",
+        "particulars": "Revaluation A/c .............................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To P's Capital A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Q's Capital A/c<br>(Being profit on revaluation transferred in 2:1)",
+        "lf": "3",
+        "dr": "84,500",
+        "cr": "<br>56,333<br>28,166"
+      }
+    ]
+  },
+  {
+    "q_no": 14,
+    "topic": "Admission Q14: Revaluation of Assets & Liabilities (Unrecorded Items)",
+    "question": "Practical Problem 14: P and Q share in 2:1. R is admitted for 1/4th share. On admission, assets are revalued: Land appreciates by ₹168,000, Machinery depreciates by ₹56,000, Provision for Doubtful Debts created ₹21,000. Pass journal entries and compute Revaluation Profit.",
+    "solution_steps": [
+      "1. Debit Revaluation with losses/provisions: Machinery ₹56,000 + PBD ₹21,000 = ₹77,000.",
+      "2. Credit Revaluation with asset appreciation: Land ₹168,000.",
+      "3. Revaluation Profit = ₹168,000 − ₹77,000 = ₹91,000.",
+      "4. Distribute profit to P and Q in 2:1: P = ₹60,666, Q = ₹30,333."
+    ],
+    "working_notes": "Revaluation profit belongs strictly to OLD partners in their OLD ratio.",
+    "journal_entries": [
+      {
+        "date": "1",
+        "particulars": "Land A/c .......................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Revaluation A/c",
+        "lf": "1",
+        "dr": "168,000",
+        "cr": "168,000"
+      },
+      {
+        "date": "2",
+        "particulars": "Revaluation A/c .............................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Machinery A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Provision for Doubtful Debts A/c",
+        "lf": "2",
+        "dr": "77,000",
+        "cr": "<br>56,000<br>21,000"
+      },
+      {
+        "date": "3",
+        "particulars": "Revaluation A/c .............................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To P's Capital A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Q's Capital A/c<br>(Being profit on revaluation transferred in 2:1)",
+        "lf": "3",
+        "dr": "91,000",
+        "cr": "<br>60,666<br>30,333"
+      }
+    ]
+  },
+  {
+    "q_no": 15,
+    "topic": "Admission Q15: Revaluation of Assets & Liabilities (Unrecorded Items)",
+    "question": "Practical Problem 15: P and Q share in 2:1. R is admitted for 1/4th share. On admission, assets are revalued: Land appreciates by ₹180,000, Machinery depreciates by ₹60,000, Provision for Doubtful Debts created ₹22,500. Pass journal entries and compute Revaluation Profit.",
+    "solution_steps": [
+      "1. Debit Revaluation with losses/provisions: Machinery ₹60,000 + PBD ₹22,500 = ₹82,500.",
+      "2. Credit Revaluation with asset appreciation: Land ₹180,000.",
+      "3. Revaluation Profit = ₹180,000 − ₹82,500 = ₹97,500.",
+      "4. Distribute profit to P and Q in 2:1: P = ₹65,000, Q = ₹32,500."
+    ],
+    "working_notes": "Revaluation profit belongs strictly to OLD partners in their OLD ratio.",
+    "journal_entries": [
+      {
+        "date": "1",
+        "particulars": "Land A/c .......................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Revaluation A/c",
+        "lf": "1",
+        "dr": "180,000",
+        "cr": "180,000"
+      },
+      {
+        "date": "2",
+        "particulars": "Revaluation A/c .............................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Machinery A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Provision for Doubtful Debts A/c",
+        "lf": "2",
+        "dr": "82,500",
+        "cr": "<br>60,000<br>22,500"
+      },
+      {
+        "date": "3",
+        "particulars": "Revaluation A/c .............................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To P's Capital A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Q's Capital A/c<br>(Being profit on revaluation transferred in 2:1)",
+        "lf": "3",
+        "dr": "97,500",
+        "cr": "<br>65,000<br>32,500"
+      }
+    ]
+  },
+  {
+    "q_no": 16,
+    "topic": "Admission Q16: Revaluation of Assets & Liabilities (Unrecorded Items)",
+    "question": "Practical Problem 16: P and Q share in 2:1. R is admitted for 1/4th share. On admission, assets are revalued: Land appreciates by ₹192,000, Machinery depreciates by ₹64,000, Provision for Doubtful Debts created ₹24,000. Pass journal entries and compute Revaluation Profit.",
+    "solution_steps": [
+      "1. Debit Revaluation with losses/provisions: Machinery ₹64,000 + PBD ₹24,000 = ₹88,000.",
+      "2. Credit Revaluation with asset appreciation: Land ₹192,000.",
+      "3. Revaluation Profit = ₹192,000 − ₹88,000 = ₹104,000.",
+      "4. Distribute profit to P and Q in 2:1: P = ₹69,333, Q = ₹34,666."
+    ],
+    "working_notes": "Revaluation profit belongs strictly to OLD partners in their OLD ratio.",
+    "journal_entries": [
+      {
+        "date": "1",
+        "particulars": "Land A/c .......................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Revaluation A/c",
+        "lf": "1",
+        "dr": "192,000",
+        "cr": "192,000"
+      },
+      {
+        "date": "2",
+        "particulars": "Revaluation A/c .............................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Machinery A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Provision for Doubtful Debts A/c",
+        "lf": "2",
+        "dr": "88,000",
+        "cr": "<br>64,000<br>24,000"
+      },
+      {
+        "date": "3",
+        "particulars": "Revaluation A/c .............................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To P's Capital A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Q's Capital A/c<br>(Being profit on revaluation transferred in 2:1)",
+        "lf": "3",
+        "dr": "104,000",
+        "cr": "<br>69,333<br>34,666"
+      }
+    ]
+  },
+  {
+    "q_no": 17,
+    "topic": "Admission Q17: Revaluation of Assets & Liabilities (Unrecorded Items)",
+    "question": "Practical Problem 17: P and Q share in 2:1. R is admitted for 1/4th share. On admission, assets are revalued: Land appreciates by ₹204,000, Machinery depreciates by ₹68,000, Provision for Doubtful Debts created ₹25,500. Pass journal entries and compute Revaluation Profit.",
+    "solution_steps": [
+      "1. Debit Revaluation with losses/provisions: Machinery ₹68,000 + PBD ₹25,500 = ₹93,500.",
+      "2. Credit Revaluation with asset appreciation: Land ₹204,000.",
+      "3. Revaluation Profit = ₹204,000 − ₹93,500 = ₹110,500.",
+      "4. Distribute profit to P and Q in 2:1: P = ₹73,666, Q = ₹36,833."
+    ],
+    "working_notes": "Revaluation profit belongs strictly to OLD partners in their OLD ratio.",
+    "journal_entries": [
+      {
+        "date": "1",
+        "particulars": "Land A/c .......................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Revaluation A/c",
+        "lf": "1",
+        "dr": "204,000",
+        "cr": "204,000"
+      },
+      {
+        "date": "2",
+        "particulars": "Revaluation A/c .............................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Machinery A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Provision for Doubtful Debts A/c",
+        "lf": "2",
+        "dr": "93,500",
+        "cr": "<br>68,000<br>25,500"
+      },
+      {
+        "date": "3",
+        "particulars": "Revaluation A/c .............................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To P's Capital A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Q's Capital A/c<br>(Being profit on revaluation transferred in 2:1)",
+        "lf": "3",
+        "dr": "110,500",
+        "cr": "<br>73,666<br>36,833"
+      }
+    ]
+  },
+  {
+    "q_no": 18,
+    "topic": "Admission Q18: Revaluation of Assets & Liabilities (Unrecorded Items)",
+    "question": "Practical Problem 18: P and Q share in 2:1. R is admitted for 1/4th share. On admission, assets are revalued: Land appreciates by ₹216,000, Machinery depreciates by ₹72,000, Provision for Doubtful Debts created ₹27,000. Pass journal entries and compute Revaluation Profit.",
+    "solution_steps": [
+      "1. Debit Revaluation with losses/provisions: Machinery ₹72,000 + PBD ₹27,000 = ₹99,000.",
+      "2. Credit Revaluation with asset appreciation: Land ₹216,000.",
+      "3. Revaluation Profit = ₹216,000 − ₹99,000 = ₹117,000.",
+      "4. Distribute profit to P and Q in 2:1: P = ₹78,000, Q = ₹39,000."
+    ],
+    "working_notes": "Revaluation profit belongs strictly to OLD partners in their OLD ratio.",
+    "journal_entries": [
+      {
+        "date": "1",
+        "particulars": "Land A/c .......................................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Revaluation A/c",
+        "lf": "1",
+        "dr": "216,000",
+        "cr": "216,000"
+      },
+      {
+        "date": "2",
+        "particulars": "Revaluation A/c .............................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Machinery A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Provision for Doubtful Debts A/c",
+        "lf": "2",
+        "dr": "99,000",
+        "cr": "<br>72,000<br>27,000"
+      },
+      {
+        "date": "3",
+        "particulars": "Revaluation A/c .............................................................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To P's Capital A/c<br>&nbsp;&nbsp;&nbsp;&nbsp;To Q's Capital A/c<br>(Being profit on revaluation transferred in 2:1)",
+        "lf": "3",
+        "dr": "117,000",
+        "cr": "<br>78,000<br>39,000"
+      }
+    ]
+  },
+  {
+    "q_no": 19,
+    "topic": "Admission Q19: Capital Adjustment Based on Incoming Partner Capital",
+    "question": "Practical Problem 19: A and B share in 3:2. They admit C for 1/5th share. C brings ₹380,000 as capital. It is agreed that capitals of A and B will be adjusted in their new profit sharing ratio on the basis of C capital. Any surplus or deficit will be adjusted through Current Accounts. Calculate adjusted capitals.",
+    "solution_steps": [
+      "1. Total Capital of New Firm = ₹380,000 × 5 = ₹1,900,000.",
+      "2. Combined Capital of old partners = ₹1,900,000 − ₹380,000 = ₹1,520,000.",
+      "3. A New Adjusted Capital = ₹1,520,000.0 × 3/5 = ₹912,000.",
+      "4. B New Adjusted Capital = ₹1,520,000.0 × 2/5 = ₹608,000.",
+      "5. Compare actual adjusted balances with required capital; transfer differences to Partner Current Accounts."
+    ],
+    "working_notes": "Capital adjustments preserve exact ratio compliance in reconstituted balance sheets.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 20,
+    "topic": "Admission Q20: Capital Adjustment Based on Incoming Partner Capital",
+    "question": "Practical Problem 20: A and B share in 3:2. They admit C for 1/5th share. C brings ₹400,000 as capital. It is agreed that capitals of A and B will be adjusted in their new profit sharing ratio on the basis of C capital. Any surplus or deficit will be adjusted through Current Accounts. Calculate adjusted capitals.",
+    "solution_steps": [
+      "1. Total Capital of New Firm = ₹400,000 × 5 = ₹2,000,000.",
+      "2. Combined Capital of old partners = ₹2,000,000 − ₹400,000 = ₹1,600,000.",
+      "3. A New Adjusted Capital = ₹1,600,000.0 × 3/5 = ₹960,000.",
+      "4. B New Adjusted Capital = ₹1,600,000.0 × 2/5 = ₹640,000.",
+      "5. Compare actual adjusted balances with required capital; transfer differences to Partner Current Accounts."
+    ],
+    "working_notes": "Capital adjustments preserve exact ratio compliance in reconstituted balance sheets.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 21,
+    "topic": "Admission Q21: Capital Adjustment Based on Incoming Partner Capital",
+    "question": "Practical Problem 21: A and B share in 3:2. They admit C for 1/5th share. C brings ₹420,000 as capital. It is agreed that capitals of A and B will be adjusted in their new profit sharing ratio on the basis of C capital. Any surplus or deficit will be adjusted through Current Accounts. Calculate adjusted capitals.",
+    "solution_steps": [
+      "1. Total Capital of New Firm = ₹420,000 × 5 = ₹2,100,000.",
+      "2. Combined Capital of old partners = ₹2,100,000 − ₹420,000 = ₹1,680,000.",
+      "3. A New Adjusted Capital = ₹1,680,000.0 × 3/5 = ₹1,008,000.",
+      "4. B New Adjusted Capital = ₹1,680,000.0 × 2/5 = ₹672,000.",
+      "5. Compare actual adjusted balances with required capital; transfer differences to Partner Current Accounts."
+    ],
+    "working_notes": "Capital adjustments preserve exact ratio compliance in reconstituted balance sheets.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 22,
+    "topic": "Admission Q22: Capital Adjustment Based on Incoming Partner Capital",
+    "question": "Practical Problem 22: A and B share in 3:2. They admit C for 1/5th share. C brings ₹440,000 as capital. It is agreed that capitals of A and B will be adjusted in their new profit sharing ratio on the basis of C capital. Any surplus or deficit will be adjusted through Current Accounts. Calculate adjusted capitals.",
+    "solution_steps": [
+      "1. Total Capital of New Firm = ₹440,000 × 5 = ₹2,200,000.",
+      "2. Combined Capital of old partners = ₹2,200,000 − ₹440,000 = ₹1,760,000.",
+      "3. A New Adjusted Capital = ₹1,760,000.0 × 3/5 = ₹1,056,000.",
+      "4. B New Adjusted Capital = ₹1,760,000.0 × 2/5 = ₹704,000.",
+      "5. Compare actual adjusted balances with required capital; transfer differences to Partner Current Accounts."
+    ],
+    "working_notes": "Capital adjustments preserve exact ratio compliance in reconstituted balance sheets.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 23,
+    "topic": "Admission Q23: Capital Adjustment Based on Incoming Partner Capital",
+    "question": "Practical Problem 23: A and B share in 3:2. They admit C for 1/5th share. C brings ₹460,000 as capital. It is agreed that capitals of A and B will be adjusted in their new profit sharing ratio on the basis of C capital. Any surplus or deficit will be adjusted through Current Accounts. Calculate adjusted capitals.",
+    "solution_steps": [
+      "1. Total Capital of New Firm = ₹460,000 × 5 = ₹2,300,000.",
+      "2. Combined Capital of old partners = ₹2,300,000 − ₹460,000 = ₹1,840,000.",
+      "3. A New Adjusted Capital = ₹1,840,000.0 × 3/5 = ₹1,104,000.",
+      "4. B New Adjusted Capital = ₹1,840,000.0 × 2/5 = ₹736,000.",
+      "5. Compare actual adjusted balances with required capital; transfer differences to Partner Current Accounts."
+    ],
+    "working_notes": "Capital adjustments preserve exact ratio compliance in reconstituted balance sheets.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 24,
+    "topic": "Admission Q24: Capital Adjustment Based on Incoming Partner Capital",
+    "question": "Practical Problem 24: A and B share in 3:2. They admit C for 1/5th share. C brings ₹480,000 as capital. It is agreed that capitals of A and B will be adjusted in their new profit sharing ratio on the basis of C capital. Any surplus or deficit will be adjusted through Current Accounts. Calculate adjusted capitals.",
+    "solution_steps": [
+      "1. Total Capital of New Firm = ₹480,000 × 5 = ₹2,400,000.",
+      "2. Combined Capital of old partners = ₹2,400,000 − ₹480,000 = ₹1,920,000.",
+      "3. A New Adjusted Capital = ₹1,920,000.0 × 3/5 = ₹1,152,000.",
+      "4. B New Adjusted Capital = ₹1,920,000.0 × 2/5 = ₹768,000.",
+      "5. Compare actual adjusted balances with required capital; transfer differences to Partner Current Accounts."
+    ],
+    "working_notes": "Capital adjustments preserve exact ratio compliance in reconstituted balance sheets.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 25,
+    "topic": "Admission Q25: Capital Adjustment Based on Incoming Partner Capital",
+    "question": "Practical Problem 25: A and B share in 3:2. They admit C for 1/5th share. C brings ₹500,000 as capital. It is agreed that capitals of A and B will be adjusted in their new profit sharing ratio on the basis of C capital. Any surplus or deficit will be adjusted through Current Accounts. Calculate adjusted capitals.",
+    "solution_steps": [
+      "1. Total Capital of New Firm = ₹500,000 × 5 = ₹2,500,000.",
+      "2. Combined Capital of old partners = ₹2,500,000 − ₹500,000 = ₹2,000,000.",
+      "3. A New Adjusted Capital = ₹2,000,000.0 × 3/5 = ₹1,200,000.",
+      "4. B New Adjusted Capital = ₹2,000,000.0 × 2/5 = ₹800,000.",
+      "5. Compare actual adjusted balances with required capital; transfer differences to Partner Current Accounts."
+    ],
+    "working_notes": "Capital adjustments preserve exact ratio compliance in reconstituted balance sheets.",
+    "journal_entries": []
+  }
+]
