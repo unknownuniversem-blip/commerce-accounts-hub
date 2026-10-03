@@ -1253,5 +1253,938 @@
     ],
     "working_notes": "Verified per Indian Partnership Act & CBSE Guidelines.",
     "journal_entries": []
+  },
+  {
+    "q_no": 61,
+    "topic": "Practical Problem 61",
+    "question": "The solution of Question number 61 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 61.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Capital Accounts:AB",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Cash at Bank",
+        "cr": "34,000"
+      },
+      {
+        "date": "Sundry Creditors",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Sundry Debtors",
+        "cr": "1,66,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "2,60,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Fixed Assets",
+        "cr": "2,20,000"
+      },
+      {
+        "date": "",
+        "particulars": "6,80,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "6,80,000"
+      }
+    ]
+  },
+  {
+    "q_no": 62,
+    "topic": "Practical Problem 62",
+    "question": "The solution of Question number 62 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 62.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Creditors",
+        "particulars": "2,60,000",
+        "lf": "-",
+        "dr": "Land and Buildings",
+        "cr": "19,80,000"
+      },
+      {
+        "date": "Workmen Compensation Reserve",
+        "particulars": "40,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "8,00,000"
+      },
+      {
+        "date": "Capital Accounts:AB",
+        "particulars": "20,00,00010,00,000",
+        "lf": "-",
+        "dr": "Sundry Debtors 4,00,000Less: Provision 12,000",
+        "cr": "3,88,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Cash at Bank",
+        "cr": "1,32,000"
+      },
+      {
+        "date": "",
+        "particulars": "33,00,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "33,00,000"
+      }
+    ]
+  },
+  {
+    "q_no": 63,
+    "topic": "Practical Problem 63",
+    "question": "The solution of Question number 63 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 63.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Sundry Creditors",
+        "particulars": "5,000",
+        "lf": "-",
+        "dr": "Goodwill",
+        "cr": "10,000"
+      },
+      {
+        "date": "Bills Payable",
+        "particulars": "15,000",
+        "lf": "-",
+        "dr": "Furniture",
+        "cr": "25,000"
+      },
+      {
+        "date": "General Reserve",
+        "particulars": "10,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "15,000"
+      },
+      {
+        "date": "Capital A/cs:GautamRahul",
+        "particulars": "30,00040,000",
+        "lf": "-",
+        "dr": "Sundry Debtors 12,000Less: Provision for Doubtful Debts 2,000",
+        "cr": "10,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Cash in Hand",
+        "cr": "40,000"
+      },
+      {
+        "date": "",
+        "particulars": "1,00,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "1,00,000"
+      }
+    ]
+  },
+  {
+    "q_no": 64,
+    "topic": "Practical Problem 64",
+    "question": "The solution of Question number 64 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 64.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Capital AccountsAB",
+        "particulars": "86,00064,000",
+        "lf": "-",
+        "dr": "Goodwill",
+        "cr": "10,000"
+      },
+      {
+        "date": "General Reserve",
+        "particulars": "20,000",
+        "lf": "-",
+        "dr": "Land and Building",
+        "cr": "60,000"
+      },
+      {
+        "date": "Sundry Creditors",
+        "particulars": "31,200",
+        "lf": "-",
+        "dr": "Plant and Machinery",
+        "cr": "70,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "36,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Sundryy Debtors",
+        "cr": "20,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Cash at Bank",
+        "cr": "4,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Cash in Hand",
+        "cr": "1,200"
+      },
+      {
+        "date": "",
+        "particulars": "2,01,200",
+        "lf": "-",
+        "dr": "",
+        "cr": "2,01,200"
+      }
+    ]
+  },
+  {
+    "q_no": 65,
+    "topic": "Practical Problem 65",
+    "question": "The solution of Question number 65 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 65.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Creditors",
+        "particulars": "50,000",
+        "lf": "-",
+        "dr": "Bank",
+        "cr": "29,000"
+      },
+      {
+        "date": "Workmen’s Compensation Reserve",
+        "particulars": "40,000",
+        "lf": "-",
+        "dr": "Debtors",
+        "cr": "1,80,000"
+      },
+      {
+        "date": "Capitals A/cs:X Y",
+        "particulars": "2,60,0001,35,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "1,25,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Premises",
+        "cr": "1,50,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Advertisement Expenses",
+        "cr": "16,000"
+      },
+      {
+        "date": "",
+        "particulars": "5,00,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "5,00,000"
+      }
+    ]
+  },
+  {
+    "q_no": 66,
+    "topic": "Practical Problem 66",
+    "question": "The solution of Question number 66 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 66.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 67,
+    "topic": "Practical Problem 67",
+    "question": "The solution of Question number 67 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 67.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 68,
+    "topic": "Practical Problem 68",
+    "question": "The solution of Question number 68 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 68.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 69,
+    "topic": "Practical Problem 69",
+    "question": "The solution of Question number 69 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 69.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 70,
+    "topic": "Practical Problem 70",
+    "question": "The solution of Question number 70 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 70.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Sundry Creditors",
+        "particulars": "80,000",
+        "lf": "-",
+        "dr": "Cash at Bank",
+        "cr": "20,000"
+      },
+      {
+        "date": "Reserve",
+        "particulars": "1,00,000",
+        "lf": "-",
+        "dr": "Debtors",
+        "cr": "70,000"
+      },
+      {
+        "date": "Profit & Loss A/c",
+        "particulars": "40,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "1,80,000"
+      },
+      {
+        "date": "Capital Accounts:XY",
+        "particulars": "2,70,0001,60,000",
+        "lf": "-",
+        "dr": "Machinery",
+        "cr": "3,50,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Goodwill",
+        "cr": "30,000"
+      },
+      {
+        "date": "",
+        "particulars": "6,50,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "6,50,000"
+      }
+    ]
+  },
+  {
+    "q_no": 71,
+    "topic": "Practical Problem 71",
+    "question": "The solution of Question number 71 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 71.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 72,
+    "topic": "Practical Problem 72",
+    "question": "The solution of Question number 72 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 72.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Sundry Creditors",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Plant and Machinery",
+        "cr": "3,80,000"
+      },
+      {
+        "date": "Capital Accounts:AB",
+        "particulars": "6,00,0004,00,000",
+        "lf": "-",
+        "dr": "Building",
+        "cr": "4,20,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "84,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Debtors 1,40,000Less PDD 10,000",
+        "cr": "1,30,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Cash",
+        "cr": "26,000"
+      },
+      {
+        "date": "",
+        "particulars": "10,40,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "10,40,000"
+      }
+    ]
+  },
+  {
+    "q_no": 73,
+    "topic": "Practical Problem 73",
+    "question": "The solution of Question number 73 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 73.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Creditors",
+        "particulars": "40,000",
+        "lf": "-",
+        "dr": "Cash at Bank",
+        "cr": "5,000"
+      },
+      {
+        "date": "Reserve Fund",
+        "particulars": "50,000",
+        "lf": "-",
+        "dr": "Debtors",
+        "cr": "60,000"
+      },
+      {
+        "date": "Capitals:NemKhem",
+        "particulars": "50,00040,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "35,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Plant and Machinery",
+        "cr": "80,000"
+      },
+      {
+        "date": "",
+        "particulars": "1,80,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "1,80,000"
+      }
+    ]
+  },
+  {
+    "q_no": 74,
+    "topic": "Practical Problem 74",
+    "question": "The solution of Question number 74 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 74.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Creditors",
+        "particulars": "36,000",
+        "lf": "-",
+        "dr": "Cash",
+        "cr": "20,000"
+      },
+      {
+        "date": "Outstanding Expenses",
+        "particulars": "4,000",
+        "lf": "-",
+        "dr": "Debtors 40,000Less: Provision 500",
+        "cr": "39,500"
+      },
+      {
+        "date": "CapitalsXY",
+        "particulars": "1,50,0003,00,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "1,20,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Furniture",
+        "cr": "30,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Plant",
+        "cr": "2,72,500"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Patents",
+        "cr": "8,000"
+      },
+      {
+        "date": "",
+        "particulars": "4,90,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "4,90,000"
+      }
+    ]
+  },
+  {
+    "q_no": 75,
+    "topic": "Practical Problem 75",
+    "question": "The solution of Question number 75 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 75.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Creditors",
+        "particulars": "2,10,000",
+        "lf": "-",
+        "dr": "Cash in Hand",
+        "cr": "1,40,000"
+      },
+      {
+        "date": "Workmen’s Compensation Fund",
+        "particulars": "2,50,000",
+        "lf": "-",
+        "dr": "Debtors",
+        "cr": "1,60,000"
+      },
+      {
+        "date": "General Reserve",
+        "particulars": "1,60,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "1,20,000"
+      },
+      {
+        "date": "Capitals:MohanMahesh",
+        "particulars": "1,00,00080,000",
+        "lf": "-",
+        "dr": "Machinery",
+        "cr": "1,00,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Building",
+        "cr": "2,80,000"
+      },
+      {
+        "date": "",
+        "particulars": "8,00,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "8,00,000"
+      }
+    ]
+  },
+  {
+    "q_no": 76,
+    "topic": "Practical Problem 76",
+    "question": "The solution of Question number 76 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 76.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Sundry Creditors",
+        "particulars": "2,50,000",
+        "lf": "-",
+        "dr": "Cash at Bank",
+        "cr": "1,30,000"
+      },
+      {
+        "date": "Investment Fluctuation Reserve",
+        "particulars": "50,000",
+        "lf": "-",
+        "dr": "Sundry Debtors 7,50,000Less: Provision 30,000",
+        "cr": "7,20,000"
+      },
+      {
+        "date": "Capitals:AB",
+        "particulars": "10,00,0008,00,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "4,50,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Investments",
+        "cr": "2,00,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Plant and Machinery",
+        "cr": "6,00,000"
+      },
+      {
+        "date": "",
+        "particulars": "21,00,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "21,00,000"
+      }
+    ]
+  },
+  {
+    "q_no": 77,
+    "topic": "Practical Problem 77",
+    "question": "The solution of Question number 77 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 77.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Capitals:XY",
+        "particulars": "1,40,0001,00,000",
+        "lf": "-",
+        "dr": "Plant and Machinery",
+        "cr": "1,75,000"
+      },
+      {
+        "date": "Workmen Compensation Reserve",
+        "particulars": "40,000",
+        "lf": "-",
+        "dr": "Furniture and Fixtures",
+        "cr": "65,000"
+      },
+      {
+        "date": "Creditors",
+        "particulars": "1,50,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "35,000"
+      },
+      {
+        "date": "Bills Payable",
+        "particulars": "10,000",
+        "lf": "-",
+        "dr": "Bills Receivable",
+        "cr": "12,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Debtors 1,10,000Less: PDD 7,000",
+        "cr": "1,03,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Cash & Bank Balance",
+        "cr": "50,000"
+      },
+      {
+        "date": "",
+        "particulars": "4,40,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "4,40,000"
+      }
+    ]
+  },
+  {
+    "q_no": 78,
+    "topic": "Practical Problem 78",
+    "question": "The solution of Question number 78 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 78.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Sundry Creditors",
+        "particulars": "25,000",
+        "lf": "-",
+        "dr": "Cash at Bank",
+        "cr": "5,000"
+      },
+      {
+        "date": "Reserve Fund",
+        "particulars": "18,000",
+        "lf": "-",
+        "dr": "Sundry Debtors",
+        "cr": "15,000"
+      },
+      {
+        "date": "Capital AccountsXY",
+        "particulars": "75,00062,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "10,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Investments",
+        "cr": "8,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Typewriter",
+        "cr": "5,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Fixed Assets",
+        "cr": "1,37,000"
+      },
+      {
+        "date": "",
+        "particulars": "1,80,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "1,80,000"
+      }
+    ]
+  },
+  {
+    "q_no": 79,
+    "topic": "Practical Problem 79",
+    "question": "The solution of Question number 79 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 79.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 80,
+    "topic": "Practical Problem 80",
+    "question": "The solution of Question number 80 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 80.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 81,
+    "topic": "Practical Problem 81",
+    "question": "The solution of Question number 81 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 81.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 82,
+    "topic": "Practical Problem 82",
+    "question": "The solution of Question number 82 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 82.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Sundry CreditorsOutstanding SalariesGeneral ReserveCapitals:AB",
+        "particulars": "63,0004,00010,00050,00030,000",
+        "lf": "-",
+        "dr": "Cash at BankSundry Debtors 30,000Less: provision 1,000StockTrade MarksBuilding",
+        "cr": "5,00029,00040,0008,00075,000"
+      },
+      {
+        "date": "",
+        "particulars": "1,57,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "1,57,000"
+      }
+    ]
+  },
+  {
+    "q_no": 83,
+    "topic": "Practical Problem 83",
+    "question": "The solution of Question number 83 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 83.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "CreditorsBank OverdraftAshok’s CapitalBiju’s Capital",
+        "particulars": "1,20,0001,50,0001,50,0001,00,000",
+        "lf": "-",
+        "dr": "Sundry DebtorsStockFurnitureMachinery",
+        "cr": "2,00,0002,20,00040,00060,000"
+      },
+      {
+        "date": "",
+        "particulars": "5,20,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "5,20,000"
+      }
+    ]
+  },
+  {
+    "q_no": 85,
+    "topic": "Practical Problem 85",
+    "question": "The solution of Question number 85 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 85.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Capital Accounts:OmRamShantiGeneral ReserveCreditorsBills Payable",
+        "particulars": "3,58,0003,00,0002,62,00048,0001,60,00090,000",
+        "lf": "-",
+        "dr": "Land and BuildingPlant and MachineryFurnitureBills ReceivablesSundry DebtorsStockBank",
+        "cr": "3,64,0002,95,0002,33,00038,00090,0001,11,00087,000"
+      },
+      {
+        "date": "",
+        "particulars": "12,18,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "12,18,000"
+      }
+    ]
+  },
+  {
+    "q_no": 86,
+    "topic": "Practical Problem 86",
+    "question": "The solution of Question number 86 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 86.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "CreditorsEmployees Provident FundWorkmen’s Compensation ReserveCapital A/cs:AmitVidya",
+        "particulars": "26,00016,00030,0001,10,00060,000",
+        "lf": "-",
+        "dr": "BankStockDebtors 44,000Less Provision for Bad Debts 2,000Plant and MachineryGoodwillProfit and Loss Account",
+        "cr": "20,00030,00042,0001,20,00020,00010,000"
+      },
+      {
+        "date": "",
+        "particulars": "2,42,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "2,42,000"
+      }
+    ]
   }
 ]

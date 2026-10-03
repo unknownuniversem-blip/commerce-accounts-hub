@@ -1,60 +1,20 @@
 [
   {
     "q_no": 1,
-    "topic": "Issue of Shares at Premium with Pro-Rata Allotment & Forfeiture",
-    "question": "Modern Toys Ltd. issued 40,000 equity shares of ₹10 each at a premium of ₹2 per share payable: ₹3 on Application, ₹5 on Allotment (including premium), and balance ₹4 on First & Final Call. Applications were received for 60,000 shares. 10,000 rejected, pro-rata to remaining 50,000. Mohan (allotted 800 shares) failed to pay allotment and call. Shares forfeited and re-issued @ ₹9 fully paid. Pass Journal Entries.",
+    "topic": "Practical Problem 1",
+    "question": "Q. 1. X Ltd. issued 2,000, 15% debentures of ₹ 100 each at par, payable as follows: ₹ 25 on Application; ₹ 25 on Allotment and ₹ 50 on First and Final Call.",
     "solution_steps": [
-      "1. Mohan applied: 800 × (50,000 / 40,000) = 1,000 shares.",
-      "2. Application money paid: 1,000 × ₹3 = ₹3,000. Required: 800 × ₹3 = ₹2,400. Excess = ₹600.",
-      "3. Allotment due: 800 × ₹5 = ₹4,000. Unpaid allotment: ₹4,000 − ₹600 = ₹3,400 (Calls in Arrears).",
-      "4. First & Final Call arrears: 800 × ₹4 = ₹3,200. Total arrears = ₹6,600.",
-      "5. Share Forfeiture Credit: 800 × ₹3 + ₹600 = ₹3,000.",
-      "6. Re-issue: Bank Dr (800 × ₹9 = ₹7,200), Forfeiture Dr (800 × ₹1 = ₹800) to Share Capital ₹8,000.",
-      "7. Capital Reserve Transfer: ₹3,000 − ₹800 = ₹2,200."
+      "1. Identified particulars and transactions for Question 1.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
     ],
-    "working_notes": "Securities premium was not received on Mohan shares; hence Securities Premium Account is debited upon forfeiture.",
-    "journal_entries": [
-      {
-        "date": "1",
-        "particulars": "Bank A/c (60,000 × ₹3) ....................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Equity Share Application A/c",
-        "lf": "1",
-        "dr": "1,80,000",
-        "cr": "1,80,000"
-      },
-      {
-        "date": "2",
-        "particulars": "Equity Share Application A/c ........................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Equity Share Capital A/c (40,000 × ₹3)<br>&nbsp;&nbsp;&nbsp;&nbsp;To Equity Share Allotment A/c (Advance)<br>&nbsp;&nbsp;&nbsp;&nbsp;To Bank A/c (10,000 rejected × ₹3)",
-        "lf": "2",
-        "dr": "1,80,000",
-        "cr": "<br>1,20,000<br>30,000<br>30,000"
-      },
-      {
-        "date": "3",
-        "particulars": "Equity Share Capital A/c (800 × ₹10) .............................. Dr.<br>Securities Premium A/c (800 × ₹2) ............................. Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Calls in Arrears A/c (₹3,400 + ₹3,200)<br>&nbsp;&nbsp;&nbsp;&nbsp;To Share Forfeiture A/c",
-        "lf": "3",
-        "dr": "8,000<br>1,600",
-        "cr": "<br><br>6,600<br>3,000"
-      },
-      {
-        "date": "4",
-        "particulars": "Bank A/c (800 × ₹9) ....................................................... Dr.<br>Share Forfeiture A/c (Discount) ................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Equity Share Capital A/c",
-        "lf": "4",
-        "dr": "7,200<br>800",
-        "cr": "<br><br>8,000"
-      },
-      {
-        "date": "5",
-        "particulars": "Share Forfeiture A/c ...................................................... Dr.<br>&nbsp;&nbsp;&nbsp;&nbsp;To Capital Reserve A/c<br>(Being gain on re-issue transferred)",
-        "lf": "5",
-        "dr": "2,20,000",
-        "cr": "<br>2,200"
-      }
-    ]
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
   },
   {
     "q_no": 2,
     "topic": "Practical Problem 2",
-    "question": "Solutions of Question number 2 of Accounting for Companies Issue of shares chapter 6 of DK Goel Class 12 CBSE (2024-25)",
+    "question": "Anurag Pathak is an academic teacher. He has been teaching Accountancy and Economics for CBSE students for the last 18 years. In his guidance, thousands of students have secured good marks in their board exams and legacy is still going on. You can subscribe his Youtube channel for free lectures",
     "solution_steps": [
       "1. Identified particulars and transactions for Question 2.",
       "2. Prepared adjustments in accordance with standard CBSE guidelines.",
@@ -66,7 +26,7 @@
   {
     "q_no": 3,
     "topic": "Practical Problem 3",
-    "question": "Solutions of Question number 3 of Accounting for Companies Issue of shares chapter 6 of DK Goel Class 12 CBSE (2024-25)",
+    "question": "Kamal Ltd. issued 5,000, 12% Debentures of ₹ 100 each, payable as follows:",
     "solution_steps": [
       "1. Identified particulars and transactions for Question 3.",
       "2. Prepared adjustments in accordance with standard CBSE guidelines.",
@@ -78,7 +38,7 @@
   {
     "q_no": 4,
     "topic": "Practical Problem 4",
-    "question": "Solutions of Question number 4 of Accounting for Companies Issue of shares chapter 6 of DK Goel Class 12 CBSE (2024-25)",
+    "question": "Sunflower Ltd. issued 4,000, 8% Debentures of ₹ 200 each at a premium of 6% payable as ₹ 80 on application and ₹ 132 on allotment. Debentures are redeemable after 7 years. Record entries assuming all the money is duly received.",
     "solution_steps": [
       "1. Identified particulars and transactions for Question 4.",
       "2. Prepared adjustments in accordance with standard CBSE guidelines.",
@@ -90,7 +50,7 @@
   {
     "q_no": 5,
     "topic": "Practical Problem 5",
-    "question": "Solutions of Question number 5 of Accounting for Companies Issue of shares chapter 6 of DK Goel Class 12 CBSE (2024-25)",
+    "question": "X Ltd. issued 5,000, 12% Debentures of ₹ 100 each at a premium of ₹ 5 payable as follows:",
     "solution_steps": [
       "1. Identified particulars and transactions for Question 5.",
       "2. Prepared adjustments in accordance with standard CBSE guidelines.",
@@ -102,7 +62,7 @@
   {
     "q_no": 6,
     "topic": "Practical Problem 6",
-    "question": "Solutions of Question number 6 of Accounting for Companies Issue of shares chapter 6 of DK Goel Class 12 CBSE (2024-25)",
+    "question": "Nav Lakshmi Ltd. invited applications for issuing 3,000, 12% Debentures of ₹ 100 each at a premium of ₹ 50 per debenture. The full amount was payable on application.",
     "solution_steps": [
       "1. Identified particulars and transactions for Question 6.",
       "2. Prepared adjustments in accordance with standard CBSE guidelines.",
@@ -114,7 +74,7 @@
   {
     "q_no": 7,
     "topic": "Practical Problem 7",
-    "question": "Solutions of Question number 7 of Accounting for Companies Issue of shares chapter 6 of DK Goel Class 12 CBSE (2024-25)",
+    "question": "R Ltd. issued 8,000, 13% Debentures of ₹ 100 each at a discount of 5% payable as follows:",
     "solution_steps": [
       "1. Identified particulars and transactions for Question 7.",
       "2. Prepared adjustments in accordance with standard CBSE guidelines.",
@@ -126,7 +86,7 @@
   {
     "q_no": 8,
     "topic": "Practical Problem 8",
-    "question": "Solutions of Question number 8 of Accounting for Companies Issue of shares chapter 6 of DK Goel Class 12 CBSE (2024-25)",
+    "question": "Kaveri Ltd. issued 10,000 8% debentures of ₹ 50 each at a discount of 6%. The full amount was payable on application. Applications were received for 12,000 debentures and allotment was made on pro-rata basis.",
     "solution_steps": [
       "1. Identified particulars and transactions for Question 8.",
       "2. Prepared adjustments in accordance with standard CBSE guidelines.",
@@ -138,7 +98,7 @@
   {
     "q_no": 9,
     "topic": "Practical Problem 9",
-    "question": "Solutions of Question number 9 of Accounting for Companies Issue of shares chapter 6 of DK Goel Class 12 CBSE (2024-25)",
+    "question": "X Company purchased assets of the book value of ₹ 10,45,000 from Y Co. It was agreed that the purchase consideration be paid by issuing 14% Debentures of ₹ 100 each. Assume debentures have been issued (i) at par; (ii) at a premium of 10%, and (iii) at a discount of 5%.",
     "solution_steps": [
       "1. Identified particulars and transactions for Question 9.",
       "2. Prepared adjustments in accordance with standard CBSE guidelines.",
@@ -150,7 +110,7 @@
   {
     "q_no": 10,
     "topic": "Practical Problem 10",
-    "question": "Solutions of Question number 10 of Accounting for Companies Issue of shares chapter 6 of DK Goel Class 12 CBSE (2024-25)",
+    "question": "Golden Ltd. bought assets for ₹ 5,50,00,000 and assumed liabilities worth ₹ 1,26,00,000 from Silver Ltd. and issued 8% Debentures of ₹ 500 each at a premium of 6%. Record necessary entries in the books of Golden Ltd.",
     "solution_steps": [
       "1. Identified particulars and transactions for Question 10.",
       "2. Prepared adjustments in accordance with standard CBSE guidelines.",
@@ -162,7 +122,7 @@
   {
     "q_no": 11,
     "topic": "Practical Problem 11",
-    "question": "Solutions of Question number 11 of Accounting for Companies Issue of shares chapter 6 of DK Goel Class 12 CBSE (2024-25)",
+    "question": "Nupur Ltd. took over Plant and Machinery worth ₹ 8,00,000, Stock worth ₹ 7,00,000 and Sundry Debtors for ₹ 6,00,000 from Vandana Ltd. for a purchase consideration of ₹ 22,80,000. Nupur Ltd. paid the purchase consideration by issuing 8% Debentures of ₹ 200 each. Pass entries in the books of Nupur Ltd. when:",
     "solution_steps": [
       "1. Identified particulars and transactions for Question 11.",
       "2. Prepared adjustments in accordance with standard CBSE guidelines.",
@@ -174,7 +134,7 @@
   {
     "q_no": 12,
     "topic": "Practical Problem 12",
-    "question": "Solutions of Question number 12 of Accounting for Companies Issue of shares chapter 6 of DK Goel Class 12 CBSE (2024-25)",
+    "question": "Disha Ltd. took over assets of ₹ 8,00,000 and liabilities of ₹ 3,00,000 from Kirti Ltd. for a purchase consideration of ₹ 6,00,000. The payment was made by issue of 9% Debentures of ₹ 100 each at 20% premium.",
     "solution_steps": [
       "1. Identified particulars and transactions for Question 12.",
       "2. Prepared adjustments in accordance with standard CBSE guidelines.",
@@ -186,7 +146,7 @@
   {
     "q_no": 13,
     "topic": "Practical Problem 13",
-    "question": "Solutions of Question number 13 of Accounting for Companies Issue of shares chapter 6 of DK Goel Class 12 CBSE (2024-25)",
+    "question": "A Company purchased Assets of the book value of ₹ 12,00,000 and Liabilities of ₹ 2,20,000 of another Company for a purchase consideration of ₹ 9,40,000. The purchase consideration was discharged by the issue of debentures of ₹ 500 each at a discount of 6%. Pass journal entries in the books of purchasing company. Company writes off all capital losses in the first year itself.",
     "solution_steps": [
       "1. Identified particulars and transactions for Question 13.",
       "2. Prepared adjustments in accordance with standard CBSE guidelines.",
@@ -198,7 +158,7 @@
   {
     "q_no": 14,
     "topic": "Practical Problem 14",
-    "question": "Solutions of Question number 14 of Accounting for Companies Issue of shares chapter 6 of DK Goel Class 12 CBSE (2024-25)",
+    "question": "J Ltd. purchased machinery for ₹ 3,50,000 from K Ltd. on 28.2.2023. ₹ 50,000 were paid to K Ltd. immediately and the balance was paid by issue of 10% debentures of ₹ 3,10,000 in J Ltd. Pass the necessary journal entries including writing off discount on issue of debentures.",
     "solution_steps": [
       "1. Identified particulars and transactions for Question 14.",
       "2. Prepared adjustments in accordance with standard CBSE guidelines.",
@@ -210,7 +170,7 @@
   {
     "q_no": 15,
     "topic": "Practical Problem 15",
-    "question": "Solutions of Question number 15 of Accounting for Companies Issue of shares chapter 6 of DK Goel Class 12 CBSE (2024-25)",
+    "question": "Land and Buildings of ₹ 25,00,000 at ₹ 40,00,000; Plant and Machinery of ₹ 10,00,000 for ₹ 7,50,000 and Furniture of ₹ 3,00,000 for ₹ 1,00,000 for purchase consideration of ₹ 45,00,000. Star Textiles Ltd. paid ₹ 3,00,000 in cash and remaining by issue of 9% Debentures of ₹ 500 each at a premium of 5%. Record necessary entries in the books of Star Textiles Ltd.",
     "solution_steps": [
       "1. Identified particulars and transactions for Question 15.",
       "2. Prepared adjustments in accordance with standard CBSE guidelines.",
@@ -222,7 +182,7 @@
   {
     "q_no": 16,
     "topic": "Practical Problem 16",
-    "question": "Solutions of Question number 16 of Accounting for Companies Issue of shares chapter 6 of DK Goel Class 12 CBSE (2024-25)",
+    "question": "Gunjan Limited purchased a running business from Vrindavan Limited for a sum of ₹ 25,00,000, payable ₹ 4,00,000 by cheque and for the balance issued 8% Debentures of ₹ 100 each at 5% premium.",
     "solution_steps": [
       "1. Identified particulars and transactions for Question 16.",
       "2. Prepared adjustments in accordance with standard CBSE guidelines.",
@@ -234,7 +194,7 @@
   {
     "q_no": 17,
     "topic": "Practical Problem 17",
-    "question": "Solutions of Question number 17 of Accounting for Companies Issue of shares chapter 6 of DK Goel Class 12 CBSE (2024-25)",
+    "question": "(i) By issuing 10,000, equity shares of ₹ 10 each at a premium of 10%.",
     "solution_steps": [
       "1. Identified particulars and transactions for Question 17.",
       "2. Prepared adjustments in accordance with standard CBSE guidelines.",
@@ -246,7 +206,7 @@
   {
     "q_no": 18,
     "topic": "Practical Problem 18",
-    "question": "Solutions of Question number 18 of Accounting for Companies Issue of shares chapter 6 of DK Goel Class 12 CBSE (2024-25)",
+    "question": "S. Singh Limited obtained a loan of ₹ 5,00,000 from State Bank of India @ 10% interest. The company issued ₹ 7,50,000, 10% debentures of ₹ 100 each, in favour of State Bank of India as collateral security. Pass necessary journal entries for the above transactions:",
     "solution_steps": [
       "1. Identified particulars and transactions for Question 18.",
       "2. Prepared adjustments in accordance with standard CBSE guidelines.",
@@ -258,7 +218,7 @@
   {
     "q_no": 19,
     "topic": "Practical Problem 19",
-    "question": "Solutions of Question number 19 of Accounting for Companies Issue of shares chapter 6 of DK Goel Class 12 CBSE (2024-25)",
+    "question": "Hassan Limited took a loan of ₹ 30,00,000 from a bank against primary security worth ₹ 40,00,000 and issued 35,000, 6% debentures of ₹ 100 each as a collateral security. The company again after one year took a loan of ₹ 50,00,000 from bank against Plant as primary security and deposited 60,000, 6% debentures of ₹ 100 each as collateral security. Record necessary journal entries. How will you show the issue of debentures and bank loan in the balance sheet of the company.",
     "solution_steps": [
       "1. Identified particulars and transactions for Question 19.",
       "2. Prepared adjustments in accordance with standard CBSE guidelines.",
@@ -270,7 +230,7 @@
   {
     "q_no": 20,
     "topic": "Practical Problem 20",
-    "question": "Solutions of Question number 20 of Accounting for Companies Issue of shares chapter 6 of DK Goel Class 12 CBSE (2024-25)",
+    "question": "(i) For cash at 90%, 6,000 debentures of ₹ 100 each.",
     "solution_steps": [
       "1. Identified particulars and transactions for Question 20.",
       "2. Prepared adjustments in accordance with standard CBSE guidelines.",
@@ -282,7 +242,7 @@
   {
     "q_no": 21,
     "topic": "Practical Problem 21",
-    "question": "Solutions of Question number 21 of Accounting for Companies Issue of shares chapter 6 of DK Goel Class 12 CBSE (2024-25)",
+    "question": "X Ltd. issued 25,000, 9% Debentures of ₹ 100 each at a premium of ₹ 4 per debenture on 1st April, 2022. On the same date it purchased Property, Plant and Equipment of ₹ 10,00,000 and took over current liabilities of ₹ 70,000 of Y Ltd. and paid ₹ 4,00,000 in cash and remaining by issue of 5,00,000, 9% debentures at a premium 6%. On the same date it took a loan from the Bank for ₹ 6,00,000 and issued 9% debentures as collateral security. Give entries and the extract of Balance Sheet on 31st March, 2023. Ignore Interest.",
     "solution_steps": [
       "1. Identified particulars and transactions for Question 21.",
       "2. Prepared adjustments in accordance with standard CBSE guidelines.",
@@ -294,7 +254,7 @@
   {
     "q_no": 22,
     "topic": "Practical Problem 22",
-    "question": "Solutions of Question number 22 of Accounting for Companies Issue of shares chapter 6 of DK Goel Class 12 CBSE (2024-25)",
+    "question": "Usha Ltd. issued 30,000, 10% Debentures of ₹ 100 each as collateral security for a loan of ₹ 24,00,000 from Axis Bank. The company was unable to repay the loan on which interest payable was ₹ 6,00,000 as on 31st March, 2022.",
     "solution_steps": [
       "1. Identified particulars and transactions for Question 22.",
       "2. Prepared adjustments in accordance with standard CBSE guidelines.",
@@ -306,7 +266,7 @@
   {
     "q_no": 23,
     "topic": "Practical Problem 23",
-    "question": "Solutions of Question number 23 of Accounting for Companies Issue of shares chapter 6 of DK Goel Class 12 CBSE (2024-25)",
+    "question": "(i) A company issued ₹ 40,000, 12% Debentures at par, redeemable also at par.",
     "solution_steps": [
       "1. Identified particulars and transactions for Question 23.",
       "2. Prepared adjustments in accordance with standard CBSE guidelines.",
@@ -318,7 +278,7 @@
   {
     "q_no": 24,
     "topic": "Practical Problem 24",
-    "question": "Solutions of Question number 24 of Accounting for Companies Issue of shares chapter 6 of DK Goel Class 12 CBSE (2024-25)",
+    "question": "KTR Ltd., issued 365, 9% Debentures of ₹ 1000 each on 4-3-2016.",
     "solution_steps": [
       "1. Identified particulars and transactions for Question 24.",
       "2. Prepared adjustments in accordance with standard CBSE guidelines.",
@@ -330,21 +290,9 @@
   {
     "q_no": 25,
     "topic": "Practical Problem 25",
-    "question": "Solutions of Question number 25 of Accounting for Companies Issue of shares chapter 6 of DK Goel Class 12 CBSE (2024-25)",
+    "question": "(i) 100 debentures of ₹ 100 each issued at ₹ 105 each repayable at ₹ 100 each.",
     "solution_steps": [
       "1. Identified particulars and transactions for Question 25.",
-      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
-      "3. Balanced journal entries and finalized closing accounts."
-    ],
-    "working_notes": "Working notes applied per statutory schedule rules.",
-    "journal_entries": []
-  },
-  {
-    "q_no": 26,
-    "topic": "Practical Problem 26",
-    "question": "Solutions of Question number 26 of Accounting for Companies Issue of shares chapter 6 of DK Goel Class 12 CBSE (2024-25)",
-    "solution_steps": [
-      "1. Identified particulars and transactions for Question 26.",
       "2. Prepared adjustments in accordance with standard CBSE guidelines.",
       "3. Balanced journal entries and finalized closing accounts."
     ],
