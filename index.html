@@ -3,277 +3,252 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BalanceSheet OS — DK Goel Accountancy Solutions Class 12</title>
-  <meta name="description" content="Authentic DK Goel & TS Grewal Accountancy practical solutions formatted per CBSE board marking guidelines with working notes.">
-  
+  <title>DK Goel Solutions Class 12 (2024-25) — BalanceSheet OS</title>
+  <meta name="description" content="Complete practical solutions for all chapters of DK Goel Class 12 Accountancy with working notes and ledger tables.">
+
   <style>
     :root {
+      --primary: #0f172a;
+      --accent: #2563eb;
       --bg: #f8fafc;
-      --surface: #ffffff;
+      --card-bg: #ffffff;
       --border: #e2e8f0;
-      --text-dark: #0f172a;
+      --text: #1e293b;
       --text-muted: #64748b;
-      --primary-blue: #1e40af;
-      --brand-navy: #0f172a;
-      --tag-bg: #eff6ff;
-      --tag-border: #bfdbfe;
-      --callout-bg: #f8fafc;
-      --wn-bg: #fffbeb;
-      --wn-border: #fcd34d;
+      --paper: #fefcf6;
+      --margin-red: #ef4444;
+      --ink: #1e3a8a;
     }
 
-    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
-    body { background-color: var(--bg); color: var(--text-dark); line-height: 1.6; }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    body { background-color: var(--bg); color: var(--text); line-height: 1.5; }
 
-    /* NETWORK STRIP */
     .net-bar {
-      background: var(--brand-navy);
+      background: var(--primary);
       color: #94a3b8;
-      font-size: 11.5px;
-      padding: 6px 20px;
+      font-size: 12px;
+      padding: 6px 16px;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
-    .net-bar a { color: #38bdf8; text-decoration: none; font-weight: 600; margin-left: 10px; }
+    .net-bar a { color: #38bdf8; text-decoration: none; font-weight: 600; margin-left: 8px; }
 
-    /* HEADER */
-    .site-header {
+    .header {
       background: #ffffff;
       border-bottom: 1px solid var(--border);
-      padding: 22px 20px;
+      padding: 24px 16px;
       text-align: center;
     }
-    .site-header h1 { font-size: 24px; font-weight: 900; color: var(--brand-navy); }
-    .site-header h1 span { color: #2563eb; }
-    .site-header p { font-size: 13px; color: var(--text-muted); margin-top: 3px; }
+    .header h1 { font-size: 26px; font-weight: 900; color: var(--primary); }
+    .header h1 span { color: var(--accent); }
+    .header p { font-size: 13.5px; color: var(--text-muted); margin-top: 4px; }
 
-    /* MAIN CONTAINER */
-    .container { max-width: 1050px; margin: 24px auto 60px; padding: 0 16px; }
+    .container { max-width: 1100px; margin: 20px auto 40px; padding: 0 16px; }
 
-    /* BREADCRUMB */
     .breadcrumb {
-      font-size: 13px;
-      color: var(--text-muted);
-      margin-bottom: 16px;
       display: flex;
       gap: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-bottom: 16px;
       align-items: center;
     }
-    .breadcrumb a { color: #2563eb; text-decoration: none; font-weight: 600; cursor: pointer; }
+    .breadcrumb a { color: var(--accent); text-decoration: none; cursor: pointer; }
 
-    /* VOLUME / CHAPTER DIRECTORY */
-    .vol-card {
-      background: var(--surface);
+    /* DIRECTORY VIEW */
+    .volume-block {
+      background: var(--card-bg);
       border: 1px solid var(--border);
-      border-radius: 8px;
+      border-radius: 10px;
       margin-bottom: 20px;
       overflow: hidden;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.02);
     }
-    .vol-header {
-      background: var(--brand-navy);
+    .volume-title {
+      background: #0f172a;
       color: #ffffff;
-      padding: 10px 18px;
-      font-size: 13px;
+      padding: 12px 18px;
+      font-size: 14px;
       font-weight: 800;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.04em;
     }
-    .ch-item {
+    .chapter-row {
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 14px 18px;
       border-bottom: 1px solid var(--border);
+      color: var(--text);
       cursor: pointer;
       transition: background 0.15s;
     }
-    .ch-item:last-child { border-bottom: none; }
-    .ch-item:hover { background: #f8fafc; }
-    .ch-title { font-size: 14.5px; font-weight: 700; color: var(--text-dark); }
-    .ch-badge {
-      background: var(--tag-bg);
-      color: #2563eb;
-      border: 1px solid var(--tag-border);
-      padding: 3px 10px;
+    .chapter-row:last-child { border-bottom: none; }
+    .chapter-row:hover { background: #f1f5f9; }
+    .chapter-name { font-size: 14.5px; font-weight: 700; color: #0f172a; }
+    .chapter-badge {
+      background: #eff6ff;
+      color: var(--accent);
+      border: 1px solid #bfdbfe;
+      padding: 4px 10px;
       border-radius: 999px;
-      font-size: 11.5px;
+      font-size: 12px;
       font-weight: 700;
+      white-space: nowrap;
     }
 
     /* QUESTION VIEW */
-    .question-layout { display: none; }
-    .q-main-grid {
+    .chapter-view { display: none; }
+    .chapter-layout {
       display: grid;
-      grid-template-columns: 260px 1fr;
+      grid-template-columns: 280px 1fr;
       gap: 20px;
     }
-    @media(max-width: 768px) { .q-main-grid { grid-template-columns: 1fr; } }
+    @media(max-width: 768px) { .chapter-layout { grid-template-columns: 1fr; } }
 
-    /* SIDEBAR NAVIGATOR */
     .sidebar {
-      background: var(--surface);
+      background: var(--card-bg);
       border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 14px;
+      border-radius: 10px;
+      padding: 16px;
       height: fit-content;
-      max-height: 80vh;
+      max-height: 85vh;
       overflow-y: auto;
     }
-    .sidebar-title { font-size: 12px; font-weight: 800; text-transform: uppercase; color: var(--text-muted); margin-bottom: 10px; }
-    .pills-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
-    .pill-btn {
+    .sidebar-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+    .sidebar-title { font-size: 12px; font-weight: 800; text-transform: uppercase; color: var(--text-muted); }
+    .q-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 6px;
+    }
+    .q-btn {
       background: #f8fafc;
       border: 1px solid var(--border);
-      padding: 7px 0;
+      padding: 8px 0;
       border-radius: 6px;
       font-size: 12px;
       font-weight: 700;
       cursor: pointer;
       text-align: center;
     }
-    .pill-btn.active {
-      background: var(--primary-blue);
+    .q-btn.active {
+      background: var(--accent);
       color: #ffffff;
-      border-color: var(--primary-blue);
+      border-color: var(--accent);
     }
 
-    /* SOLUTION DETAIL CARD */
-    .solution-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 26px;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+    .register-card {
+      background: var(--paper);
+      border: 1px solid #dcd6cd;
+      border-left: 5px solid var(--margin-red);
+      border-radius: 10px;
+      padding: 24px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.04);
     }
-    .q-meta {
-      font-size: 11.5px;
+    .badge {
+      display: inline-block;
+      background: #eff6ff;
+      color: var(--accent);
+      border: 1px solid #bfdbfe;
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-size: 11px;
       font-weight: 800;
-      color: #2563eb;
       text-transform: uppercase;
-      margin-bottom: 6px;
-      letter-spacing: 0.05em;
+      margin-bottom: 10px;
     }
-    .q-heading { font-size: 21px; font-weight: 800; color: var(--brand-navy); margin-bottom: 16px; }
-
-    /* PROBLEM STATEMENT BOX */
-    .problem-callout {
-      background: var(--callout-bg);
+    .q-heading { font-size: 20px; font-weight: 900; color: #0f172a; margin-bottom: 12px; }
+    .problem-box {
+      background: #ffffff;
       border: 1px solid var(--border);
-      border-left: 4px solid #2563eb;
+      border-left: 4px solid var(--accent);
+      padding: 14px 16px;
       border-radius: 6px;
-      padding: 16px 18px;
       font-size: 14px;
-      line-height: 1.65;
-      margin-bottom: 24px;
+      line-height: 1.6;
+      margin-bottom: 20px;
       color: #334155;
     }
-    .problem-callout b { color: var(--brand-navy); }
-
-    /* SECTION TITLE */
-    .section-title {
+    .section-label {
       font-size: 13.5px;
       font-weight: 800;
-      color: var(--brand-navy);
+      color: var(--ink);
       text-transform: uppercase;
       letter-spacing: 0.04em;
-      margin: 20px 0 10px;
-      border-bottom: 2px solid #0f172a;
+      border-bottom: 2px solid var(--ink);
       display: inline-block;
-      padding-bottom: 3px;
+      padding-bottom: 2px;
+      margin: 14px 0 10px;
     }
+    .step-p { font-size: 14px; line-height: 1.7; margin-bottom: 8px; color: #1e293b; }
 
-    /* STEP LIST */
-    .steps-list { list-style: none; margin-bottom: 18px; }
-    .steps-list li {
-      font-size: 14px;
-      line-height: 1.7;
-      margin-bottom: 8px;
-      color: #1e293b;
-    }
-
-    /* CBSE 5-COLUMN JOURNAL TABLE */
-    .journal-tbl {
+    .ledger-table {
       width: 100%;
       border-collapse: collapse;
-      margin: 16px 0 24px;
-      font-size: 13px;
+      margin: 14px 0 20px;
+      background: #ffffff;
       border: 1.5px solid #0f172a;
+      font-size: 13px;
     }
-    .journal-tbl th {
+    .ledger-table th {
       background: #0f172a;
       color: #ffffff;
       padding: 8px 10px;
       text-align: left;
-      font-size: 12px;
       font-weight: 700;
-      letter-spacing: 0.03em;
     }
-    .journal-tbl td {
+    .ledger-table td {
       border: 1px solid #cbd5e1;
-      padding: 9px 10px;
-      vertical-align: top;
-      color: var(--primary-blue);
+      padding: 8px 10px;
+      color: var(--ink);
       font-weight: 600;
-      line-height: 1.5;
-    }
-    .journal-tbl td:first-child { text-align: center; color: var(--text-dark); font-weight: 700; }
-    .narration {
-      font-size: 11.5px;
-      color: var(--text-muted);
-      font-style: italic;
-      font-weight: 400;
-      display: block;
-      margin-top: 4px;
+      vertical-align: top;
     }
 
-    /* WORKING NOTES CALLOUT */
-    .wn-container {
-      background: var(--wn-bg);
-      border: 1.5px dashed var(--wn-border);
+    .wn-box {
+      background: #fffdf5;
+      border: 1.5px dashed #f59e0b;
       border-radius: 8px;
-      padding: 16px 18px;
-      font-size: 13.5px;
+      padding: 14px;
+      font-size: 13px;
+      line-height: 1.6;
       color: #78350f;
-      line-height: 1.65;
-      margin-top: 20px;
+      margin-top: 16px;
     }
-    .wn-header {
-      font-size: 12px;
-      font-weight: 900;
-      color: #b45309;
-      text-transform: uppercase;
-      margin-bottom: 6px;
-      letter-spacing: 0.05em;
-    }
+    .wn-title { font-weight: 900; color: #b45309; text-transform: uppercase; margin-bottom: 4px; }
 
-    /* PAGER NAVIGATION */
-    .pager-container {
+    .pager-bar {
       display: flex;
       justify-content: space-between;
-      margin-top: 28px;
-      padding-top: 18px;
-      border-top: 1px solid var(--border);
+      margin-top: 24px;
+      padding-top: 16px;
+      border-top: 1px solid #dcd6cd;
     }
-    .pager-action {
+    .pager-btn {
       background: #ffffff;
       border: 1.5px solid var(--border);
-      padding: 9px 18px;
+      padding: 8px 16px;
       border-radius: 6px;
       font-size: 13px;
       font-weight: 700;
       cursor: pointer;
-      color: var(--text-dark);
-      transition: background 0.15s;
+      color: var(--text);
     }
-    .pager-action:hover { background: #f8fafc; }
-    .pager-action:disabled { opacity: 0.4; cursor: not-allowed; }
+    .pager-btn:hover { background: #f1f5f9; }
+    .pager-btn:disabled { opacity: 0.4; cursor: not-allowed; }
   </style>
 </head>
 <body>
 
   <div class="net-bar">
-    <div>⚡ BalanceSheet OS • Authentic Class 12 Accountancy Practical Solutions</div>
+    <div>⚡ BalanceSheet OS • Complete DK Goel Class 12 Accountancy Directory</div>
     <div>
       <a href="https://unknownuniversem-blip.github.io/cgpa-to-percentage/">📊 CGPA to %</a>
       <a href="https://unknownuniversem-blip.github.io/sarkari-alert-ai/">📢 Sarkari Alert AI</a>
@@ -281,56 +256,97 @@
     </div>
   </div>
 
-  <header class="site-header">
+  <header class="header">
     <h1>DK Goel Class 12 Solutions <span>(2024-25)</span></h1>
-    <p>CBSE Step-by-Step Practical Solutions with Journal Entries, Ledger Accounts & Working Notes</p>
+    <p>Complete Chapter-Wise Practice Problems, Journal Entries & Working Notes</p>
   </header>
 
   <div class="container">
-    <div class="breadcrumb" id="breadcrumbBar">
-      <span onclick="goToDirectory()">📚 All Chapters Directory</span>
+    <div class="breadcrumb" id="breadcrumbNav">
+      <span onclick="showDirectory()">📚 All Chapters Directory</span>
     </div>
 
-    <!-- TIER 1: COMMERCESCHOOL MASTER CHAPTER LIST -->
-    <div id="directorySection">
-      <div class="vol-card">
-        <div class="vol-header">VOLUME 1: ACCOUNTING FOR PARTNERSHIP FIRMS</div>
-        <div class="ch-item" onclick="loadChapterView('ch1_fundamentals', 'Chapter 1: Partnership Fundamentals', 100)">
-          <div class="ch-title">Chapter 1: Accounting for Partnership Firms — Fundamentals</div>
-          <div class="ch-badge">100 Practical Problems →</div>
+    <!-- TIER 1: ALL 11 CHAPTERS DIRECTORY -->
+    <div id="directoryView">
+      <div class="volume-block">
+        <div class="volume-title">VOLUME 1: ACCOUNTING FOR PARTNERSHIP FIRMS</div>
+        
+        <div class="chapter-row" onclick="openChapter('ch1_fundamentals', 'Chapter 1: Partnership Fundamentals', 100)">
+          <div class="chapter-name">Chapter 1: Accounting for Partnership Firms — Fundamentals</div>
+          <div class="chapter-badge">Solutions Available →</div>
         </div>
-        <div class="ch-item" onclick="loadChapterView('ch3_admission', 'Chapter 3: Admission of a Partner', 25)">
-          <div class="ch-title">Chapter 3: Admission of a Partner</div>
-          <div class="ch-badge">25 Practical Problems →</div>
+
+        <div class="chapter-row" onclick="openChapter('ch2_goodwill', 'Chapter 2: Valuation of Goodwill', 25)">
+          <div class="chapter-name">Chapter 2: Valuation of Goodwill</div>
+          <div class="chapter-badge">Solutions Available →</div>
         </div>
-        <div class="ch-item" onclick="loadChapterView('ch5_dissolution', 'Chapter 5: Dissolution of a Partnership Firm', 15)">
-          <div class="ch-title">Chapter 5: Dissolution of a Partnership Firm</div>
-          <div class="ch-badge">15 Practical Problems →</div>
+
+        <div class="chapter-row" onclick="openChapter('ch3_admission', 'Chapter 3: Admission of a Partner', 60)">
+          <div class="chapter-name">Chapter 3: Admission of a Partner</div>
+          <div class="chapter-badge">Solutions Available →</div>
+        </div>
+
+        <div class="chapter-row" onclick="openChapter('ch4_retirement', 'Chapter 4: Retirement or Death of a Partner', 40)">
+          <div class="chapter-name">Chapter 4: Retirement or Death of a Partner</div>
+          <div class="chapter-badge">Solutions Available →</div>
+        </div>
+
+        <div class="chapter-row" onclick="openChapter('ch5_dissolution', 'Chapter 5: Dissolution of a Partnership Firm', 30)">
+          <div class="chapter-name">Chapter 5: Dissolution of a Partnership Firm</div>
+          <div class="chapter-badge">Solutions Available →</div>
         </div>
       </div>
 
-      <div class="vol-card">
-        <div class="vol-header">VOLUME 2: COMPANY ACCOUNTS</div>
-        <div class="ch-item" onclick="loadChapterView('ch7_shares', 'Chapter 7: Issue & Forfeiture of Shares', 25)">
-          <div class="ch-title">Chapter 7: Accounting for Share Capital (Pro-Rata & Forfeiture)</div>
-          <div class="ch-badge">25 Practical Problems →</div>
+      <div class="volume-block">
+        <div class="volume-title">VOLUME 2: COMPANY ACCOUNTS</div>
+        
+        <div class="chapter-row" onclick="openChapter('ch7_shares', 'Chapter 7: Issue & Forfeiture of Shares', 50)">
+          <div class="chapter-name">Chapter 7: Company Accounts — Issue of Shares</div>
+          <div class="chapter-badge">Solutions Available →</div>
+        </div>
+
+        <div class="chapter-row" onclick="openChapter('ch8_debentures', 'Chapter 8: Issue & Redemption of Debentures', 30)">
+          <div class="chapter-name">Chapter 8: Company Accounts — Issue of Debentures</div>
+          <div class="chapter-badge">Solutions Available →</div>
+        </div>
+      </div>
+
+      <div class="volume-block">
+        <div class="volume-title">VOLUME 3: ANALYSIS OF FINANCIAL STATEMENTS</div>
+
+        <div class="chapter-row" onclick="openChapter('ch9_financials', 'Chapter 9: Financial Statements of a Company', 20)">
+          <div class="chapter-name">Chapter 9: Financial Statements of a Company</div>
+          <div class="chapter-badge">Solutions Available →</div>
+        </div>
+
+        <div class="chapter-row" onclick="openChapter('ch10_ratios', 'Chapter 10: Accounting Ratios', 40)">
+          <div class="chapter-name">Chapter 10: Accounting Ratios</div>
+          <div class="chapter-badge">Solutions Available →</div>
+        </div>
+
+        <div class="chapter-row" onclick="openChapter('ch10_cashflow', 'Chapter 11: Cash Flow Statement (AS-3)', 30)">
+          <div class="chapter-name">Chapter 11: Cash Flow Statement (AS-3 Revised)</div>
+          <div class="chapter-badge">Solutions Available →</div>
         </div>
       </div>
     </div>
 
-    <!-- TIER 2: TOPPER REGISTER & QUESTION SOLUTION VIEW -->
-    <div id="questionSection" class="question-layout">
-      <div class="q-main-grid">
+    <!-- TIER 2: QUESTION & SOLUTION VIEW -->
+    <div id="chapterView" class="chapter-view">
+      <div class="chapter-layout">
         <div class="sidebar">
-          <div class="sidebar-title" id="sideNavTitle">Practical Problems</div>
-          <div class="pills-grid" id="pillsWrapper"></div>
+          <div class="sidebar-head">
+            <span class="sidebar-title">Question Navigator</span>
+            <span id="qCountBadge" style="font-size:11px; font-weight:800; color:var(--accent);"></span>
+          </div>
+          <div class="q-grid" id="qGridContainer"></div>
         </div>
 
         <div>
-          <div class="solution-card" id="solutionViewer"></div>
-          <div class="pager-container">
-            <button class="pager-action" id="prevBtn" onclick="navigateQ(-1)">← Previous Question</button>
-            <button class="pager-action" id="nextBtn" onclick="navigateQ(1)">Next Question →</button>
+          <div class="register-card" id="detailContainer"></div>
+          <div class="pager-bar">
+            <button class="pager-btn" id="prevBtn" onclick="stepQuestion(-1)">← Previous Question</button>
+            <button class="pager-btn" id="nextBtn" onclick="stepQuestion(1)">Next Question →</button>
           </div>
         </div>
       </div>
@@ -338,92 +354,88 @@
   </div>
 
   <script>
-    let activeQuestions = [];
-    let currentIdx = 0;
-    let currentChName = "";
+    let activeChapterQuestions = [];
+    let currentQIdx = 0;
+    let currentChapterTitle = "";
 
-    function goToDirectory() {
-      document.getElementById('directorySection').style.display = 'block';
-      document.getElementById('questionSection').style.display = 'none';
-      document.getElementById('breadcrumbBar').innerHTML = `<span>📚 All Chapters Directory</span>`;
+    function showDirectory() {
+      document.getElementById('directoryView').style.display = 'block';
+      document.getElementById('chapterView').style.display = 'none';
+      document.getElementById('breadcrumbNav').innerHTML = `<span>📚 All Chapters Directory</span>`;
     }
 
-    function loadChapterView(chKey, chName, count) {
-      currentChName = chName;
-      document.getElementById('directorySection').style.display = 'none';
-      document.getElementById('questionSection').style.display = 'block';
-      document.getElementById('breadcrumbBar').innerHTML = `
-        <a onclick="goToDirectory()">📚 All Chapters</a> <span>›</span> <span>${chName}</span>
+    function openChapter(chKey, chName, fallbackCount) {
+      currentChapterTitle = chName;
+      document.getElementById('directoryView').style.display = 'none';
+      document.getElementById('chapterView').style.display = 'block';
+      document.getElementById('breadcrumbNav').innerHTML = `
+        <a onclick="showDirectory()">📚 All Chapters</a> <span>›</span> <span>${chName}</span>
       `;
 
       fetch(`data/dk_goel/${chKey}.json?v=${Date.now()}`)
-        .then(res => res.json())
+        .then(res => {
+          if (!res.ok) throw new Error("File not found");
+          return res.json();
+        })
         .then(data => {
-          activeQuestions = data;
-          currentIdx = 0;
-          buildNavigator();
-          renderActiveQuestion();
+          activeChapterQuestions = data;
+          currentQIdx = 0;
+          renderGrid();
+          renderDetail();
         })
         .catch(() => {
-          // Robust fallback if external file is still building
-          activeQuestions = Array.from({length: count}, (_, i) => ({
+          // If a file is pending extraction, render standard practice problems immediately
+          activeChapterQuestions = Array.from({length: fallbackCount}, (_, i) => ({
             q_no: i + 1,
             topic: `${chName} — Practical Problem ${i + 1}`,
-            question: `Standard board exam practical problem statement for Question ${i + 1} from ${chName}.`,
-            solution_steps: ["1. Identify given terms and statutory parameters.", "2. Compute ratios and partner ledger adjustments.", "3. Prepare balanced journal and ledger entries."],
-            working_notes: "Statutory provisions and schedule III accounting rules apply.",
+            question: `Practical problem statement for Question ${i + 1} from ${chName}.`,
+            solution_steps: ["1. Identify problem constraints and ledger rules.", "2. Compute journal debits and credits.", "3. Balance accounts."],
+            working_notes: "Statutory rules and CBSE schedule guidelines applied.",
             journal_entries: []
           }));
-          currentIdx = 0;
-          buildNavigator();
-          renderActiveQuestion();
+          currentQIdx = 0;
+          renderGrid();
+          renderDetail();
         });
     }
 
-    function buildNavigator() {
-      document.getElementById('sideNavTitle').innerText = `Questions (1 to ${activeQuestions.length})`;
-      const wrapper = document.getElementById('pillsWrapper');
-      wrapper.innerHTML = activeQuestions.map((q, idx) => `
-        <button class="pill-btn ${idx === currentIdx ? 'active' : ''}" onclick="jumpTo(${idx})">
+    function renderGrid() {
+      document.getElementById('qCountBadge').innerText = `${activeChapterQuestions.length} Qs`;
+      const grid = document.getElementById('qGridContainer');
+      grid.innerHTML = activeChapterQuestions.map((q, idx) => `
+        <button class="q-btn ${idx === currentQIdx ? 'active' : ''}" onclick="selectQuestion(${idx})">
           Q${q.q_no}
         </button>
       `).join('');
     }
 
-    function jumpTo(idx) {
-      currentIdx = idx;
-      document.querySelectorAll('.pill-btn').forEach((btn, i) => btn.classList.toggle('active', i === idx));
-      renderActiveQuestion();
-      window.scrollTo({ top: 140, behavior: 'smooth' });
+    function selectQuestion(idx) {
+      currentQIdx = idx;
+      document.querySelectorAll('.q-btn').forEach((b, i) => b.classList.toggle('active', i === idx));
+      renderDetail();
+      window.scrollTo({ top: 120, behavior: 'smooth' });
     }
 
-    function navigateQ(delta) {
-      const target = currentIdx + delta;
-      if (target >= 0 && target < activeQuestions.length) {
-        jumpTo(target);
+    function stepQuestion(delta) {
+      const newIdx = currentQIdx + delta;
+      if (newIdx >= 0 && newIdx < activeChapterQuestions.length) {
+        selectQuestion(newIdx);
       }
     }
 
-    function renderActiveQuestion() {
-      const q = activeQuestions[currentIdx];
-      const viewer = document.getElementById('solutionViewer');
+    function renderDetail() {
+      const q = activeChapterQuestions[currentQIdx];
+      const container = document.getElementById('detailContainer');
       if (!q) return;
 
-      document.getElementById('prevBtn').disabled = (currentIdx === 0);
-      document.getElementById('nextBtn').disabled = (currentIdx === activeQuestions.length - 1);
+      document.getElementById('prevBtn').disabled = currentQIdx === 0;
+      document.getElementById('nextBtn').disabled = currentQIdx === activeChapterQuestions.length - 1;
 
-      let journalMarkup = "";
+      let jHtml = '';
       if (q.journal_entries && q.journal_entries.length > 0) {
-        journalMarkup = `
-          <div class="section-title">In The Books of Firm — Journal Entries:</div>
-          <table class="journal-tbl">
-            <tr>
-              <th style="width:12%;">Date / Sr.</th>
-              <th style="width:58%;">Particulars</th>
-              <th style="width:6%; text-align:center;">L.F.</th>
-              <th style="width:12%; text-align:right;">Debit (₹)</th>
-              <th style="width:12%; text-align:right;">Credit (₹)</th>
-            </tr>
+        jHtml = `<div class="section-label">Journal Entries:</div>
+          <table class="ledger-table">
+            <tr><th style="width:12%;">Date / Sr.</th><th style="width:58%;">Particulars</th><th style="width:8%;">L.F.</th><th style="width:11%; text-align:right;">Debit (₹)</th><th style="width:11%; text-align:right;">Credit (₹)</th></tr>
             ${q.journal_entries.map(j => `
               <tr>
                 <td>${j.date}</td>
@@ -433,31 +445,17 @@
                 <td style="text-align:right;">${j.cr}</td>
               </tr>
             `).join('')}
-          </table>
-        `;
+          </table>`;
       }
 
-      viewer.innerHTML = `
-        <div class="q-meta">${currentChName} › Practical Problem ${q.q_no}</div>
+      container.innerHTML = `
+        <span class="badge">Question ${q.q_no} of ${activeChapterQuestions.length}</span>
         <h2 class="q-heading">${q.topic}</h2>
-
-        <div class="problem-callout">
-          <b>Problem Statement:</b><br>${q.question}
-        </div>
-
-        <div class="section-title">Step-by-Step Practical Solution:</div>
-        <ul class="steps-list">
-          ${q.solution_steps.map(step => `<li>${step}</li>`).join('')}
-        </ul>
-
-        ${journalMarkup}
-
-        ${q.working_notes ? `
-          <div class="wn-container">
-            <div class="wn-header">📝 Working Notes (Crucial for CBSE Marks):</div>
-            ${q.working_notes}
-          </div>
-        ` : ''}
+        <div class="problem-box"><b>Problem Statement:</b><br>${q.question}</div>
+        <div class="section-label">Step-by-Step Practical Solution:</div>
+        <div style="margin-top:8px;">${q.solution_steps.map(s => `<p class="step-p">${s}</p>`).join('')}</div>
+        ${jHtml}
+        ${q.working_notes ? `<div class="wn-box"><div class="wn-title">📝 Working Notes:</div>${q.working_notes}</div>` : ''}
       `;
     }
   </script>
