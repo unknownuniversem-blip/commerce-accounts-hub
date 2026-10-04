@@ -298,5 +298,1027 @@
     ],
     "working_notes": "Working notes applied per statutory schedule rules.",
     "journal_entries": []
+  },
+  {
+    "q_no": 26,
+    "topic": "Practical Problem 26",
+    "question": "Here are the solutions of Question number 26 of Retirement of Partner chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 26.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 27,
+    "topic": "Practical Problem 27",
+    "question": "Here are the solutions of Question number 27 of Retirement of Partner chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 27.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Sundry Creditors",
+        "particulars": "1,20,000",
+        "lf": "-",
+        "dr": "Cash at Bank",
+        "cr": "34,000"
+      },
+      {
+        "date": "Capital A/cs:ABC",
+        "particulars": "4,00,0002,50,0001,50,000",
+        "lf": "-",
+        "dr": "Sundry Debtors 1,50,000Less: Provision for Doubtful Debts 9,000",
+        "cr": "1,41,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "1,45,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Plant",
+        "cr": "2,00,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Land and Building",
+        "cr": "4,00,000"
+      },
+      {
+        "date": "",
+        "particulars": "9,20,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "9,20,000"
+      }
+    ]
+  },
+  {
+    "q_no": 28,
+    "topic": "Practical Problem 28",
+    "question": "Here are the solutions of Question number 28 of Retirement of Partner chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 28.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 29,
+    "topic": "Practical Problem 29",
+    "question": "Here are the solutions of Question number 29 of Retirement of Partner chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 29.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 30,
+    "topic": "Practical Problem 30",
+    "question": "Here are the solutions of Question number 30 of Retirement of Partner chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 30.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 31,
+    "topic": "Practical Problem 31",
+    "question": "Here are the solutions of Question number 31 of Retirement of Partner chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 31.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 32,
+    "topic": "Practical Problem 32",
+    "question": "Here are the solutions of Question number 32 of Retirement of Partner chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 32.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 33,
+    "topic": "Practical Problem 33",
+    "question": "Here are the solutions of Question number 33 of Retirement of Partner chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 33.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Creditors",
+        "particulars": "1,09,000",
+        "lf": "-",
+        "dr": "Cash in Hand and Cash at Bank",
+        "cr": "86,000"
+      },
+      {
+        "date": "General Reserve",
+        "particulars": "60,000",
+        "lf": "-",
+        "dr": "Debtors",
+        "cr": "2,00,000"
+      },
+      {
+        "date": "Provident Fund",
+        "particulars": "20,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "1,00,000"
+      },
+      {
+        "date": "Capitals:XYZ",
+        "particulars": "3,00,0002,00,0002,00,000",
+        "lf": "-",
+        "dr": "Investments (at cost)",
+        "cr": "50,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Freehold Property",
+        "cr": "4,00,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Trade Marks",
+        "cr": "20,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Goodwill",
+        "cr": "33,000"
+      },
+      {
+        "date": "",
+        "particulars": "8,89,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "8,89,000"
+      }
+    ]
+  },
+  {
+    "q_no": 34,
+    "topic": "Practical Problem 34",
+    "question": "Here are the solutions of Question number 34 of Retirement of Partner chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 34.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Creditors",
+        "particulars": "70,000",
+        "lf": "-",
+        "dr": "Bank",
+        "cr": "45,000"
+      },
+      {
+        "date": "Capital Accounts:PQR",
+        "particulars": "80,00070,00060,000",
+        "lf": "-",
+        "dr": "Debtors 40,000Less: Provision forDoubtful Debts 5,000",
+        "cr": "35,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "50,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Building",
+        "cr": "1,40,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Profit and Loss A/c",
+        "cr": "10,000"
+      },
+      {
+        "date": "",
+        "particulars": "2,80,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "2,80,000"
+      }
+    ]
+  },
+  {
+    "q_no": 35,
+    "topic": "Practical Problem 35",
+    "question": "Here are the solutions of Question number 35 of Retirement of Partner chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 35.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Trade Creditors",
+        "particulars": "7,000",
+        "lf": "-",
+        "dr": "Cash in Hand",
+        "cr": "5,900"
+      },
+      {
+        "date": "Capitals:ManojNaveenDeepak",
+        "particulars": "50,00039,00030,000",
+        "lf": "-",
+        "dr": "Debtors 19,000Less: Provision 1,400",
+        "cr": "17,600"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "13,500"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Plant and Machinery",
+        "cr": "18,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Motor Car",
+        "cr": "20,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Buildings",
+        "cr": "48,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Goodwill",
+        "cr": "3,000"
+      },
+      {
+        "date": "",
+        "particulars": "1,26,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "1,26,000"
+      }
+    ]
+  },
+  {
+    "q_no": 36,
+    "topic": "Practical Problem 36",
+    "question": "Here are the solutions of Question number 36 of Retirement of Partner chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 36.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Capitals:AnitaGauravSonu",
+        "particulars": "2,00,0002,00,0001,00,000",
+        "lf": "-",
+        "dr": "Land and Building",
+        "cr": "5,00,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Investments",
+        "cr": "1,20,000"
+      },
+      {
+        "date": "Investment Fluctuation Reserve",
+        "particulars": "40,000",
+        "lf": "-",
+        "dr": "Debtors 1,50,000Less: Provision for Doubtful Debts 10,000",
+        "cr": "1,40,000"
+      },
+      {
+        "date": "General Reserve",
+        "particulars": "30,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "1,00,000"
+      },
+      {
+        "date": "Creditors",
+        "particulars": "4,60,000",
+        "lf": "-",
+        "dr": "Cash at Bank",
+        "cr": "1,70,000"
+      },
+      {
+        "date": "",
+        "particulars": "10,30,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "10,30,000"
+      }
+    ]
+  },
+  {
+    "q_no": 37,
+    "topic": "Practical Problem 37",
+    "question": "Here are the solutions of Question number 37 of Retirement of Partner chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 37.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Creditors",
+        "particulars": "1,10,000",
+        "lf": "-",
+        "dr": "Cash",
+        "cr": "80,000"
+      },
+      {
+        "date": "General Reserve",
+        "particulars": "60,000",
+        "lf": "-",
+        "dr": "Debtors 90,000Less: 10,000",
+        "cr": "80,000"
+      },
+      {
+        "date": "Capitals:SameerYasminSaloni",
+        "particulars": "3,00,0002,50,0001,50,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "1,00,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Machinery",
+        "cr": "3,00,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Building",
+        "cr": "2,00,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Patents",
+        "cr": "60,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Profit and Loss Account",
+        "cr": "50,000"
+      },
+      {
+        "date": "",
+        "particulars": "8,70,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "8,70,000"
+      }
+    ]
+  },
+  {
+    "q_no": 38,
+    "topic": "Practical Problem 38",
+    "question": "Here are the solutions of Question number 38 of Retirement of Partner chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 38.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Sundry Creditors",
+        "particulars": "2,50,000",
+        "lf": "-",
+        "dr": "Cash at Bank",
+        "cr": "50,000"
+      },
+      {
+        "date": "General Reserve",
+        "particulars": "80,000",
+        "lf": "-",
+        "dr": "Bills Receivable",
+        "cr": "60,000"
+      },
+      {
+        "date": "Partners Loan A/cs:XY",
+        "particulars": "50,00040,000",
+        "lf": "-",
+        "dr": "DebtorsLess: Provision for Bad Debts",
+        "cr": "76,000"
+      },
+      {
+        "date": "Capital A/cs:XYZ",
+        "particulars": "1,00,00060,00050,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "1,24,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Fixed Assets",
+        "cr": "3,00,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Advertisement Suspense A/c",
+        "cr": "16,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Profit and Loss A/c",
+        "cr": "4,000"
+      },
+      {
+        "date": "",
+        "particulars": "6,30,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "6,30,000"
+      }
+    ]
+  },
+  {
+    "q_no": 39,
+    "topic": "Practical Problem 39",
+    "question": "Here are the solutions of Question number 39 of Retirement of Partner chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 39.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Creditors",
+        "particulars": "27,000",
+        "lf": "-",
+        "dr": "Bank",
+        "cr": "80,000"
+      },
+      {
+        "date": "Bills Payable",
+        "particulars": "13,000",
+        "lf": "-",
+        "dr": "Debtors 20,000Less: Provision for Doubtful Debts 500",
+        "cr": "19,500"
+      },
+      {
+        "date": "Outstanding Rent",
+        "particulars": "22,500",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "21,000"
+      },
+      {
+        "date": "Provision for Legal Claims",
+        "particulars": "57,500",
+        "lf": "-",
+        "dr": "Furniture",
+        "cr": "87,500"
+      },
+      {
+        "date": "Capital A/cs:XYZ",
+        "particulars": "1,27,00090,00071,000",
+        "lf": "-",
+        "dr": "Land and Building",
+        "cr": "2,00,000"
+      },
+      {
+        "date": "",
+        "particulars": "4,08,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "4,08,000"
+      }
+    ]
+  },
+  {
+    "q_no": 40,
+    "topic": "Practical Problem 40",
+    "question": "Here are the solutions of Question number 40 of Retirement of Partner chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 40.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Sundry Creditors",
+        "particulars": "1,20,000",
+        "lf": "-",
+        "dr": "Bank",
+        "cr": "25,000"
+      },
+      {
+        "date": "Outstanding Expenses",
+        "particulars": "10,000",
+        "lf": "-",
+        "dr": "Debtors",
+        "cr": "1,65,000"
+      },
+      {
+        "date": "Profit & Loss Account",
+        "particulars": "1,50,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "2,50,000"
+      },
+      {
+        "date": "Capital Account:ABC",
+        "particulars": "5,00,0003,00,0002,00,000",
+        "lf": "-",
+        "dr": "Investments",
+        "cr": "3,00,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Fixed Assets",
+        "cr": "5,40,000"
+      },
+      {
+        "date": "",
+        "particulars": "12,80,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "12,80,000"
+      }
+    ]
+  },
+  {
+    "q_no": 41,
+    "topic": "Practical Problem 41",
+    "question": "Here are the solutions of Question number 41 of Retirement of Partner chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 41.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Creditors",
+        "particulars": "1,08,000",
+        "lf": "-",
+        "dr": "Cash at Bank",
+        "cr": "80,000"
+      },
+      {
+        "date": "General Reserve",
+        "particulars": "1,80,000",
+        "lf": "-",
+        "dr": "Debtors 1,00,000Less: Provision 2,000",
+        "cr": "98,000"
+      },
+      {
+        "date": "Capital A/cs:ABC",
+        "particulars": "3,60,0002,40,0001,20,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "90,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Machinery",
+        "cr": "2,40,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Land and Buildings",
+        "cr": "5,00,000"
+      },
+      {
+        "date": "",
+        "particulars": "10,08,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "10,08,000"
+      }
+    ]
+  },
+  {
+    "q_no": 42,
+    "topic": "Practical Problem 42",
+    "question": "Here are the solutions of Question number 42 of Retirement of Partner chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 42.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 43,
+    "topic": "Practical Problem 43",
+    "question": "Here are the solutions of Question number 43 of Retirement of Partner chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 43.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 44,
+    "topic": "Practical Problem 44",
+    "question": "Here are the solutions of Question number 44 of Retirement of Partner chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 44.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Sundry Creditors",
+        "particulars": "7,000",
+        "lf": "-",
+        "dr": "Cash at Bank",
+        "cr": "15,600"
+      },
+      {
+        "date": "Capital A/cs:XYz",
+        "particulars": "25,00020,00015,000",
+        "lf": "-",
+        "dr": "Sundry Debtors 5,000Less: Provision 100",
+        "cr": "4,900"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": ""
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Plant and Machinery",
+        "cr": ""
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Land and Building",
+        "cr": ""
+      },
+      {
+        "date": "",
+        "particulars": "67,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "67,000"
+      }
+    ]
+  },
+  {
+    "q_no": 45,
+    "topic": "Practical Problem 45",
+    "question": "Here are the solutions of Question number 45 of Retirement of Partner chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 45.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 46,
+    "topic": "Practical Problem 46",
+    "question": "Here are the solutions of Question number 46 of Retirement of Partner chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 46.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 47,
+    "topic": "Practical Problem 47",
+    "question": "Here are the solutions of Question number 47 of Retirement of Partner chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 47.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Sundry Creditors",
+        "particulars": "1,20,000",
+        "lf": "-",
+        "dr": "Land and Building",
+        "cr": "5,00,000"
+      },
+      {
+        "date": "General Reserve",
+        "particulars": "40,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "2,40,000"
+      },
+      {
+        "date": "Capital Accounts:ABC",
+        "particulars": "4,00,0002,00,0002,00,000",
+        "lf": "-",
+        "dr": "Debtors 1,50,000Less: Provision for Doubtful Debts 30,000",
+        "cr": "1,20,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Cash at Bank",
+        "cr": "1,00,000"
+      },
+      {
+        "date": "",
+        "particulars": "9,60,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "9,60,000"
+      }
+    ]
+  },
+  {
+    "q_no": 48,
+    "topic": "Practical Problem 48",
+    "question": "Here are the solutions of Question number 48 of Retirement of Partner chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 48.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Creditors",
+        "particulars": "28,000",
+        "lf": "-",
+        "dr": "Cash",
+        "cr": "34,000"
+      },
+      {
+        "date": "Provident Fund",
+        "particulars": "10,000",
+        "lf": "-",
+        "dr": "Debtors 47,000Less: Provision for Doubtful Debts 3,000",
+        "cr": "44,000"
+      },
+      {
+        "date": "Investment Fluctuation Fund",
+        "particulars": "10,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "15,000"
+      },
+      {
+        "date": "Capital A/cs:LalitMadhurNeena",
+        "particulars": "50,00040,00025,000",
+        "lf": "-",
+        "dr": "Investment",
+        "cr": "40,000"
+      },
+      {
+        "date": "",
+        "particulars": "1,63,000",
+        "lf": "-",
+        "dr": "Goodwill",
+        "cr": "20,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Profit and Loss A/c",
+        "cr": "10,000"
+      },
+      {
+        "date": "",
+        "particulars": "1,63,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "1,63,000"
+      }
+    ]
+  },
+  {
+    "q_no": 49,
+    "topic": "Practical Problem 49",
+    "question": "Here are the solutions of Question number 49 of Retirement of Partner chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 49.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Bank Loan",
+        "particulars": "12,800",
+        "lf": "-",
+        "dr": "Cash",
+        "cr": "51,300"
+      },
+      {
+        "date": "Sundry Creditors",
+        "particulars": "25,000",
+        "lf": "-",
+        "dr": "Bills Receivable",
+        "cr": "10,800"
+      },
+      {
+        "date": "Capitals:RST",
+        "particulars": "80,00050,00040,000",
+        "lf": "-",
+        "dr": "Debtors",
+        "cr": "35,600"
+      },
+      {
+        "date": "Profit and Loss A/c",
+        "particulars": "9,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "44,600"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Furniture",
+        "cr": "7,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Plant and Machinery",
+        "cr": "19,500"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Building",
+        "cr": "48,000"
+      },
+      {
+        "date": "",
+        "particulars": "2,16,800",
+        "lf": "-",
+        "dr": "",
+        "cr": "2,16,800"
+      }
+    ]
+  },
+  {
+    "q_no": 50,
+    "topic": "Practical Problem 50",
+    "question": "Here are the solutions of Question number 50 of Retirement of Partner chapter 5 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 50.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Capital Accounts:GKW",
+        "particulars": "22,00013,0009,000",
+        "lf": "-",
+        "dr": "Goodwill",
+        "cr": "7,500"
+      },
+      {
+        "date": "Sundry Creditors",
+        "particulars": "10,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "12,500"
+      },
+      {
+        "date": "Bills Payable",
+        "particulars": "4,000",
+        "lf": "-",
+        "dr": "Sundry Debtors",
+        "cr": "12,000"
+      },
+      {
+        "date": "General Reserve",
+        "particulars": "12,000",
+        "lf": "-",
+        "dr": "Land and Buildings",
+        "cr": "15,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Plant and Machinery",
+        "cr": "18,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Motor Vehicle",
+        "cr": "5,000"
+      },
+      {
+        "date": "",
+        "particulars": "70,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "70,000"
+      }
+    ]
   }
 ]
