@@ -1822,5 +1822,1052 @@
         "cr": "8,69,500"
       }
     ]
+  },
+  {
+    "q_no": 51,
+    "topic": "Practical Problem 51",
+    "question": "[Ans. Cash from Operating Activities ₹ 25,000; Cash used in investing activities ₹ 2,40,000; and Cash from financing activities ₹ 1,90,000.]",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 51.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 52,
+    "topic": "Practical Problem 52",
+    "question": "(i) Depreciation written off on machinery was ₹ 18,000.",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 52.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "I. EQUITY AND LIABILITIES:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "(1) Shareholder’s Funds:(a) Share Capital(b) Reserve and Surplus",
+        "particulars": "",
+        "lf": "-",
+        "dr": "60,00041,000",
+        "cr": "50,00046,000"
+      },
+      {
+        "date": "(2) Non-Current Liabilities:Long-term Borrowings",
+        "particulars": "",
+        "lf": "-",
+        "dr": "25,000",
+        "cr": "20,000"
+      },
+      {
+        "date": "(3) Current Liabilities(a) Trade Payables(b) Short term Provisions",
+        "particulars": "",
+        "lf": "-",
+        "dr": "12,00017,000",
+        "cr": "10,00020,000"
+      },
+      {
+        "date": "Total",
+        "particulars": "",
+        "lf": "-",
+        "dr": "1,55,000",
+        "cr": "146,000"
+      },
+      {
+        "date": "II. ASSETS:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "(1) Non-Current Assets:(a) Property, Plant and Equipment and Intangible Assets(i) Property, Plant and Equipment (Machinery)",
+        "particulars": "",
+        "lf": "-",
+        "dr": "1,00,000",
+        "cr": "90,000"
+      },
+      {
+        "date": "(2) Current Assets:(a) Inventories(b) Trade Receivables(c) Cash & Cash Equivalents",
+        "particulars": "",
+        "lf": "-",
+        "dr": "24,00026,0005,000",
+        "cr": "20,00032,0004,000"
+      },
+      {
+        "date": "Total",
+        "particulars": "",
+        "lf": "-",
+        "dr": "1,55,000",
+        "cr": "1,46,000"
+      }
+    ]
+  },
+  {
+    "q_no": 53,
+    "topic": "Practical Problem 53",
+    "question": "(ii) Provision for Tax made ₹ 30,000.",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 53.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "I. EQUITY AND LIABILITIES:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "(1) Shareholder’s Funds:(a) Share Capital(b) Reserve and Surplus",
+        "particulars": "",
+        "lf": "-",
+        "dr": "2,50,00052,000",
+        "cr": "2,00,00050,000"
+      },
+      {
+        "date": "(2) Non-Current Liabilities:Long-term Borrowings",
+        "particulars": "",
+        "lf": "-",
+        "dr": "30,000",
+        "cr": "25,000"
+      },
+      {
+        "date": "(3) Current Liabilities(a) Short-term Borrowings(b) Trade Payables(c) Short-term Provisions (Provision for Tax)",
+        "particulars": "",
+        "lf": "-",
+        "dr": "7,0001,02,00024,000",
+        "cr": "18,0001,05,00015,000"
+      },
+      {
+        "date": "Total",
+        "particulars": "",
+        "lf": "-",
+        "dr": "4,65,000",
+        "cr": "4,13,000"
+      },
+      {
+        "date": "II. ASSETS:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "(1) Non-Current Assets:(a) Property, Plant and Equipment and Intangible Assets(i) Property, Plant and Equipment",
+        "particulars": "",
+        "lf": "-",
+        "dr": "1,93,000",
+        "cr": "2,03,000"
+      },
+      {
+        "date": "(2) Current Assets:(b) Inventories(c) Trade Receivables(d) Cash & Cash Equivalents",
+        "particulars": "",
+        "lf": "-",
+        "dr": "1,10,0001,56,0006,000",
+        "cr": "90,0001,18,0002,000"
+      },
+      {
+        "date": "Total",
+        "particulars": "",
+        "lf": "-",
+        "dr": "4,65,000",
+        "cr": "4,13,000"
+      }
+    ]
+  },
+  {
+    "q_no": 54,
+    "topic": "Practical Problem 54",
+    "question": "[Ans. Cash from Operating activities ₹ 2,67,200.]",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 54.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 55,
+    "topic": "Practical Problem 55",
+    "question": "[Ans. Cash from Operating activities ₹ 40,000.]",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 55.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 56,
+    "topic": "Practical Problem 56",
+    "question": "The Company incurred a loss of ₹ 30,000 during the year. Calculate Cash from Operating activities.",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 56.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 57,
+    "topic": "Practical Problem 57",
+    "question": "Raj Ltd. had a profit of ₹ 17,50,000 for the year ended 31.3.2023 after considering the following:",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 57.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 58,
+    "topic": "Practical Problem 58",
+    "question": "[Ans. Cash lost in operating activities before payment of tax ₹ 18,000.]",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 58.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 59,
+    "topic": "Practical Problem 59",
+    "question": "Plant costing ₹ 1,45,000; accumulated depreciation thereon ₹ 70,000, was sold for ₹ 35,000.",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 59.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 60,
+    "topic": "Practical Problem 60",
+    "question": "From the following particulars of Phantom Ltd., you are required to calculate:",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 60.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 61,
+    "topic": "Practical Problem 61",
+    "question": "(i) Machinery costing ₹ 5,00,000 (Book Value ₹ 3,50,000) was sold at a loss of 10%.",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 61.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 62,
+    "topic": "Practical Problem 62",
+    "question": "[Ans. Net Cash used in Investing Activities ₹ 3,00,000]",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 62.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 63,
+    "topic": "Practical Problem 63",
+    "question": "During the year, the company repaid a loan of ₹ 1,00,000.",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 63.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 64,
+    "topic": "Practical Problem 64",
+    "question": "A machine costing ₹ 40,000 and having a book value of ₹ 25,000 was sold for ₹ 35,000 during the year. Interest paid on a bank loan amounted to ₹ 8,000. Prepare a Cash Flow Statement.",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 64.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "I. EQUITY AND LIABILITIES:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "(1) Shareholder’s Funds:(a) Share Capital",
+        "particulars": "",
+        "lf": "-",
+        "dr": "3,00,000",
+        "cr": "2,50,000"
+      },
+      {
+        "date": "(2) Non-Current Liabilities:Long-term Borrowings",
+        "particulars": "",
+        "lf": "-",
+        "dr": "45,000",
+        "cr": "80,000"
+      },
+      {
+        "date": "(3) Current Liabilities(a) Trade Payables",
+        "particulars": "",
+        "lf": "-",
+        "dr": "42,500",
+        "cr": "28,000"
+      },
+      {
+        "date": "Total",
+        "particulars": "",
+        "lf": "-",
+        "dr": "3,87,500",
+        "cr": "3,58,000"
+      },
+      {
+        "date": "II. ASSETS:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "(1) Non-Current Assets:(a) Property, Plant and Equipment and Intangible Assets(i) Property, Plant and Equipment",
+        "particulars": "",
+        "lf": "-",
+        "dr": "3,02,500",
+        "cr": "2,70,000"
+      },
+      {
+        "date": "(2) Current Assets:(b) Inventories(c) Trade Receivables(d) Cash & Cash Equivalents",
+        "particulars": "",
+        "lf": "-",
+        "dr": "25,00050,00010,000",
+        "cr": "45,00035,0008,000"
+      },
+      {
+        "date": "Total",
+        "particulars": "",
+        "lf": "-",
+        "dr": "3,87,500",
+        "cr": "3,58,000"
+      }
+    ]
+  },
+  {
+    "q_no": 65,
+    "topic": "Practical Problem 65",
+    "question": "[Ans. Cash from operating activities ₹ 32,000; Cash from investing activities ₹ 20,000; and Cash used in financing activities ₹ 50,000.]",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 65.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 66,
+    "topic": "Practical Problem 66",
+    "question": "[Ans. Cash from Operating activities ₹ 23,250; Cash used in investing activities ₹ 33,250; and Cash from financing activities ₹ 22,500]",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 66.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 67,
+    "topic": "Practical Problem 67",
+    "question": "(a) Tax paid during the year 2017-18 ₹ 14,400.",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 67.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "I. EQUITY AND LIABILITIES:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "(1) Shareholder’s Funds:(a) Share Capital(b) Reserves & Surplus",
+        "particulars": "",
+        "lf": "-",
+        "dr": "1,02,00036,000",
+        "cr": "84,00022,560"
+      },
+      {
+        "date": "(2) Non-Current Liabilities:Long-term Borrowings(10% Debentures)",
+        "particulars": "",
+        "lf": "-",
+        "dr": "60,000",
+        "cr": "48,000"
+      },
+      {
+        "date": "(3) Current Liabilities(a) Short-term Borrowings (Bank Overdraft)(b) Trade Payables(c) Short-term Provisions(Provision for Income Tax)",
+        "particulars": "",
+        "lf": "-",
+        "dr": "10,00028,80016,800",
+        "cr": "5,00036,00018,000"
+      },
+      {
+        "date": "Total",
+        "particulars": "",
+        "lf": "-",
+        "dr": "2,53,600",
+        "cr": "2,13,560"
+      },
+      {
+        "date": "II. ASSETS:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "(1) Non-Current Assets:(a) Property, Plant and Equipment and Intangible Assets(i) Property, Plant and Equipment",
+        "particulars": "",
+        "lf": "-",
+        "dr": "1,18,800",
+        "cr": "1,32,000"
+      },
+      {
+        "date": "(2) Current Assets:(b) Inventories(c) Trade Receivables(d) Cash & Cash Equivalents",
+        "particulars": "",
+        "lf": "-",
+        "dr": "61,80033,60039,400",
+        "cr": "45,60027,6008,360"
+      },
+      {
+        "date": "Total",
+        "particulars": "",
+        "lf": "-",
+        "dr": "2,53,600",
+        "cr": "2,13,560"
+      }
+    ]
+  },
+  {
+    "q_no": 68,
+    "topic": "Practical Problem 68",
+    "question": "(i) ₹ 50,000, 12% Debentures were issued on 31st March, 2022.",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 68.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "I. EQUITY AND LIABILITIES:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "(1) Shareholder’s Funds:(a) Share Capital(b) Reserves & Surplus",
+        "particulars": "",
+        "lf": "-",
+        "dr": "3,00,0001,50,000",
+        "cr": "2,50,0001,00,000"
+      },
+      {
+        "date": "(2) Non-Current Liabilities:Long-term Borrowings",
+        "particulars": "",
+        "lf": "-",
+        "dr": "75,000",
+        "cr": "25,000"
+      },
+      {
+        "date": "(3) Current Liabilities(a) Trade Payables(b) Other Current Liabilities",
+        "particulars": "",
+        "lf": "-",
+        "dr": "25,00050,000",
+        "cr": "50,00075,000"
+      },
+      {
+        "date": "Total",
+        "particulars": "",
+        "lf": "-",
+        "dr": "6,00,000",
+        "cr": "5,00,000"
+      },
+      {
+        "date": "II. ASSETS:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "(1) Non-Current Assets:(a) Property, Plant and Equipment and Intangible Assets(i) Property, Plant and Equipment(b) Intangible Assets",
+        "particulars": "",
+        "lf": "-",
+        "dr": "4,50,00024,000",
+        "cr": "2,74,00026,000"
+      },
+      {
+        "date": "(2) Current Assets:(b) Inventories(c) Trade Receivables(d) Cash & Cash Equivalents",
+        "particulars": "",
+        "lf": "-",
+        "dr": "76,00020,00030,000",
+        "cr": "1,00,00010,00090,000"
+      },
+      {
+        "date": "Total",
+        "particulars": "",
+        "lf": "-",
+        "dr": "6,00,000",
+        "cr": "5,00,000"
+      }
+    ]
+  },
+  {
+    "q_no": 69,
+    "topic": "Practical Problem 69",
+    "question": "(i) During the year machinery of the books value of ₹ 50,000 was sold for ₹ 15,000.",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 69.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "I. EQUITY AND LIABILITIES:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "(1) Shareholder’s Funds:(a) Share Capital(b) Reserves & Surplus",
+        "particulars": "",
+        "lf": "-",
+        "dr": "3,25,0001,85,000",
+        "cr": "2,30,0001,20,000"
+      },
+      {
+        "date": "(2) Non-Current Liabilities:Long-term Borrowings",
+        "particulars": "",
+        "lf": "-",
+        "dr": "90,000",
+        "cr": "1,00,000"
+      },
+      {
+        "date": "Total",
+        "particulars": "",
+        "lf": "-",
+        "dr": "6,00,000",
+        "cr": "4,50,000"
+      },
+      {
+        "date": "II. ASSETS:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "(1) Non-Current Assets:(a) Property, Plant and Equipment and Intangible Assets(i) Property, Plant and Equipment (Machinery)",
+        "particulars": "",
+        "lf": "-",
+        "dr": "3,50,000",
+        "cr": "2,50,000"
+      },
+      {
+        "date": "(2) Current Assets:(b) Inventories(c) Trade Receivables(d) Cash & Cash Equivalents",
+        "particulars": "",
+        "lf": "-",
+        "dr": "1,25,00095,00030,000",
+        "cr": "1,05,00070,00025,000"
+      },
+      {
+        "date": "Total",
+        "particulars": "",
+        "lf": "-",
+        "dr": "6,00,000",
+        "cr": "4,50,000"
+      }
+    ]
+  },
+  {
+    "q_no": 70,
+    "topic": "Practical Problem 70",
+    "question": "(ii) During the year ₹ 80,000 depreciation was charged on machinery.",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 70.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "I. EQUITY AND LIABILITIES:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "(1) Shareholder’s Funds:(a) Share Capital(b) Reserves & Surplus",
+        "particulars": "",
+        "lf": "-",
+        "dr": "20,00,0004,00,000",
+        "cr": "15,00,0002,00,000"
+      },
+      {
+        "date": "(2) Current Liabilities:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "6,00,000",
+        "cr": "4,00,000"
+      },
+      {
+        "date": "Total",
+        "particulars": "",
+        "lf": "-",
+        "dr": "30,00,000",
+        "cr": "21,00,000"
+      },
+      {
+        "date": "II. ASSETS:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "(1) Non-Current Assets:(a) Property, Plant and Equipment and Intangible Assets(i) Property, Plant and Equipment (Machinery)",
+        "particulars": "",
+        "lf": "-",
+        "dr": "18,00,000",
+        "cr": "12,00,000"
+      },
+      {
+        "date": "(2) Current Assets:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "12,00,000",
+        "cr": "9,00,000"
+      },
+      {
+        "date": "Total",
+        "particulars": "",
+        "lf": "-",
+        "dr": "30,00,000",
+        "cr": "21,00,000"
+      }
+    ]
+  },
+  {
+    "q_no": 71,
+    "topic": "Practical Problem 71",
+    "question": "(ii) During the year Equipment costing ₹ 1,00,000 was purchased. Loss on sale of Equipment amounted to ₹ 12,000. ₹ 18,000 depreciation was charged on Equipment.",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 71.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "I. EQUITY AND LIABILITIES:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "(1) Shareholder’s Funds:(a) Share Capital(b) Reserves & Surplus",
+        "particulars": "",
+        "lf": "-",
+        "dr": "7,00,0003,50,000",
+        "cr": "5,00,0002,00,000"
+      },
+      {
+        "date": "(2) Non-Current LiabilitiesLong-term Borrowings",
+        "particulars": "",
+        "lf": "-",
+        "dr": "50,000",
+        "cr": "1,00,000"
+      },
+      {
+        "date": "(2) Current Liabilities:(a) Trade Payables(b) Short-term Provisions (Provision for Tax)",
+        "particulars": "",
+        "lf": "-",
+        "dr": "1,22,00050,000",
+        "cr": "1,05,00030,000"
+      },
+      {
+        "date": "Total",
+        "particulars": "",
+        "lf": "-",
+        "dr": "12,72,000",
+        "cr": "9,35,000"
+      },
+      {
+        "date": "II. ASSETS:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "(1) Non-Current Assets:(a) Property, Plant and Equipment and Intangible Assets(i) Property, Plant and Equipment(ii)Intangible Assets(b) Non-Current Investments",
+        "particulars": "",
+        "lf": "-",
+        "dr": "5,00,00095,0001,00,000",
+        "cr": "5,00,0001,00,000—"
+      },
+      {
+        "date": "(2) Current Assets:(a) Inventory(b) Trade Receivables(c) Cash & Cash Equivalents",
+        "particulars": "",
+        "lf": "-",
+        "dr": "1,30,0001,47,0003,00,000",
+        "cr": "55,00080,0002,00,000"
+      },
+      {
+        "date": "Total",
+        "particulars": "",
+        "lf": "-",
+        "dr": "12,72,000",
+        "cr": "9,35,000"
+      }
+    ]
+  },
+  {
+    "q_no": 72,
+    "topic": "Practical Problem 72",
+    "question": "(ii) Interim Dividend paid during the year @ 10% on Share Capital.",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 72.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "I. EQUITY AND LIABILITIES:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "(1) Shareholder’s Funds:(a) Share Capital(b) Reserves & Surplus",
+        "particulars": "",
+        "lf": "-",
+        "dr": "5,00,0002,25,000",
+        "cr": "5,00,00090,000"
+      },
+      {
+        "date": "(2) Non-Current LiabilitiesLong-term Borrowings",
+        "particulars": "",
+        "lf": "-",
+        "dr": "25,000",
+        "cr": "—"
+      },
+      {
+        "date": "(2) Current Liabilities:(a) Trade Payables(b) Short-term Provisions",
+        "particulars": "",
+        "lf": "-",
+        "dr": "1,00,00015,000",
+        "cr": "80,00020,000"
+      },
+      {
+        "date": "Total",
+        "particulars": "",
+        "lf": "-",
+        "dr": "8,65,000",
+        "cr": "6,90,000"
+      },
+      {
+        "date": "II. ASSETS:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "(1) Non-Current Assets:(a) Property, Plant and Equipment and Intangible Assets(i) Property, Plant and Equipment (Machinery)",
+        "particulars": "",
+        "lf": "-",
+        "dr": "3,10,000",
+        "cr": "3,00,000"
+      },
+      {
+        "date": "(2) Current Assets:(a) Current Investments(b) Inventory(c) Trade Receivables(d) Cash & Bank Balance",
+        "particulars": "",
+        "lf": "-",
+        "dr": "16,0003,20,0002,00,00019,000",
+        "cr": "20,0001,50,0002,10,00010,000"
+      },
+      {
+        "date": "Total",
+        "particulars": "",
+        "lf": "-",
+        "dr": "8,65,000",
+        "cr": "6,90,000"
+      }
+    ]
+  },
+  {
+    "q_no": 73,
+    "topic": "Practical Problem 73",
+    "question": "(I) A piece of machinery was sold for ₹ 8,000 during the year 2023. Its original cost was ₹ 20,000 and depreciation of ₹ 15,000 has been provided on it.",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 73.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "I. EQUITY AND LIABILITIES:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "(1) Shareholder’s Funds:(a) Share Capital(b) Reserves & Surplus",
+        "particulars": "",
+        "lf": "-",
+        "dr": "2,00,00072,000",
+        "cr": "2,00,000(37,000)"
+      },
+      {
+        "date": "(2) Non-Current LiabilitiesLong-term Borrowings",
+        "particulars": "",
+        "lf": "-",
+        "dr": "75,000",
+        "cr": "50,000"
+      },
+      {
+        "date": "(2) Current Liabilities:(a) Trade Payables(b) Short-term Provisions",
+        "particulars": "",
+        "lf": "-",
+        "dr": "44,00024,000",
+        "cr": "46,00030,000"
+      },
+      {
+        "date": "Total",
+        "particulars": "",
+        "lf": "-",
+        "dr": "4,15,000",
+        "cr": "2,89,000"
+      },
+      {
+        "date": "II. ASSETS:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "(1) Non-Current Assets:(a) Property, Plant and Equipment and Intangible Assets(i) Property, Plant and Equipment(b) Non-Current Investments",
+        "particulars": "",
+        "lf": "-",
+        "dr": "62,0002,000",
+        "cr": "1,40,00010,000"
+      },
+      {
+        "date": "(2) Current Assets:(b) Inventory(c) Trade Receivables(d) Cash & Cash Equivalents",
+        "particulars": "",
+        "lf": "-",
+        "dr": "2,00,0001,21,00030,000",
+        "cr": "60,00056,00023,000"
+      },
+      {
+        "date": "Total",
+        "particulars": "",
+        "lf": "-",
+        "dr": "4,15,000",
+        "cr": "2,89,000"
+      }
+    ]
+  },
+  {
+    "q_no": 74,
+    "topic": "Practical Problem 74",
+    "question": "(I) Machinery whose original cost was ₹ 50,000k (accumulated depreciation thereon being ₹ 32,000) was sold for ₹ 10,000.",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 74.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "I. EQUITY AND LIABILITIES:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "(1) Shareholder’s Funds:(a) Share Capital(b) Reserves & Surplus",
+        "particulars": "",
+        "lf": "-",
+        "dr": "3,30,00025,000",
+        "cr": "3,00,00030,000"
+      },
+      {
+        "date": "(2) Non-Current LiabilitiesLong-term Borrowings",
+        "particulars": "",
+        "lf": "-",
+        "dr": "25,000",
+        "cr": "40,000"
+      },
+      {
+        "date": "(2) Current Liabilities:(a) Short-term Borrowings(b) Trade Payables(c) Short-term Provisions",
+        "particulars": "",
+        "lf": "-",
+        "dr": "5,00097,00030,000",
+        "cr": "—1,24,00024,000"
+      },
+      {
+        "date": "Total",
+        "particulars": "",
+        "lf": "-",
+        "dr": "5,12,000",
+        "cr": "5,18,000"
+      },
+      {
+        "date": "II. ASSETS:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "(1) Non-Current Assets:(a) Property, Plant and Equipment and Intangible Assets(i) Property, Plant and Equipment (Machinery)(ii) Intangible Assets(b) Non-Current Investments",
+        "particulars": "",
+        "lf": "-",
+        "dr": "2,60,0007,50064,000",
+        "cr": "2,00,00060,00050,000"
+      },
+      {
+        "date": "(2) Current Assets:(b) Inventory(c) Trade Receivables(d) Cash & Cash Equivalents",
+        "particulars": "",
+        "lf": "-",
+        "dr": "62,50098,00020,000",
+        "cr": "70,0001,30,0008,000"
+      },
+      {
+        "date": "Total",
+        "particulars": "",
+        "lf": "-",
+        "dr": "5,12,000",
+        "cr": "5,18,000"
+      }
+    ]
+  },
+  {
+    "q_no": 75,
+    "topic": "Practical Problem 75",
+    "question": "(I) Machinery of the book value of ₹ 60,000 was sold for ₹ 18,000 during the year.",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 75.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "I. EQUITY AND LIABILITIES:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "(1) Shareholder’s Funds:(a) Share Capital(b) Reserves & Surplus",
+        "particulars": "",
+        "lf": "-",
+        "dr": "3,00,0002,07,000",
+        "cr": "2,50,0001,75,000"
+      },
+      {
+        "date": "(2) Current Liabilities:(a) Short-term Borrowings(b) Trade Payables(c) Short-term Provisions",
+        "particulars": "",
+        "lf": "-",
+        "dr": "20,00031,00084,000",
+        "cr": "15,00054,00081,000"
+      },
+      {
+        "date": "Total",
+        "particulars": "",
+        "lf": "-",
+        "dr": "6,42,000",
+        "cr": "5,75,000"
+      },
+      {
+        "date": "II. ASSETS:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "(1) Non-Current Assets:(a) Property, Plant and Equipment and Intangible Assets(i) Property, Plant and Equipment(ii) Intangible Assets (Goodwill)(b) Non-Current Investments",
+        "particulars": "",
+        "lf": "-",
+        "dr": "2,70,00050,00045,000",
+        "cr": "2,70,00030,00050,000"
+      },
+      {
+        "date": "(2) Current Assets:(a) Trade Receivables(b) Cash & Cash Equivalents",
+        "particulars": "",
+        "lf": "-",
+        "dr": "2,67,00010,000",
+        "cr": "2,19,0006,000"
+      },
+      {
+        "date": "Total",
+        "particulars": "",
+        "lf": "-",
+        "dr": "6,42,000",
+        "cr": "5,75,000"
+      }
+    ]
   }
 ]

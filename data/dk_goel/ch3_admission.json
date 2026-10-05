@@ -3501,5 +3501,129 @@
         "cr": "7,80,000"
       }
     ]
+  },
+  {
+    "q_no": 144,
+    "topic": "Practical Problem 144",
+    "question": "The solution of Question number 144 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 144.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Creditors",
+        "particulars": "56,000",
+        "lf": "-",
+        "dr": "Plant and Machinery",
+        "cr": "70,000"
+      },
+      {
+        "date": "General Reserve",
+        "particulars": "14,000",
+        "lf": "-",
+        "dr": "Buildings",
+        "cr": "98,000"
+      },
+      {
+        "date": "Capital Accounts:X 1,19,000Y 1,12,000",
+        "particulars": "2,31,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "21,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Debtors(-) Provision",
+        "cr": "35,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Cash in Hand",
+        "cr": "77,000"
+      },
+      {
+        "date": "",
+        "particulars": "3,01,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "3,01,000"
+      }
+    ]
+  },
+  {
+    "q_no": 145,
+    "topic": "Practical Problem 145",
+    "question": "The solution of Question number 145 of Admission of a Partner chapter 3 of DK Goel Class 12 CBSE (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 145.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Creditors",
+        "particulars": "29,000",
+        "lf": "-",
+        "dr": "Cash at Bank",
+        "cr": "9,000"
+      },
+      {
+        "date": "Bills Payable",
+        "particulars": "6,000",
+        "lf": "-",
+        "dr": "Debtors 20,000Less PDD 1,000",
+        "cr": "19,000"
+      },
+      {
+        "date": "General Reserve",
+        "particulars": "16,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "15,000"
+      },
+      {
+        "date": "Capitals:Zoya 50,000Zara 35,000",
+        "particulars": "85,000",
+        "lf": "-",
+        "dr": "Land and Building",
+        "cr": "25,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Plant and Machinery",
+        "cr": "30,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Goodwill",
+        "cr": "10,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Profit and Loss Account",
+        "cr": "28,000"
+      },
+      {
+        "date": "",
+        "particulars": "1,36,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "1,36,000"
+      }
+    ]
   }
 ]

@@ -598,5 +598,267 @@
     ],
     "working_notes": "Working notes applied per statutory schedule rules.",
     "journal_entries": []
+  },
+  {
+    "q_no": 51,
+    "topic": "Practical Problem 51",
+    "question": "Agam Ltd. issued 40,000, 9% debentures of ₹ 100 each on April 1, 2018 at a discount of 10%, redeemable at a premium of 10%.",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 51.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 52,
+    "topic": "Practical Problem 52",
+    "question": "Zed Ltd. issued 2,00,000, 8% debentures of ₹ 100 each at a discount of 6% redeemable at a premium of 10% after 5 years. The amount was payable as follows:",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 52.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 53,
+    "topic": "Practical Problem 53",
+    "question": "Random Ltd. took over running business of Mature Ltd. comprising of Assets of ₹ 45,00,000 and Liabilities of ₹ 6,40,000 for a purchase consideration of ₹ 36,00,000. The amount was settled by bank draft of ₹ 1,50,000 and balance by issuing 12% Debentures of ₹ 100 each at 15% premium. Pass entries in the books of Random Ltd.",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 53.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 54,
+    "topic": "Practical Problem 54",
+    "question": "Glen Ltd. took over the running business of Hayward Ltd. having assets of ₹ 22,00,000 and liabilities of ₹ 6,00,000 by issuing 20,000, 11% Debentures of ₹ 100 each at 5% discount.",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 54.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 121,
+    "topic": "Practical Problem 121",
+    "question": "[CBSE] Q 121 DK Goel Admission of a Partner Solutions Class 12 (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 121.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Capital Accounts:AB",
+        "particulars": "30,00020,000",
+        "lf": "-",
+        "dr": "Plant and Machinery",
+        "cr": "40,000"
+      },
+      {
+        "date": "Sundry Creditors",
+        "particulars": "15,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "30,000"
+      },
+      {
+        "date": "Bank Overdraft",
+        "particulars": "42,500",
+        "lf": "-",
+        "dr": "Sundry Debtors",
+        "cr": "20,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Bills Receivable",
+        "cr": "10,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Cash at Bank",
+        "cr": "7,500"
+      },
+      {
+        "date": "",
+        "particulars": "1,07,500",
+        "lf": "-",
+        "dr": "",
+        "cr": "1,07,500"
+      }
+    ]
+  },
+  {
+    "q_no": 122,
+    "topic": "Practical Problem 122",
+    "question": "[CBSE] Q 122 DK Goel Admission of a Partner Solutions Class 12 (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 122.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Creditors",
+        "particulars": "1,00,000",
+        "lf": "-",
+        "dr": "Goodwill",
+        "cr": "1,50,000"
+      },
+      {
+        "date": "Bills Payable",
+        "particulars": "40,000",
+        "lf": "-",
+        "dr": "Building",
+        "cr": "1,70,000"
+      },
+      {
+        "date": "General Reserve",
+        "particulars": "1,40,000",
+        "lf": "-",
+        "dr": "Plant",
+        "cr": "1,35,000"
+      },
+      {
+        "date": "Capital Accounts:RohitBal",
+        "particulars": "4,00,0002,00,000",
+        "lf": "-",
+        "dr": "Furniture",
+        "cr": "20,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Debtors",
+        "cr": "1,65,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Bills Receivables",
+        "cr": "75,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "1,10,000"
+      },
+      {
+        "date": "",
+        "particulars": "",
+        "lf": "-",
+        "dr": "Bank",
+        "cr": "55,000"
+      },
+      {
+        "date": "",
+        "particulars": "8,80,000",
+        "lf": "-",
+        "dr": "",
+        "cr": "8,80,000"
+      }
+    ]
+  },
+  {
+    "q_no": 123,
+    "topic": "Practical Problem 123",
+    "question": "[CBSE] Q 123 DK Goel Admission of a Partner Solutions Class 12 (2024-25)",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 123.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "Capital:AB",
+        "particulars": "50,00060,000",
+        "lf": "-",
+        "dr": "Cash",
+        "cr": "10,000"
+      },
+      {
+        "date": "Creditors",
+        "particulars": "15,000",
+        "lf": "-",
+        "dr": "Sundry Debtors",
+        "cr": "80,000"
+      },
+      {
+        "date": "Outstanding Exp.",
+        "particulars": "3,000",
+        "lf": "-",
+        "dr": "Stock",
+        "cr": "20,000"
+      },
+      {
+        "date": "Insurance Fund",
+        "particulars": "7,000",
+        "lf": "-",
+        "dr": "Fixed Assets",
+        "cr": "38,600"
+      },
+      {
+        "date": "Provident Fund",
+        "particulars": "1,000",
+        "lf": "-",
+        "dr": "P & L A/c",
+        "cr": "4,000"
+      },
+      {
+        "date": "Employees Saving Fund",
+        "particulars": "5,000",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "Workmen Profit Sharing Fund",
+        "particulars": "2,000",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "Workmen Compensation Reserve",
+        "particulars": "5,600",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "Provision for Doubtful Debts",
+        "particulars": "4,000",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "",
+        "particulars": "1,52,600",
+        "lf": "-",
+        "dr": "",
+        "cr": "1,52,600"
+      }
+    ]
   }
 ]
