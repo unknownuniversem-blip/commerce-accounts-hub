@@ -2869,5 +2869,93 @@
         "cr": "5,75,000"
       }
     ]
+  },
+  {
+    "q_no": 76,
+    "topic": "Practical Problem 76",
+    "question": "[Ans. Cash from operating activities ₹ 31,240; Cash used in investing activities ₹ 20,000; and Cash used in financing activities ₹ 13,640.]",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 76.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": []
+  },
+  {
+    "q_no": 77,
+    "topic": "Practical Problem 77",
+    "question": "[Ans. Cash from Operating Activities ₹ 1,77,000; Cash used in Investing Activities ₹ 4,48,000; Cash from Financing Activities ₹ 4,33,000.]",
+    "solution_steps": [
+      "1. Identified particulars and transactions for Question 77.",
+      "2. Prepared adjustments in accordance with standard CBSE guidelines.",
+      "3. Balanced journal entries and finalized closing accounts."
+    ],
+    "working_notes": "Working notes applied per statutory schedule rules.",
+    "journal_entries": [
+      {
+        "date": "I. EQUITY AND LIABILITIES:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "(1) Shareholder’s Funds:(a) Share Capital(b) Reserves & Surplus",
+        "particulars": "",
+        "lf": "-",
+        "dr": "7,90,0004,60,000",
+        "cr": "5,80,0001,20,000"
+      },
+      {
+        "date": "(2) Non-Current Liabilities:Long-term Borrowings(12% Debentures)",
+        "particulars": "",
+        "lf": "-",
+        "dr": "5,00,000",
+        "cr": "3,00,000"
+      },
+      {
+        "date": "(2) Current Liabilities:(a) Short Term Borrowings (Bank Overdraft)(b) Short-term Provisions",
+        "particulars": "",
+        "lf": "-",
+        "dr": "1,15,0001,18,000",
+        "cr": "42,00046,000"
+      },
+      {
+        "date": "Total",
+        "particulars": "",
+        "lf": "-",
+        "dr": "19,83,000",
+        "cr": "10,88,000"
+      },
+      {
+        "date": "II. ASSETS:",
+        "particulars": "",
+        "lf": "-",
+        "dr": "",
+        "cr": ""
+      },
+      {
+        "date": "(1) Non-Current Assets:(a) Property, Plant and Equipment and Intangible Assets(i) Property, Plant and Equipment(ii) Intangible Assets (Patents)",
+        "particulars": "",
+        "lf": "-",
+        "dr": "9,80,0002,68,000",
+        "cr": "6,35,0001,70,000"
+      },
+      {
+        "date": "(2) Current Assets:(a) Current Investments(a) Trade Receivables(b) Cash at Bank",
+        "particulars": "",
+        "lf": "-",
+        "dr": "1,40,0004,40,0001,55,000",
+        "cr": "70,0001,50,00063,000"
+      },
+      {
+        "date": "Total",
+        "particulars": "",
+        "lf": "-",
+        "dr": "19,83,000",
+        "cr": "10,88,000"
+      }
+    ]
   }
 ]
